@@ -5,7 +5,7 @@ Test sets: 99 held-out skills with a training ancestor (Task A: rank training sk
 edges (Task B: filtered ranking over 114 query skills). MAP is the main score; `dir` = share of true pairs scored higher in
 the true direction (0.5 = coin flip). Learned models: 3-seed means (MAP sd ≤ 0.03), configs picked on val only.
 
-**Val / test overlap (fixed 2026-09-28).** 4 of the 65 val pairs were also test pairs (implied by both a val and a test edge). `spike.py` now drops them from val, so they count in test only. `recall.py`, `down.py`, `qdrant_serve.py` and `compare.py test` were rerun with the filter. Only order + gen + cos moved because of it (val picks different (λ, μ) for some seeds; 0.622 / 0.546 → 0.618 / 0.529). The `compare.py test` rerun also picked up the earlier tie-break fix (order B 0.479 → 0.464) and cross-process MPS noise in the free-vector models (free hyperbolic 0.338 → 0.317, + is-a 0.314 → 0.341, order with N&K loss 0.164 → 0.105; see the caveat under the free-vector section). Still predating both fixes: the main-table rows from `spike.py` (cosine, cos + gen, dual, box, box + gen + cos), the distillation and cross-encoder rows, and the val sweeps with the configs they picked.
+**Val / test overlap (fixed 2026-09-28).** 4 of the 65 val pairs were also test pairs (implied by both a val and a test edge). `spike.py` now drops them from val, so they count in test only. `recall.py`, `down.py`, `qdrant_serve.py` and `compare.py test` were rerun with the filter. Only order + gen + cos moved because of it (val picks different (λ, μ) for some seeds; 0.622 / 0.546 → 0.618 / 0.529). The `compare.py test` rerun also picked up the earlier tie-break fix (order B 0.479 → 0.464) and cross-process MPS noise in the free-vector models (free hyperbolic 0.338 → 0.317, + is-a 0.314 → 0.341, order with N&K loss 0.164 → 0.105; see the caveat under the free-vector section). `spike.py` was rerun as well: only box moved (A 0.485 → 0.478, B 0.500 → 0.501). Still predating both fixes: the distillation and cross-encoder rows, and the val sweeps with the configs they picked.
 
 ## Results (test)
 
@@ -14,7 +14,7 @@ the true direction (0.5 = coin flip). Learned models: 3-seed means (MAP sd ≤ 0
 | cosine | 0.271 | 0.459 | 0.500 | 0.183 | 0.307 | 0.500 | – | native |
 | cosine + generality | 0.520 | 0.770 | 0.984 | 0.464 | 0.760 | 0.951 | – | native + formula over a payload count |
 | dual (two roles) | 0.371 | 0.679 | 0.988 | 0.355 | 0.645 | 0.962 | – | two named vectors, native HNSW |
-| box | 0.485 | 0.771 | 0.977 | 0.500 | 0.728 | 0.964 | – | prefetch + rerank; containment as range filters |
+| box | 0.478 | 0.767 | 0.977 | 0.501 | 0.728 | 0.964 | – | prefetch + rerank; containment as range filters |
 | box + generality + cosine | 0.582 | 0.815 | 0.979 | 0.540 | 0.765 | 0.964 | – | prefetch + rerank |
 | order | 0.472 | 0.794 | 0.984 | 0.464 | 0.730 | 0.967 | 0.757 | prefetch + rerank; dominance as range filters |
 | **order + generality + cosine** | **0.618** | **0.878** | 0.986 | 0.529 | **0.782** | 0.967 | – | prefetch + rerank |
@@ -101,8 +101,10 @@ is of this kind: 0.905–0.93 at 5–20 dims).
    So the LLM scores are, if anything, underestimates.
 3. **Best trained model = order + generality + cosine** on A (0.618, sd 0.01) and the down search. It beats
    box + generality + cosine on A (0.582) and the cross-encoder reranker on both (0.601 / 0.480). On B (0.529, sd 0.02)
-   it is behind box + gen + cos: 0.555 in `recall.py` with both fixes (its main-table row, 0.540, predates them).
-4. **Order ≈ box alone** (0.472 / 0.464 vs 0.485 / 0.500). In the hybrid, order is ahead on A. Box's remaining
+   it is behind box + gen + cos: 0.540 in the main table, 0.555 in `recall.py`. Both use the same config, grid and val
+   objective, but `spike.py` trains the dual before box in each seed, so box gets different random draws. That gap is
+   larger than the seed sd in `spike.py` (0.004), so treat B differences under about 0.02 as noise.
+4. **Order ≈ box alone** (0.472 / 0.464 vs 0.478 / 0.501). In the hybrid, order is ahead on A. Box's remaining
    selling point is calibrated probabilities, which are **not tested** yet.
 5. **TransE is weak alone, fine in the hybrid.** Alone it is the worst text model on A (0.214). One translation r
    has to map a skill to its parent *and* to its grandparent (the training pairs are the closure), so it can't
@@ -179,7 +181,7 @@ Same pairs, split by whether the parent's label appears in the child's encoder t
 Same test sets, 3 seeds. R@K = share of true answers in the top K of the 925 candidate skills
 (K = 50 / 100 is 5% / 11% of the catalogue). "No evidence" = hit@10 on the 86 Task B pairs that no graph neighbour of the
 query already has, i.e. not derivable from the graph. Train s = wall time per seed on an M5 Pro (MPS).
-Small differences from the main table (box ±0.015) are seed / MPS noise, the tie-break fix below (order, box, vote, popularity: ≤ 0.02) and the val filter (see "Val / test overlap"; order + gen + cos 0.622 / 0.546 → 0.618 / 0.529).
+Small differences from the main table (box up to 0.025) are different random draws (`spike.py` trains the dual before box in each seed) and MPS noise, the tie-break fix below (order, box, vote, popularity: ≤ 0.02) and the val filter (see "Val / test overlap"; order + gen + cos 0.622 / 0.546 → 0.618 / 0.529).
 
 | method | A R@10 | A R@50 | A R@100 | B R@10 | B R@50 | B R@100 | no evidence | train s |
 |---|---|---|---|---|---|---|---|---|
