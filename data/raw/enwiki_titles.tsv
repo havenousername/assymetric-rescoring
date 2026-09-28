@@ -1,0 +1,1440 @@
+?item	?title
+<http://www.wikidata.org/entity/Q3754>	"1960"@en
+<http://www.wikidata.org/entity/Q189177>	"3D computer graphics"@en
+<http://www.wikidata.org/entity/Q252132>	"64-bit computing"@en
+<http://www.wikidata.org/entity/Q333307>	"Abstract Window Toolkit"@en
+<http://www.wikidata.org/entity/Q1810071>	"A/B testing"@en
+<http://www.wikidata.org/entity/Q228502>	"Access control"@en
+<http://www.wikidata.org/entity/Q338966>	"Access-control list"@en
+<http://www.wikidata.org/entity/Q1931612>	"Access Database Engine"@en
+<http://www.wikidata.org/entity/Q288435>	"ACID"@en
+<http://www.wikidata.org/entity/Q7922633>	"Actian NoSQL Object Database"@en
+<http://www.wikidata.org/entity/Q234657>	"ActionScript"@en
+<http://www.wikidata.org/entity/Q55692>	"Active Directory"@en
+<http://www.wikidata.org/entity/Q344181>	"Active record pattern"@en
+<http://www.wikidata.org/entity/Q344239>	"Active Template Library"@en
+<http://www.wikidata.org/entity/Q302022>	"ActiveX"@en
+<http://www.wikidata.org/entity/Q346434>	"ADABAS"@en
+<http://www.wikidata.org/entity/Q154755>	"Ada (programming language)"@en
+<http://www.wikidata.org/entity/Q1346408>	"Address geocoding"@en
+<http://www.wikidata.org/entity/Q15171>	"Address Resolution Protocol"@en
+<http://www.wikidata.org/entity/Q290931>	"Adempiere"@en
+<http://www.wikidata.org/entity/Q207902>	"Adobe Acrobat"@en
+<http://www.wikidata.org/entity/Q468446>	"Adobe ColdFusion"@en
+<http://www.wikidata.org/entity/Q14636918>	"Adobe Creative Cloud"@en
+<http://www.wikidata.org/entity/Q165658>	"Adobe Flash"@en
+<http://www.wikidata.org/entity/Q857177>	"Adobe Flash Player"@en
+<http://www.wikidata.org/entity/Q215016>	"Adobe Illustrator"@en
+<http://www.wikidata.org/entity/Q360424>	"Adobe Premiere Pro"@en
+<http://www.wikidata.org/entity/Q62633542>	"AdoptOpenJDK"@en
+<http://www.wikidata.org/entity/Q337594>	"Advanced Audio Coding"@en
+<http://www.wikidata.org/entity/Q190746>	"Advanced Encryption Standard"@en
+<http://www.wikidata.org/entity/Q212633>	"Advanced Video Coding"@en
+<http://www.wikidata.org/entity/Q134471>	"Ajax (programming)"@en
+<http://www.wikidata.org/entity/Q16002307>	"Akka (toolkit)"@en
+<http://www.wikidata.org/entity/Q946976>	"Alfresco Software"@en
+<http://www.wikidata.org/entity/Q4652351>	"ALGLIB"@en
+<http://www.wikidata.org/entity/Q8366>	"Algorithm"@en
+<http://www.wikidata.org/entity/Q1503415>	"Allegro (software library)"@en
+<http://www.wikidata.org/entity/Q15731832>	"Amazon DynamoDB"@en
+<http://www.wikidata.org/entity/Q2072356>	"Amazon Elastic Compute Cloud"@en
+<http://www.wikidata.org/entity/Q48843359>	"Amazon Neptune"@en
+<http://www.wikidata.org/entity/Q17012109>	"Amazon Redshift"@en
+<http://www.wikidata.org/entity/Q621753>	"Amazon Relational Database Service"@en
+<http://www.wikidata.org/entity/Q2593067>	"Amazon S3"@en
+<http://www.wikidata.org/entity/Q2656963>	"Amazon SimpleDB"@en
+<http://www.wikidata.org/entity/Q4033875>	"Amazon Simple Email Service"@en
+<http://www.wikidata.org/entity/Q456157>	"Amazon Web Services"@en
+<http://www.wikidata.org/entity/Q295250>	"AMPL"@en
+<http://www.wikidata.org/entity/Q52229854>	"Android emulator"@en
+<http://www.wikidata.org/entity/Q94>	"Android (operating system)"@en
+<http://www.wikidata.org/entity/Q13233410>	"Android Studio"@en
+<http://www.wikidata.org/entity/Q2849803>	"AngularJS"@en
+<http://www.wikidata.org/entity/Q28925578>	"Angular (web framework)"@en
+<http://www.wikidata.org/entity/Q2852503>	"Ansible (software)"@en
+<http://www.wikidata.org/entity/Q11254814>	"Antenna House Formatter"@en
+<http://www.wikidata.org/entity/Q295801>	"ANTLR"@en
+<http://www.wikidata.org/entity/Q773135>	"Apache ActiveMQ"@en
+<http://www.wikidata.org/entity/Q28915062>	"Apache Airflow"@en
+<http://www.wikidata.org/entity/Q385970>	"Apache Ant"@en
+<http://www.wikidata.org/entity/Q616626>	"Apache Camel"@en
+<http://www.wikidata.org/entity/Q16626338>	"Apache Cordova"@en
+<http://www.wikidata.org/entity/Q1136882>	"Apache CouchDB"@en
+<http://www.wikidata.org/entity/Q616759>	"Apache Flex"@en
+<http://www.wikidata.org/entity/Q20714460>	"Apache Flink"@en
+<http://www.wikidata.org/entity/Q369425>	"Apache Geronimo"@en
+<http://www.wikidata.org/entity/Q504453>	"Apache Groovy"@en
+<http://www.wikidata.org/entity/Q29120>	"Apache Hadoop"@en
+<http://www.wikidata.org/entity/Q2538066>	"Apache HBase"@en
+<http://www.wikidata.org/entity/Q11354>	"Apache HTTP Server"@en
+<http://www.wikidata.org/entity/Q285129>	"Apache iBATIS"@en
+<http://www.wikidata.org/entity/Q616872>	"Apache Ivy"@en
+<http://www.wikidata.org/entity/Q1686799>	"Apache Jena"@en
+<http://www.wikidata.org/entity/Q16235208>	"Apache Kafka"@en
+<http://www.wikidata.org/entity/Q773196>	"Apache Lucene"@en
+<http://www.wikidata.org/entity/Q139941>	"Apache Maven"@en
+<http://www.wikidata.org/entity/Q23691642>	"Apache NiFi"@en
+<http://www.wikidata.org/entity/Q7095836>	"Apache OpenNLP"@en
+<http://www.wikidata.org/entity/Q28915683>	"Apache Parquet"@en
+<http://www.wikidata.org/entity/Q7193204>	"Apache Pig"@en
+<http://www.wikidata.org/entity/Q616991>	"Apache POI"@en
+<http://www.wikidata.org/entity/Q7573619>	"Apache Spark"@en
+<http://www.wikidata.org/entity/Q7620099>	"Apache Storm"@en
+<http://www.wikidata.org/entity/Q900957>	"Apache Struts"@en
+<http://www.wikidata.org/entity/Q16271405>	"Apache Struts 1"@en
+<http://www.wikidata.org/entity/Q46794>	"Apache Subversion"@en
+<http://www.wikidata.org/entity/Q617093>	"Apache Tapestry"@en
+<http://www.wikidata.org/entity/Q507430>	"Apache Tomcat"@en
+<http://www.wikidata.org/entity/Q617162>	"Apache Wicket"@en
+<http://www.wikidata.org/entity/Q629740>	"Apache Xerces"@en
+<http://www.wikidata.org/entity/Q4778968>	"Apache ZooKeeper"@en
+<http://www.wikidata.org/entity/Q596391>	"Apk (file format)"@en
+<http://www.wikidata.org/entity/Q296187>	"APL (programming language)"@en
+<http://www.wikidata.org/entity/Q27208114>	"Appium"@en
+<http://www.wikidata.org/entity/Q4781473>	"AppKit"@en
+<http://www.wikidata.org/entity/Q20962515>	"Apple Pencil"@en
+<http://www.wikidata.org/entity/Q2984643>	"Apple Push Notification service"@en
+<http://www.wikidata.org/entity/Q129137>	"AppleScript"@en
+<http://www.wikidata.org/entity/Q189768>	"Application layer"@en
+<http://www.wikidata.org/entity/Q71550>	"Application server"@en
+<http://www.wikidata.org/entity/Q25100033>	"AppVeyor"@en
+<http://www.wikidata.org/entity/Q230724>	"APT (software)"@en
+<http://www.wikidata.org/entity/Q20072115>	"ArangoDB"@en
+<http://www.wikidata.org/entity/Q185576>	"Arch Linux"@en
+<http://www.wikidata.org/entity/Q175957>	"Arduino"@en
+<http://www.wikidata.org/entity/Q647784>	"ArgoUML"@en
+<http://www.wikidata.org/entity/Q186152>	"Array (data structure)"@en
+<http://www.wikidata.org/entity/Q11660>	"Artificial intelligence"@en
+<http://www.wikidata.org/entity/Q188545>	"Artificial Intelligence Markup Language"@en
+<http://www.wikidata.org/entity/Q13496636>	"Asm.js"@en
+<http://www.wikidata.org/entity/Q735604>	"AspectJ"@en
+<http://www.wikidata.org/entity/Q30267>	"Aspect-oriented programming"@en
+<http://www.wikidata.org/entity/Q178817>	"ASP.NET"@en
+<http://www.wikidata.org/entity/Q17513350>	"ASP.NET Core"@en
+<http://www.wikidata.org/entity/Q581643>	"ASP.NET MVC"@en
+<http://www.wikidata.org/entity/Q165436>	"Assembly language"@en
+<http://www.wikidata.org/entity/Q105690185>	"AssemblyScript"@en
+<http://www.wikidata.org/entity/Q80585>	"Associative array"@en
+<http://www.wikidata.org/entity/Q3187939>	"Astah*"@en
+<http://www.wikidata.org/entity/Q622754>	"Asterisk (software)"@en
+<http://www.wikidata.org/entity/Q3306359>	"Atomicity (database systems)"@en
+<http://www.wikidata.org/entity/Q16766305>	"Atom (text editor)"@en
+<http://www.wikidata.org/entity/Q2722260>	"Attribute (programming)"@en
+<http://www.wikidata.org/entity/Q288555>	"AUCTeX"@en
+<http://www.wikidata.org/entity/Q191782>	"Audacity (audio editor)"@en
+<http://www.wikidata.org/entity/Q209054>	"Audio Video Interleave"@en
+<http://www.wikidata.org/entity/Q212108>	"Authentication"@en
+<http://www.wikidata.org/entity/Q788590>	"Authorization"@en
+<http://www.wikidata.org/entity/Q784816>	"AutoHotkey"@en
+<http://www.wikidata.org/entity/Q859846>	"Automatic Reference Counting"@en
+<http://www.wikidata.org/entity/Q1394144>	"Automatic summarization"@en
+<http://www.wikidata.org/entity/Q2872478>	"AutoPlay"@en
+<http://www.wikidata.org/entity/Q152402>	"Avatar (computing)"@en
+<http://www.wikidata.org/entity/Q300159>	"AVL tree"@en
+<http://www.wikidata.org/entity/Q213970>	"AWK"@en
+<http://www.wikidata.org/entity/Q21462856>	"AWS Lambda"@en
+<http://www.wikidata.org/entity/Q1799814>	"Azure DevOps Server"@en
+<http://www.wikidata.org/entity/Q285861>	"B+ tree"@en
+<http://www.wikidata.org/entity/Q3736988>	"Backbone.js"@en
+<http://www.wikidata.org/entity/Q319307>	"BackTrack"@en
+<http://www.wikidata.org/entity/Q189248>	"Bash (Unix shell)"@en
+<http://www.wikidata.org/entity/Q42979>	"BASIC"@en
+<http://www.wikidata.org/entity/Q479833>	"Batch file"@en
+<http://www.wikidata.org/entity/Q661613>	"Batch processing"@en
+<http://www.wikidata.org/entity/Q25345982>	"Bazel (software)"@en
+<http://www.wikidata.org/entity/Q16991599>	"Bcache"@en
+<http://www.wikidata.org/entity/Q286896>	"Bcrypt"@en
+<http://www.wikidata.org/entity/Q2893296>	"Beautiful Soup (HTML parser)"@en
+<http://www.wikidata.org/entity/Q12562646>	"Berkeley sockets"@en
+<http://www.wikidata.org/entity/Q269878>	"Big O notation"@en
+<http://www.wikidata.org/entity/Q4904867>	"BigQuery"@en
+<http://www.wikidata.org/entity/Q72237>	"Bigtable"@en
+<http://www.wikidata.org/entity/Q243754>	"Binary search"@en
+<http://www.wikidata.org/entity/Q2888953>	"Bioconductor"@en
+<http://www.wikidata.org/entity/Q128570>	"Bioinformatics"@en
+<http://www.wikidata.org/entity/Q796007>	"BIRT Project"@en
+<http://www.wikidata.org/entity/Q2493781>	"Bitbucket"@en
+<http://www.wikidata.org/entity/Q18198917>	"Bitcoin Core"@en
+<http://www.wikidata.org/entity/Q171819>	"BlackBerry"@en
+<http://www.wikidata.org/entity/Q879969>	"Black-box testing"@en
+<http://www.wikidata.org/entity/Q20127748>	"Blazegraph"@en
+<http://www.wikidata.org/entity/Q173136>	"Blender (software)"@en
+<http://www.wikidata.org/entity/Q9603949>	"Blink (browser engine)"@en
+<http://www.wikidata.org/entity/Q815853>	"Blowfish (cipher)"@en
+<http://www.wikidata.org/entity/Q18378690>	"Bluemix"@en
+<http://www.wikidata.org/entity/Q39531>	"Bluetooth"@en
+<http://www.wikidata.org/entity/Q893012>	"Bookmarklet"@en
+<http://www.wikidata.org/entity/Q893105>	"Boost (C++ libraries)"@en
+<http://www.wikidata.org/entity/Q836795>	"Bootloader"@en
+<http://www.wikidata.org/entity/Q893195>	"Bootstrap (front-end framework)"@en
+<http://www.wikidata.org/entity/Q2090083>	"Bouncy Castle (cryptography)"@en
+<http://www.wikidata.org/entity/Q844595>	"Bourne shell"@en
+<http://www.wikidata.org/entity/Q2579122>	"Box2D"@en
+<http://www.wikidata.org/entity/Q925385>	"Branching (version control)"@en
+<http://www.wikidata.org/entity/Q325904>	"Breadth-first search"@en
+<http://www.wikidata.org/entity/Q634179>	"Breakpoint"@en
+<http://www.wikidata.org/entity/Q18205644>	"Brotli"@en
+<http://www.wikidata.org/entity/Q991335>	"Browser Helper Object"@en
+<http://www.wikidata.org/entity/Q677051>	"B-tree"@en
+<http://www.wikidata.org/entity/Q60864>	"Bubble sort"@en
+<http://www.wikidata.org/entity/Q2727468>	"Build automation"@en
+<http://www.wikidata.org/entity/Q1003023>	"Buildroot"@en
+<http://www.wikidata.org/entity/Q113048518>	"Bun (software)"@en
+<http://www.wikidata.org/entity/Q620558>	"BusyBox"@en
+<http://www.wikidata.org/entity/Q5004175>	"Byobu (software)"@en
+<http://www.wikidata.org/entity/Q283563>	"Bzip2"@en
+<http://www.wikidata.org/entity/Q5156736>	"C1 CMS"@en
+<http://www.wikidata.org/entity/Q2407>	"C++"@en
+<http://www.wikidata.org/entity/Q1061570>	"C++11"@en
+<http://www.wikidata.org/entity/Q1022270>	"C++ Standard Library"@en
+<http://www.wikidata.org/entity/Q165596>	"Cache (computing)"@en
+<http://www.wikidata.org/entity/Q5015980>	"Cache manifest in HTML5"@en
+<http://www.wikidata.org/entity/Q1025056>	"Cacti (software)"@en
+<http://www.wikidata.org/entity/Q27643379>	"Caffe (software)"@en
+<http://www.wikidata.org/entity/Q647055>	"CakePHP"@en
+<http://www.wikidata.org/entity/Q5026842>	"Camlp4"@en
+<http://www.wikidata.org/entity/Q1034630>	"Capistrano (software)"@en
+<http://www.wikidata.org/entity/Q3481471>	"CAR and CDR"@en
+<http://www.wikidata.org/entity/Q284825>	"ΜClinux"@en
+<http://www.wikidata.org/entity/Q5057824>	"Celery (software)"@en
+<http://www.wikidata.org/entity/Q5300>	"Central processing unit"@en
+<http://www.wikidata.org/entity/Q28974761>	"Certbot"@en
+<http://www.wikidata.org/entity/Q34978225>	"Chainer"@en
+<http://www.wikidata.org/entity/Q5072250>	"Channel (programming)"@en
+<http://www.wikidata.org/entity/Q83624620>	"Chart.js"@en
+<http://www.wikidata.org/entity/Q16988239>	"Chocolatey"@en
+<http://www.wikidata.org/entity/Q79534>	"ChromiumOS"@en
+<http://www.wikidata.org/entity/Q48524>	"Chromium (web browser)"@en
+<http://www.wikidata.org/entity/Q38922434>	"CircleCI"@en
+<http://www.wikidata.org/entity/Q136559>	"CKEditor"@en
+<http://www.wikidata.org/entity/Q864915>	"Clang"@en
+<http://www.wikidata.org/entity/Q4479242>	"Class (programming)"@en
+<http://www.wikidata.org/entity/Q146813>	"Client–server model"@en
+<http://www.wikidata.org/entity/Q25403544>	"CLion"@en
+<http://www.wikidata.org/entity/Q165372>	"CLIPS"@en
+<http://www.wikidata.org/entity/Q51798>	"Clojure"@en
+<http://www.wikidata.org/entity/Q483639>	"Cloud computing"@en
+<http://www.wikidata.org/entity/Q2499178>	"Cloud database"@en
+<http://www.wikidata.org/entity/Q622825>	"Cluster analysis"@en
+<http://www.wikidata.org/entity/Q1023904>	"CMake"@en
+<http://www.wikidata.org/entity/Q25215462>	"Coala (software)"@en
+<http://www.wikidata.org/entity/Q131140>	"COBOL"@en
+<http://www.wikidata.org/entity/Q98731903>	"CockroachDB"@en
+<http://www.wikidata.org/entity/Q1051988>	"Cocoa (API)"@en
+<http://www.wikidata.org/entity/Q16247893>	"CocoaPods"@en
+<http://www.wikidata.org/entity/Q339829>	"CodeIgniter"@en
+<http://www.wikidata.org/entity/Q1106819>	"CoffeeScript"@en
+<http://www.wikidata.org/entity/Q2524362>	"ColdFusion Markup Language"@en
+<http://www.wikidata.org/entity/Q76592>	"Combinatorics"@en
+<http://www.wikidata.org/entity/Q935809>	"Comma-separated values"@en
+<http://www.wikidata.org/entity/Q264364>	"Common Gateway Interface"@en
+<http://www.wikidata.org/entity/Q849146>	"Common Lisp"@en
+<http://www.wikidata.org/entity/Q252340>	"Common Lisp Object System"@en
+<http://www.wikidata.org/entity/Q662200>	"Component Object Model"@en
+<http://www.wikidata.org/entity/Q15252222>	"Composer (software)"@en
+<http://www.wikidata.org/entity/Q12525525>	"Computation"@en
+<http://www.wikidata.org/entity/Q205084>	"Computational complexity theory"@en
+<http://www.wikidata.org/entity/Q1147633>	"Computer font"@en
+<http://www.wikidata.org/entity/Q250>	"Computer keyboard"@en
+<http://www.wikidata.org/entity/Q7987>	"Computer mouse"@en
+<http://www.wikidata.org/entity/Q21198>	"Computer science"@en
+<http://www.wikidata.org/entity/Q3510521>	"Computer security"@en
+<http://www.wikidata.org/entity/Q844240>	"Computer vision"@en
+<http://www.wikidata.org/entity/Q1414548>	"Concurrency (computer science)"@en
+<http://www.wikidata.org/entity/Q467252>	"Concurrent Versions System"@en
+<http://www.wikidata.org/entity/Q1125400>	"Confluence (software)"@en
+<http://www.wikidata.org/entity/Q1049476>	"Constructor (object-oriented programming)"@en
+<http://www.wikidata.org/entity/Q18348837>	"Contentful"@en
+<http://www.wikidata.org/entity/Q131093>	"Content management system"@en
+<http://www.wikidata.org/entity/Q6653802>	"Contour line"@en
+<http://www.wikidata.org/entity/Q6501221>	"Control theory"@en
+<http://www.wikidata.org/entity/Q1536>	"Coordinated Universal Time"@en
+<http://www.wikidata.org/entity/Q2146830>	"Core Data"@en
+<http://www.wikidata.org/entity/Q1339231>	"Coroutine"@en
+<http://www.wikidata.org/entity/Q201984>	"Covariance"@en
+<http://www.wikidata.org/entity/Q15777>	"C (programming language)"@en
+<http://www.wikidata.org/entity/Q352090>	"CPU cache"@en
+<http://www.wikidata.org/entity/Q300864>	"Cron"@en
+<http://www.wikidata.org/entity/Q371199>	"Cross-site scripting"@en
+<http://www.wikidata.org/entity/Q541014>	"Cross-validation (statistics)"@en
+<http://www.wikidata.org/entity/Q444044>	"CruiseControl"@en
+<http://www.wikidata.org/entity/Q5190783>	"Crypto++"@en
+<http://www.wikidata.org/entity/Q8789>	"Cryptography"@en
+<http://www.wikidata.org/entity/Q2370>	"C Sharp (programming language)"@en
+<http://www.wikidata.org/entity/Q1064516>	"C shell"@en
+<http://www.wikidata.org/entity/Q46441>	"CSS"@en
+<http://www.wikidata.org/entity/Q5192416>	"Cucumber (software)"@en
+<http://www.wikidata.org/entity/Q868171>	"CUPS"@en
+<http://www.wikidata.org/entity/Q286306>	"CURL"@en
+<http://www.wikidata.org/entity/Q107602>	"Cursor (user interface)"@en
+<http://www.wikidata.org/entity/Q1058748>	"Cut, copy, and paste"@en
+<http://www.wikidata.org/entity/Q5014778>	"CVSNT"@en
+<http://www.wikidata.org/entity/Q855981>	"CyanogenMod"@en
+<http://www.wikidata.org/entity/Q123637>	"Cybernetics"@en
+<http://www.wikidata.org/entity/Q216192>	"Cygwin"@en
+<http://www.wikidata.org/entity/Q16834355>	"Cypher (query language)"@en
+<http://www.wikidata.org/entity/Q975594>	"Cython"@en
+<http://www.wikidata.org/entity/Q3011087>	"D3.js"@en
+<http://www.wikidata.org/entity/Q754752>	"Dalvik (software)"@en
+<http://www.wikidata.org/entity/Q406009>	"Dart (programming language)"@en
+<http://www.wikidata.org/entity/Q65065147>	"Dask (software)"@en
+<http://www.wikidata.org/entity/Q1988917>	"Data analysis"@en
+<http://www.wikidata.org/entity/Q5227236>	"Data Analysis Expressions"@en
+<http://www.wikidata.org/entity/Q8513>	"Database"@en
+<http://www.wikidata.org/entity/Q1049878>	"Database design"@en
+<http://www.wikidata.org/entity/Q537993>	"Database engine"@en
+<http://www.wikidata.org/entity/Q176165>	"Database management system"@en
+<http://www.wikidata.org/entity/Q835769>	"Database trigger"@en
+<http://www.wikidata.org/entity/Q3293547>	"Data binding"@en
+<http://www.wikidata.org/entity/Q16892890>	"Data Catalog Vocabulary"@en
+<http://www.wikidata.org/entity/Q1431648>	"Data definition language"@en
+<http://www.wikidata.org/entity/Q5227287>	"Data extraction"@en
+<http://www.wikidata.org/entity/Q1049960>	"Datagram Congestion Control Protocol"@en
+<http://www.wikidata.org/entity/Q194134>	"Data link layer"@en
+<http://www.wikidata.org/entity/Q1172264>	"Datalog"@en
+<http://www.wikidata.org/entity/Q58673>	"Data manipulation language"@en
+<http://www.wikidata.org/entity/Q175263>	"Data structure"@en
+<http://www.wikidata.org/entity/Q60165325>	"Data Studio"@en
+<http://www.wikidata.org/entity/Q25345907>	"Date picker"@en
+<http://www.wikidata.org/entity/Q28956990>	"Dat (software)"@en
+<http://www.wikidata.org/entity/Q465>	"DBpedia"@en
+<http://www.wikidata.org/entity/Q768923>	"D-Bus"@en
+<http://www.wikidata.org/entity/Q1152232>	"DD-WRT"@en
+<http://www.wikidata.org/entity/Q7715973>	"Debian"@en
+<http://www.wikidata.org/entity/Q1144911>	"Debian Almquist shell"@en
+<http://www.wikidata.org/entity/Q845566>	"Debugging"@en
+<http://www.wikidata.org/entity/Q2712>	"Deflate"@en
+<http://www.wikidata.org/entity/Q487378>	"Delphi (software)"@en
+<http://www.wikidata.org/entity/Q65070939>	"Deno (software)"@en
+<http://www.wikidata.org/entity/Q1033951>	"Device driver"@en
+<http://www.wikidata.org/entity/Q1206778>	"Device mapper"@en
+<http://www.wikidata.org/entity/Q59339175>	"Diagrams.net"@en
+<http://www.wikidata.org/entity/Q5275258>	"Diff3"@en
+<http://www.wikidata.org/entity/Q623447>	"Diffie–Hellman key exchange"@en
+<http://www.wikidata.org/entity/Q220849>	"Digital signature"@en
+<http://www.wikidata.org/entity/Q1224829>	"Digital Signature Algorithm"@en
+<http://www.wikidata.org/entity/Q210863>	"Digital-to-analog converter"@en
+<http://www.wikidata.org/entity/Q8548>	"Dijkstra's algorithm"@en
+<http://www.wikidata.org/entity/Q978940>	"DirectFB"@en
+<http://www.wikidata.org/entity/Q4036951>	"Direct Web Remoting"@en
+<http://www.wikidata.org/entity/Q188695>	"DirectX"@en
+<http://www.wikidata.org/entity/Q5280237>	"DirectX Graphics Infrastructure"@en
+<http://www.wikidata.org/entity/Q279650>	"Disassembler"@en
+<http://www.wikidata.org/entity/Q22907849>	"Discord"@en
+<http://www.wikidata.org/entity/Q121416>	"Discrete mathematics"@en
+<http://www.wikidata.org/entity/Q180634>	"Distributed computing"@en
+<http://www.wikidata.org/entity/Q842014>	"Django (web framework)"@en
+<http://www.wikidata.org/entity/Q17052162>	"Dlib"@en
+<http://www.wikidata.org/entity/Q1251148>	"DNN (software)"@en
+<http://www.wikidata.org/entity/Q15206305>	"Docker (software)"@en
+<http://www.wikidata.org/entity/Q1233953>	"Doctrine (PHP)"@en
+<http://www.wikidata.org/entity/Q2093>	"Document Object Model"@en
+<http://www.wikidata.org/entity/Q212327>	"Document type definition"@en
+<http://www.wikidata.org/entity/Q956343>	"Dojo (web framework)"@en
+<http://www.wikidata.org/entity/Q851864>	"DokuWiki"@en
+<http://www.wikidata.org/entity/Q8767>	"Domain Name System"@en
+<http://www.wikidata.org/entity/Q170434>	"DOS"@en
+<http://www.wikidata.org/entity/Q479783>	"DOSBox"@en
+<http://www.wikidata.org/entity/Q107088051>	"DotNetBrowser"@en
+<http://www.wikidata.org/entity/Q1243369>	"Double-precision floating-point format"@en
+<http://www.wikidata.org/entity/Q742820>	"Dovecot (software)"@en
+<http://www.wikidata.org/entity/Q3242594>	"Do while loop"@en
+<http://www.wikidata.org/entity/Q1253530>	"Doxygen"@en
+<http://www.wikidata.org/entity/Q104854189>	"Dplyr"@en
+<http://www.wikidata.org/entity/Q170855>	"Drupal"@en
+<http://www.wikidata.org/entity/Q624610>	"Dublin Core"@en
+<http://www.wikidata.org/entity/Q12805>	"DuckDuckGo"@en
+<http://www.wikidata.org/entity/Q1105830>	"Duplicate code"@en
+<http://www.wikidata.org/entity/Q1268873>	"Dynamic Data Exchange"@en
+<http://www.wikidata.org/entity/Q1246922>	"Dynamic Kernel Module Support"@en
+<http://www.wikidata.org/entity/Q380319>	"Dynamic-link library"@en
+<http://www.wikidata.org/entity/Q634978>	"EAR (file format)"@en
+<http://www.wikidata.org/entity/Q82268>	"Eclipse (software)"@en
+<http://www.wikidata.org/entity/Q259138>	"ECMAScript"@en
+<http://www.wikidata.org/entity/Q285237>	"ECos"@en
+<http://www.wikidata.org/entity/Q3050461>	"Elasticsearch"@en
+<http://www.wikidata.org/entity/Q21614124>	"Electron (software framework)"@en
+<http://www.wikidata.org/entity/Q5362035>	"Elixir (programming language)"@en
+<http://www.wikidata.org/entity/Q3512728>	"Elliptic-curve Diffie–Hellman"@en
+<http://www.wikidata.org/entity/Q915079>	"Elliptic Curve Digital Signature Algorithm"@en
+<http://www.wikidata.org/entity/Q5366250>	"Elm (programming language)"@en
+<http://www.wikidata.org/entity/Q1334586>	"Emacs Lisp"@en
+<http://www.wikidata.org/entity/Q9158>	"Email"@en
+<http://www.wikidata.org/entity/Q946144>	"Email attachment"@en
+<http://www.wikidata.org/entity/Q1307492>	"Embedded database"@en
+<http://www.wikidata.org/entity/Q1335009>	"Embedded SQL"@en
+<http://www.wikidata.org/entity/Q193040>	"Embedded system"@en
+<http://www.wikidata.org/entity/Q13592527>	"Ember.js"@en
+<http://www.wikidata.org/entity/Q2814113>	"Emscripten"@en
+<http://www.wikidata.org/entity/Q1047541>	"Encapsulated PostScript"@en
+<http://www.wikidata.org/entity/Q141090>	"Encryption"@en
+<http://www.wikidata.org/entity/Q837012>	"Enterprise Architect (software)"@en
+<http://www.wikidata.org/entity/Q851939>	"Entity Framework"@en
+<http://www.wikidata.org/entity/Q400857>	"Environment variable"@en
+<http://www.wikidata.org/entity/Q1347837>	"Equinox (OSGi)"@en
+<http://www.wikidata.org/entity/Q55452824>	"ESLint"@en
+<http://www.wikidata.org/entity/Q1368563>	"Essbase"@en
+<http://www.wikidata.org/entity/Q96324273>	"Etcd"@en
+<http://www.wikidata.org/entity/Q16783523>	"Ethereum"@en
+<http://www.wikidata.org/entity/Q471748>	"Exception handling"@en
+<http://www.wikidata.org/entity/Q994121>	"Exim"@en
+<http://www.wikidata.org/entity/Q2074084>	"Expat (software)"@en
+<http://www.wikidata.org/entity/Q11198547>	"ExpressionEngine"@en
+<http://www.wikidata.org/entity/Q16878131>	"Express.js"@en
+<http://www.wikidata.org/entity/Q4037861>	"EXSLT"@en
+<http://www.wikidata.org/entity/Q283527>	"Ext2"@en
+<http://www.wikidata.org/entity/Q283390>	"Ext3"@en
+<http://www.wikidata.org/entity/Q283827>	"Ext4"@en
+<http://www.wikidata.org/entity/Q258778>	"Extensible Application Markup Language"@en
+<http://www.wikidata.org/entity/Q27153>	"Extensible Metadata Platform"@en
+<http://www.wikidata.org/entity/Q515393>	"Ext JS"@en
+<http://www.wikidata.org/entity/Q5424197>	"F2c"@en
+<http://www.wikidata.org/entity/Q5424275>	"FAAC"@en
+<http://www.wikidata.org/entity/Q355>	"Facebook"@en
+<http://www.wikidata.org/entity/Q19878155>	"Facebook like button"@en
+<http://www.wikidata.org/entity/Q116947>	"Facebook Messenger"@en
+<http://www.wikidata.org/entity/Q101420143>	"Facebook page"@en
+<http://www.wikidata.org/entity/Q5428460>	"Facebook Query Language"@en
+<http://www.wikidata.org/entity/Q11681085>	"Face detection"@en
+<http://www.wikidata.org/entity/Q25345939>	"Factory Bot (Rails Testing)"@en
+<http://www.wikidata.org/entity/Q101119404>	"FastAPI"@en
+<http://www.wikidata.org/entity/Q1397631>	"FastCGI"@en
+<http://www.wikidata.org/entity/Q3141148>	"FAT16"@en
+<http://www.wikidata.org/entity/Q2622047>	"FAT32"@en
+<http://www.wikidata.org/entity/Q1386210>	"F-Droid"@en
+<http://www.wikidata.org/entity/Q446488>	"Feature selection"@en
+<http://www.wikidata.org/entity/Q847465>	"FFmpeg"@en
+<http://www.wikidata.org/entity/Q1411109>	"FictionBook"@en
+<http://www.wikidata.org/entity/Q1172412>	"Field (computer science)"@en
+<http://www.wikidata.org/entity/Q1388579>	"FIGlet"@en
+<http://www.wikidata.org/entity/Q5425748>	"Fiji (software)"@en
+<http://www.wikidata.org/entity/Q190167>	"File Allocation Table"@en
+<http://www.wikidata.org/entity/Q235557>	"File format"@en
+<http://www.wikidata.org/entity/Q1144928>	"Filename"@en
+<http://www.wikidata.org/entity/Q174989>	"File system"@en
+<http://www.wikidata.org/entity/Q966451>	"Filesystem in Userspace"@en
+<http://www.wikidata.org/entity/Q42283>	"File Transfer Protocol"@en
+<http://www.wikidata.org/entity/Q2714721>	"Final (Java)"@en
+<http://www.wikidata.org/entity/Q18150728>	"Firebase"@en
+<http://www.wikidata.org/entity/Q125635476>	"Firebase Studio"@en
+<http://www.wikidata.org/entity/Q1321700>	"Firebug (software)"@en
+<http://www.wikidata.org/entity/Q698>	"Firefox"@en
+<http://www.wikidata.org/entity/Q550303>	"Firefox OS"@en
+<http://www.wikidata.org/entity/Q383585>	"Firefox Sync"@en
+<http://www.wikidata.org/entity/Q1418726>	"FireMonkey"@en
+<http://www.wikidata.org/entity/Q59908994>	"Firestore"@en
+<http://www.wikidata.org/entity/Q4055684>	"First-order logic"@en
+<http://www.wikidata.org/entity/Q307263>	"Fish (Unix shell)"@en
+<http://www.wikidata.org/entity/Q1135858>	"Flash Video"@en
+<http://www.wikidata.org/entity/Q289281>	"Flask (web framework)"@en
+<http://www.wikidata.org/entity/Q22661286>	"Flatpak"@en
+<http://www.wikidata.org/entity/Q103204>	"Flickr"@en
+<http://www.wikidata.org/entity/Q22096657>	"Fluentd"@en
+<http://www.wikidata.org/entity/Q39072787>	"Flutter (software)"@en
+<http://www.wikidata.org/entity/Q1389366>	"FOAF"@en
+<http://www.wikidata.org/entity/Q951651>	"Fold (higher-order function)"@en
+<http://www.wikidata.org/entity/Q4868296>	"Font"@en
+<http://www.wikidata.org/entity/Q3273595>	"Foreach loop"@en
+<http://www.wikidata.org/entity/Q1056760>	"Foreign key"@en
+<http://www.wikidata.org/entity/Q1049183>	"Formal methods"@en
+<http://www.wikidata.org/entity/Q20707190>	"Form (programming)"@en
+<http://www.wikidata.org/entity/Q83303>	"Fortran"@en
+<http://www.wikidata.org/entity/Q81392>	"Fractal"@en
+<http://www.wikidata.org/entity/Q195929>	"FreeBASIC"@en
+<http://www.wikidata.org/entity/Q210295>	"Free Pascal"@en
+<http://www.wikidata.org/entity/Q2424806>	"FreeRADIUS"@en
+<http://www.wikidata.org/entity/Q1186761>	"FreeRTOS"@en
+<http://www.wikidata.org/entity/Q17090424>	"Froala"@en
+<http://www.wikidata.org/entity/Q4130556>	"Front-end web development"@en
+<http://www.wikidata.org/entity/Q648619>	"F Sharp (programming language)"@en
+<http://www.wikidata.org/entity/Q1057712>	"FTPS"@en
+<http://www.wikidata.org/entity/Q3839507>	"Functional programming language"@en
+<http://www.wikidata.org/entity/Q4493432>	"Functional testing"@en
+<http://www.wikidata.org/entity/Q1426138>	"Futures and promises"@en
+<http://www.wikidata.org/entity/Q1189053>	"Fuzzing"@en
+<http://www.wikidata.org/entity/Q1942864>	"G++"@en
+<http://www.wikidata.org/entity/Q193564>	"Game engine"@en
+<http://www.wikidata.org/entity/Q4039237>	"GameSalad"@en
+<http://www.wikidata.org/entity/Q580605>	"GDAL"@en
+<http://www.wikidata.org/entity/Q3045088>	"GDK"@en
+<http://www.wikidata.org/entity/Q1122325>	"Gears (software)"@en
+<http://www.wikidata.org/entity/Q487834>	"Gecko (software)"@en
+<http://www.wikidata.org/entity/Q1051282>	"Generic programming"@en
+<http://www.wikidata.org/entity/Q170378>	"Gentoo Linux"@en
+<http://www.wikidata.org/entity/Q5533904>	"GeoJSON"@en
+<http://www.wikidata.org/entity/Q1502779>	"GeoServer"@en
+<http://www.wikidata.org/entity/Q5533918>	"GeoSPARQL"@en
+<http://www.wikidata.org/entity/Q326489>	"Ggplot2"@en
+<http://www.wikidata.org/entity/Q2192>	"GIF"@en
+<http://www.wikidata.org/entity/Q8038>	"GIMP"@en
+<http://www.wikidata.org/entity/Q186055>	"Git"@en
+<http://www.wikidata.org/entity/Q28714270>	"Gitea"@en
+<http://www.wikidata.org/entity/Q364>	"GitHub"@en
+<http://www.wikidata.org/entity/Q30324817>	"GitHub Pages"@en
+<http://www.wikidata.org/entity/Q16639197>	"GitLab"@en
+<http://www.wikidata.org/entity/Q5565140>	"Gitorious"@en
+<http://www.wikidata.org/entity/Q68847>	"GlassFish"@en
+<http://www.wikidata.org/entity/Q11860238>	"GLFW"@en
+<http://www.wikidata.org/entity/Q856089>	"Glibc"@en
+<http://www.wikidata.org/entity/Q9334>	"Gmail"@en
+<http://www.wikidata.org/entity/Q44316>	"GNOME"@en
+<http://www.wikidata.org/entity/Q1343860>	"GNOME Shell"@en
+<http://www.wikidata.org/entity/Q167784>	"GNOME Web"@en
+<http://www.wikidata.org/entity/Q1071969>	"GNU Bison"@en
+<http://www.wikidata.org/entity/Q7095747>	"GnuCOBOL"@en
+<http://www.wikidata.org/entity/Q178940>	"GNU Compiler Collection"@en
+<http://www.wikidata.org/entity/Q1252773>	"GNU Emacs"@en
+<http://www.wikidata.org/entity/Q1045215>	"GNU Libtool"@en
+<http://www.wikidata.org/entity/Q1205818>	"GNU Multiple Precision Arithmetic Library"@en
+<http://www.wikidata.org/entity/Q306101>	"GNU nano"@en
+<http://www.wikidata.org/entity/Q306559>	"Gnuplot"@en
+<http://www.wikidata.org/entity/Q223204>	"GNU Privacy Guard"@en
+<http://www.wikidata.org/entity/Q5514028>	"GNU Radio"@en
+<http://www.wikidata.org/entity/Q1486247>	"GNU Scientific Library"@en
+<http://www.wikidata.org/entity/Q17326337>	"GolfScript"@en
+<http://www.wikidata.org/entity/Q356>	"Google+"@en
+<http://www.wikidata.org/entity/Q5583797>	"Google APIs"@en
+<http://www.wikidata.org/entity/Q454728>	"Google App Engine"@en
+<http://www.wikidata.org/entity/Q5583799>	"Google Apps Script"@en
+<http://www.wikidata.org/entity/Q89804122>	"Google Chat"@en
+<http://www.wikidata.org/entity/Q777>	"Google Chrome"@en
+<http://www.wikidata.org/entity/Q5583816>	"Google Chrome extension"@en
+<http://www.wikidata.org/entity/Q79554>	"Google Closure Tools"@en
+<http://www.wikidata.org/entity/Q24589722>	"Google Cloud Dataproc"@en
+<http://www.wikidata.org/entity/Q28402217>	"Google Cloud Datastore"@en
+<http://www.wikidata.org/entity/Q4605228>	"Google Cloud Storage"@en
+<http://www.wikidata.org/entity/Q59904785>	"Google Cloud Vertex AI"@en
+<http://www.wikidata.org/entity/Q2650262>	"Google Compute Engine"@en
+<http://www.wikidata.org/entity/Q9344>	"Google Docs"@en
+<http://www.wikidata.org/entity/Q9340>	"Google Drive"@en
+<http://www.wikidata.org/entity/Q42274>	"Google Earth"@en
+<http://www.wikidata.org/entity/Q47014869>	"Google Forms"@en
+<http://www.wikidata.org/entity/Q4140561>	"Google Guava"@en
+<http://www.wikidata.org/entity/Q1537677>	"Google Guice"@en
+<http://www.wikidata.org/entity/Q13231451>	"Google Hangouts"@en
+<http://www.wikidata.org/entity/Q12013>	"Google Maps"@en
+<http://www.wikidata.org/entity/Q1011995>	"Google Native Client"@en
+<http://www.wikidata.org/entity/Q79564>	"Google Now"@en
+<http://www.wikidata.org/entity/Q79576>	"Google Play"@en
+<http://www.wikidata.org/entity/Q2233943>	"Google Programmable Search Engine"@en
+<http://www.wikidata.org/entity/Q9366>	"Google Search"@en
+<http://www.wikidata.org/entity/Q46261310>	"Google Sheets"@en
+<http://www.wikidata.org/entity/Q623456>	"Google Sites"@en
+<http://www.wikidata.org/entity/Q213602>	"Google Street View"@en
+<http://www.wikidata.org/entity/Q4039599>	"Google Test"@en
+<http://www.wikidata.org/entity/Q79578>	"Google Web Toolkit"@en
+<http://www.wikidata.org/entity/Q509284>	"Google Workspace"@en
+<http://www.wikidata.org/entity/Q37227>	"Go (programming language)"@en
+<http://www.wikidata.org/entity/Q576465>	"GPS Exchange Format"@en
+<http://www.wikidata.org/entity/Q965596>	"Gradle"@en
+<http://www.wikidata.org/entity/Q848544>	"Grails (framework)"@en
+<http://www.wikidata.org/entity/Q5597182>	"Graphical user interface testing"@en
+<http://www.wikidata.org/entity/Q4308>	"Graphics card"@en
+<http://www.wikidata.org/entity/Q1046656>	"Graphics Device Interface"@en
+<http://www.wikidata.org/entity/Q4039670>	"GraphicsMagick"@en
+<http://www.wikidata.org/entity/Q183484>	"Graphics processing unit"@en
+<http://www.wikidata.org/entity/Q1543325>	"GraphML"@en
+<http://www.wikidata.org/entity/Q131476>	"Graph theory"@en
+<http://www.wikidata.org/entity/Q901312>	"Greasemonkey"@en
+<http://www.wikidata.org/entity/Q12138>	"Gregorian calendar"@en
+<http://www.wikidata.org/entity/Q5607337>	"Gremlin (query language)"@en
+<http://www.wikidata.org/entity/Q283302>	"Grep"@en
+<http://www.wikidata.org/entity/Q3513438>	"Grid view"@en
+<http://www.wikidata.org/entity/Q5610141>	"Grok (web framework)"@en
+<http://www.wikidata.org/entity/Q13222055>	"Group by (SQL)"@en
+<http://www.wikidata.org/entity/Q26356541>	"GRPC"@en
+<http://www.wikidata.org/entity/Q24576808>	"Grunt (software)"@en
+<http://www.wikidata.org/entity/Q5514607>	"Gson"@en
+<http://www.wikidata.org/entity/Q860213>	"GStreamer"@en
+<http://www.wikidata.org/entity/Q189464>	"GTK"@en
+<http://www.wikidata.org/entity/Q24382606>	"Gulp.js"@en
+<http://www.wikidata.org/entity/Q283647>	"Gzip"@en
+<http://www.wikidata.org/entity/Q1562670>	"H2 Database Engine"@en
+<http://www.wikidata.org/entity/Q34010>	"Haskell"@en
+<http://www.wikidata.org/entity/Q60198>	"HCL Notes"@en
+<http://www.wikidata.org/entity/Q2350702>	"Heroku"@en
+<http://www.wikidata.org/entity/Q18150679>	"HHVM"@en
+<http://www.wikidata.org/entity/Q747866>	"Hibernate (framework)"@en
+<http://www.wikidata.org/entity/Q986448>	"High-Efficiency Advanced Audio Coding"@en
+<http://www.wikidata.org/entity/Q285635>	"HMailServer"@en
+<http://www.wikidata.org/entity/Q288405>	"HOCR"@en
+<http://www.wikidata.org/entity/Q195076>	"Hough transform"@en
+<http://www.wikidata.org/entity/Q669257>	"HSQLDB"@en
+<http://www.wikidata.org/entity/Q8811>	"HTML"@en
+<http://www.wikidata.org/entity/Q2053>	"HTML5"@en
+<http://www.wikidata.org/entity/Q109462071>	"Htmx"@en
+<http://www.wikidata.org/entity/Q8777>	"HTTP"@en
+<http://www.wikidata.org/entity/Q30500573>	"HTTP/1.1"@en
+<http://www.wikidata.org/entity/Q739120>	"HTTP/2"@en
+<http://www.wikidata.org/entity/Q968591>	"HTTP Live Streaming"@en
+<http://www.wikidata.org/entity/Q44484>	"HTTPS"@en
+<http://www.wikidata.org/entity/Q383267>	"HTTrack"@en
+<http://www.wikidata.org/entity/Q2647>	"Huffman coding"@en
+<http://www.wikidata.org/entity/Q176291>	"Hunspell"@en
+<http://www.wikidata.org/entity/Q11278>	"Hyper-V"@en
+<http://www.wikidata.org/entity/Q1077480>	"Hypervisor"@en
+<http://www.wikidata.org/entity/Q1652973>	"I3 (window manager)"@en
+<http://www.wikidata.org/entity/Q269856>	"IBM AIX"@en
+<http://www.wikidata.org/entity/Q593863>	"IBM DevOps Code ClearCase"@en
+<http://www.wikidata.org/entity/Q528294>	"IBM MQ"@en
+<http://www.wikidata.org/entity/Q2536917>	"IBM WebSphere"@en
+<http://www.wikidata.org/entity/Q58166>	"ICQ"@en
+<http://www.wikidata.org/entity/Q5970136>	"IDispatch"@en
+<http://www.wikidata.org/entity/Q427130>	"IDLE"@en
+<http://www.wikidata.org/entity/Q828287>	"IEEE 754"@en
+<http://www.wikidata.org/entity/Q25052508>	"Igraph"@en
+<http://www.wikidata.org/entity/Q1659584>	"ImageJ"@en
+<http://www.wikidata.org/entity/Q1047199>	"ImageMagick"@en
+<http://www.wikidata.org/entity/Q327008>	"Image processing"@en
+<http://www.wikidata.org/entity/Q56933>	"Image segmentation"@en
+<http://www.wikidata.org/entity/Q125176>	"IndexedDB"@en
+<http://www.wikidata.org/entity/Q1050734>	"Informix"@en
+<http://www.wikidata.org/entity/Q709353>	"Info (Unix)"@en
+<http://www.wikidata.org/entity/Q1346018>	"Infrastructure as a service"@en
+<http://www.wikidata.org/entity/Q212542>	"Inheritance (object-oriented programming)"@en
+<http://www.wikidata.org/entity/Q1572823>	"In-memory database"@en
+<http://www.wikidata.org/entity/Q307101>	"Inotify"@en
+<http://www.wikidata.org/entity/Q1125955>	"Input (computer science)"@en
+<http://www.wikidata.org/entity/Q219320>	"Input/output"@en
+<http://www.wikidata.org/entity/Q729138>	"Integer (computer science)"@en
+<http://www.wikidata.org/entity/Q4041442>	"Integrated Performance Primitives"@en
+<http://www.wikidata.org/entity/Q1206660>	"IntelliJ IDEA"@en
+<http://www.wikidata.org/entity/Q16927690>	"Intent (Android)"@en
+<http://www.wikidata.org/entity/Q657224>	"Interactive Disassembler"@en
+<http://www.wikidata.org/entity/Q23808>	"Interface (computing)"@en
+<http://www.wikidata.org/entity/Q1575>	"Internet Explorer"@en
+<http://www.wikidata.org/entity/Q644560>	"Internet Explorer 5"@en
+<http://www.wikidata.org/entity/Q1072258>	"Internet Explorer 6"@en
+<http://www.wikidata.org/entity/Q14149>	"Internet Group Management Protocol"@en
+<http://www.wikidata.org/entity/Q11341>	"Internet Information Services"@en
+<http://www.wikidata.org/entity/Q251212>	"Internet of things"@en
+<http://www.wikidata.org/entity/Q81414>	"Internet protocol suite"@en
+<http://www.wikidata.org/entity/Q183065>	"Interpreter (computing)"@en
+<http://www.wikidata.org/entity/Q1150391>	"InterSystems Caché"@en
+<http://www.wikidata.org/entity/Q483426>	"Intranet"@en
+<http://www.wikidata.org/entity/Q17576071>	"Ionic (mobile app framework)"@en
+<http://www.wikidata.org/entity/Q48493>	"IOS"@en
+<http://www.wikidata.org/entity/Q61497975>	"IOS 13"@en
+<http://www.wikidata.org/entity/Q13471026>	"IOS 4"@en
+<http://www.wikidata.org/entity/Q3919641>	"IOS 5"@en
+<http://www.wikidata.org/entity/Q307677>	"IOS 6"@en
+<http://www.wikidata.org/entity/Q13426339>	"IOS 7"@en
+<http://www.wikidata.org/entity/Q16973176>	"IOS 8"@en
+<http://www.wikidata.org/entity/Q2796>	"IPad"@en
+<http://www.wikidata.org/entity/Q64350339>	"IPadOS"@en
+<http://www.wikidata.org/entity/Q2766>	"IPhone"@en
+<http://www.wikidata.org/entity/Q16969690>	"IPhone OS 3"@en
+<http://www.wikidata.org/entity/Q210214>	"IPsec"@en
+<http://www.wikidata.org/entity/Q284612>	"Iptables"@en
+<http://www.wikidata.org/entity/Q2551624>	"IPv6"@en
+<http://www.wikidata.org/entity/Q2659957>	"IPython"@en
+<http://www.wikidata.org/entity/Q460340>	"Isabelle (proof assistant)"@en
+<http://www.wikidata.org/entity/Q1060627>	"ISO/IEC 8859-2"@en
+<http://www.wikidata.org/entity/Q1326388>	"Iterator"@en
+<http://www.wikidata.org/entity/Q9589>	"ITunes"@en
+<http://www.wikidata.org/entity/Q5975453>	"IUnknown"@en
+<http://www.wikidata.org/entity/Q22905941>	"Jackson (library)"@en
+<http://www.wikidata.org/entity/Q193247>	"Jakarta EE"@en
+<http://www.wikidata.org/entity/Q742961>	"Jakarta Enterprise Beans"@en
+<http://www.wikidata.org/entity/Q729427>	"Jakarta Faces"@en
+<http://www.wikidata.org/entity/Q772456>	"Jakarta Mail"@en
+<http://www.wikidata.org/entity/Q755515>	"Jakarta Messaging"@en
+<http://www.wikidata.org/entity/Q908660>	"Jakarta Persistence"@en
+<http://www.wikidata.org/entity/Q183169>	"Jakarta Server Pages"@en
+<http://www.wikidata.org/entity/Q375673>	"Jakarta Servlet"@en
+<http://www.wikidata.org/entity/Q57204236>	"JAMstack"@en
+<http://www.wikidata.org/entity/Q56856628>	"JanusGraph"@en
+<http://www.wikidata.org/entity/Q921122>	"JAR (file format)"@en
+<http://www.wikidata.org/entity/Q691094>	"JasperReports"@en
+<http://www.wikidata.org/entity/Q567345>	"Java annotation"@en
+<http://www.wikidata.org/entity/Q722772>	"Java Database Connectivity"@en
+<http://www.wikidata.org/entity/Q9011149>	"Java Desktop Integration Components"@en
+<http://www.wikidata.org/entity/Q741303>	"Java Development Kit"@en
+<http://www.wikidata.org/entity/Q2270514>	"JavaFX"@en
+<http://www.wikidata.org/entity/Q575703>	"Java Native Access"@en
+<http://www.wikidata.org/entity/Q168492>	"Java Native Interface"@en
+<http://www.wikidata.org/entity/Q2529678>	"Java package"@en
+<http://www.wikidata.org/entity/Q193828>	"Java Platform, Micro Edition"@en
+<http://www.wikidata.org/entity/Q251>	"Java (programming language)"@en
+<http://www.wikidata.org/entity/Q2005>	"JavaScript"@en
+<http://www.wikidata.org/entity/Q24789150>	"JavaScript framework"@en
+<http://www.wikidata.org/entity/Q193321>	"Java virtual machine"@en
+<http://www.wikidata.org/entity/Q923560>	"JBoss Seam"@en
+<http://www.wikidata.org/entity/Q6107825>	"JBoss Tools"@en
+<http://www.wikidata.org/entity/Q17067385>	"Jekyll (software)"@en
+<http://www.wikidata.org/entity/Q7491312>	"Jenkins (software)"@en
+<http://www.wikidata.org/entity/Q114646061>	"Jetpack Compose"@en
+<http://www.wikidata.org/entity/Q1085688>	"Jetty (web server)"@en
+<http://www.wikidata.org/entity/Q1676599>	"JFreeChart"@en
+<http://www.wikidata.org/entity/Q4041851>	"Jinja (template engine)"@en
+<http://www.wikidata.org/entity/Q1359246>	"Jira (software)"@en
+<http://www.wikidata.org/entity/Q58427>	"Jitsi"@en
+<http://www.wikidata.org/entity/Q25211948>	"Job (computing)"@en
+<http://www.wikidata.org/entity/Q2003535>	"Join (SQL)"@en
+<http://www.wikidata.org/entity/Q13167>	"Joomla"@en
+<http://www.wikidata.org/entity/Q16255324>	"JPOS"@en
+<http://www.wikidata.org/entity/Q383994>	"J (programming language)"@en
+<http://www.wikidata.org/entity/Q230036>	"JQuery"@en
+<http://www.wikidata.org/entity/Q1955464>	"JQuery Mobile"@en
+<http://www.wikidata.org/entity/Q285960>	"JQuery UI"@en
+<http://www.wikidata.org/entity/Q605718>	"JRuby"@en
+<http://www.wikidata.org/entity/Q553514>	"JScript"@en
+<http://www.wikidata.org/entity/Q2089685>	"JSDoc"@en
+<http://www.wikidata.org/entity/Q2063>	"JSON"@en
+<http://www.wikidata.org/entity/Q6108942>	"JSON-LD"@en
+<http://www.wikidata.org/entity/Q121208951>	"JSONPath"@en
+<http://www.wikidata.org/entity/Q19881115>	"Jsoup"@en
+<http://www.wikidata.org/entity/Q59165018>	"JsRender/JsViews"@en
+<http://www.wikidata.org/entity/Q105157779>	"JSX (programming)"@en
+<http://www.wikidata.org/entity/Q2613697>	"Julia (programming language)"@en
+<http://www.wikidata.org/entity/Q847675>	"JUnit"@en
+<http://www.wikidata.org/entity/Q105099901>	"Jupyter notebook"@en
+<http://www.wikidata.org/entity/Q1053999>	"Jython"@en
+<http://www.wikidata.org/entity/Q53815842>	"Katalon Studio"@en
+<http://www.wikidata.org/entity/Q722867>	"Kawa (Scheme implementation)"@en
+<http://www.wikidata.org/entity/Q1431>	"KDE"@en
+<http://www.wikidata.org/entity/Q107664269>	"KDE Plasma"@en
+<http://www.wikidata.org/entity/Q28470421>	"Keras"@en
+<http://www.wikidata.org/entity/Q10851258>	"Kernel-Mode Driver Framework"@en
+<http://www.wikidata.org/entity/Q9662>	"Kernel (operating system)"@en
+<http://www.wikidata.org/entity/Q20706915>	"Key–value database"@en
+<http://www.wikidata.org/entity/Q615738>	"Kivy (framework)"@en
+<http://www.wikidata.org/entity/Q1100240>	"Knockout (web framework)"@en
+<http://www.wikidata.org/entity/Q204222>	"KornShell"@en
+<http://www.wikidata.org/entity/Q3816639>	"Kotlin"@en
+<http://www.wikidata.org/entity/Q1476718>	"KParts"@en
+<http://www.wikidata.org/entity/Q22661306>	"Kubernetes"@en
+<http://www.wikidata.org/entity/Q902513>	"LAME"@en
+<http://www.wikidata.org/entity/Q189475>	"Laminas"@en
+<http://www.wikidata.org/entity/Q595637>	"Language Integrated Query"@en
+<http://www.wikidata.org/entity/Q15991270>	"LanguageTool"@en
+<http://www.wikidata.org/entity/Q13634357>	"Laravel"@en
+<http://www.wikidata.org/entity/Q3218363>	"Lasso (programming language)"@en
+<http://www.wikidata.org/entity/Q5310>	"LaTeX"@en
+<http://www.wikidata.org/entity/Q546739>	"Layer 2 Tunneling Protocol"@en
+<http://www.wikidata.org/entity/Q671986>	"Layout (computing)"@en
+<http://www.wikidata.org/entity/Q258448>	"Lazarus (software)"@en
+<http://www.wikidata.org/entity/Q573952>	"Lazy evaluation"@en
+<http://www.wikidata.org/entity/Q3269846>	"Löve (game framework)"@en
+<http://www.wikidata.org/entity/Q13685322>	"Leaflet (software)"@en
+<http://www.wikidata.org/entity/Q6509476>	"Lean (proof assistant)"@en
+<http://www.wikidata.org/entity/Q194230>	"Leap second"@en
+<http://www.wikidata.org/entity/Q19828>	"Leap year"@en
+<http://www.wikidata.org/entity/Q6519964>	"Leiningen (software)"@en
+<http://www.wikidata.org/entity/Q2681>	"Lempel–Ziv–Welch"@en
+<http://www.wikidata.org/entity/Q1107192>	"Less (style sheet language)"@en
+<http://www.wikidata.org/entity/Q18786919>	"Let's Encrypt"@en
+<http://www.wikidata.org/entity/Q17064505>	"Libffi"@en
+<http://www.wikidata.org/entity/Q16321264>	"LibGDX"@en
+<http://www.wikidata.org/entity/Q838041>	"Libpng"@en
+<http://www.wikidata.org/entity/Q3774510>	"LibreOffice Calc"@en
+<http://www.wikidata.org/entity/Q1188957>	"Libvirt"@en
+<http://www.wikidata.org/entity/Q26259220>	"Libvpx"@en
+<http://www.wikidata.org/entity/Q306240>	"Libxml2"@en
+<http://www.wikidata.org/entity/Q254211>	"Liferay"@en
+<http://www.wikidata.org/entity/Q1814618>	"Lift (web framework)"@en
+<http://www.wikidata.org/entity/Q217765>	"Lighttpd"@en
+<http://www.wikidata.org/entity/Q10861030>	"Linear regression"@en
+<http://www.wikidata.org/entity/Q7003418>	"Linked list"@en
+<http://www.wikidata.org/entity/Q523796>	"Linker (computing)"@en
+<http://www.wikidata.org/entity/Q388>	"Linux"@en
+<http://www.wikidata.org/entity/Q131669>	"Linux distribution"@en
+<http://www.wikidata.org/entity/Q14579>	"Linux kernel"@en
+<http://www.wikidata.org/entity/Q2027>	"Linux Mint"@en
+<http://www.wikidata.org/entity/Q25021307>	"Linux namespaces"@en
+<http://www.wikidata.org/entity/Q1199316>	"Linux on embedded systems"@en
+<http://www.wikidata.org/entity/Q134784675>	"Liquid Glass"@en
+<http://www.wikidata.org/entity/Q957386>	"Liskov substitution principle"@en
+<http://www.wikidata.org/entity/Q132874>	"Lisp (programming language)"@en
+<http://www.wikidata.org/entity/Q27948>	"List (abstract data type)"@en
+<http://www.wikidata.org/entity/Q588542>	"List box"@en
+<http://www.wikidata.org/entity/Q795065>	"List comprehension"@en
+<http://www.wikidata.org/entity/Q85776825>	"List of .NET libraries and frameworks"@en
+<http://www.wikidata.org/entity/Q6664777>	"Location API for Java ME"@en
+<http://www.wikidata.org/entity/Q1427251>	"Lock (computer science)"@en
+<http://www.wikidata.org/entity/Q286923>	"Log4j"@en
+<http://www.wikidata.org/entity/Q110068433>	"Log4Shell"@en
+<http://www.wikidata.org/entity/Q472302>	"Login"@en
+<http://www.wikidata.org/entity/Q1132755>	"Logistic regression"@en
+<http://www.wikidata.org/entity/Q1742032>	"Log management"@en
+<http://www.wikidata.org/entity/Q3258085>	"Logtalk"@en
+<http://www.wikidata.org/entity/Q6673524>	"Long short-term memory"@en
+<http://www.wikidata.org/entity/Q1368336>	"Look and feel"@en
+<http://www.wikidata.org/entity/Q8868615>	"Loop (statement)"@en
+<http://www.wikidata.org/entity/Q1036748>	"Loss function"@en
+<http://www.wikidata.org/entity/Q6694765>	"Ltrace"@en
+<http://www.wikidata.org/entity/Q207316>	"Lua"@en
+<http://www.wikidata.org/entity/Q41584446>	"LuaJIT"@en
+<http://www.wikidata.org/entity/Q940526>	"LWJGL"@en
+<http://www.wikidata.org/entity/Q2597211>	"LXC"@en
+<http://www.wikidata.org/entity/Q15624241>	"LZ4 (compression algorithm)"@en
+<http://www.wikidata.org/entity/Q2675>	"LZ77"@en
+<http://www.wikidata.org/entity/Q2733>	"LZMA"@en
+<http://www.wikidata.org/entity/Q55813>	"Machine code"@en
+<http://www.wikidata.org/entity/Q2539>	"Machine learning"@en
+<http://www.wikidata.org/entity/Q79798>	"Machine translation"@en
+<http://www.wikidata.org/entity/Q14116>	"MacOS"@en
+<http://www.wikidata.org/entity/Q719621>	"Mac OS X Server"@en
+<http://www.wikidata.org/entity/Q1475706>	"MacPorts"@en
+<http://www.wikidata.org/entity/Q1884012>	"Magento"@en
+<http://www.wikidata.org/entity/Q11690245>	"MagicDraw"@en
+<http://www.wikidata.org/entity/Q52157847>	"Magit"@en
+<http://www.wikidata.org/entity/Q300867>	"Make (software)"@en
+<http://www.wikidata.org/entity/Q65178094>	"Malloc"@en
+<http://www.wikidata.org/entity/Q1421571>	"Mantis Bug Tracker"@en
+<http://www.wikidata.org/entity/Q3058002>	"Many-to-many (data model)"@en
+<http://www.wikidata.org/entity/Q1924011>	"MAPI"@en
+<http://www.wikidata.org/entity/Q6754131>	"Mapnik"@en
+<http://www.wikidata.org/entity/Q567759>	"MapReduce"@en
+<http://www.wikidata.org/entity/Q787177>	"MariaDB"@en
+<http://www.wikidata.org/entity/Q1193600>	"Markdown"@en
+<http://www.wikidata.org/entity/Q37045>	"Markup language"@en
+<http://www.wikidata.org/entity/Q373671>	"Marshalling (computer science)"@en
+<http://www.wikidata.org/entity/Q395>	"Mathematics"@en
+<http://www.wikidata.org/entity/Q3137109>	"MathJax"@en
+<http://www.wikidata.org/entity/Q169478>	"MATLAB"@en
+<http://www.wikidata.org/entity/Q34162>	"Matomo (software)"@en
+<http://www.wikidata.org/entity/Q2985668>	"Matplotlib"@en
+<http://www.wikidata.org/entity/Q938304>	"Maxima (software)"@en
+<http://www.wikidata.org/entity/Q6796641>	"MayaVi"@en
+<http://www.wikidata.org/entity/Q6391653>	"Mcrypt"@en
+<http://www.wikidata.org/entity/Q1131133>	"Media Foundation"@en
+<http://www.wikidata.org/entity/Q3085953>	"Media queries"@en
+<http://www.wikidata.org/entity/Q83>	"MediaWiki"@en
+<http://www.wikidata.org/entity/Q306661>	"Memcached"@en
+<http://www.wikidata.org/entity/Q835713>	"Memory address"@en
+<http://www.wikidata.org/entity/Q846925>	"Menu (computing)"@en
+<http://www.wikidata.org/entity/Q476543>	"Mercurial"@en
+<http://www.wikidata.org/entity/Q189057>	"Merge sort"@en
+<http://www.wikidata.org/entity/Q1778544>	"Mesa (computer graphics)"@en
+<http://www.wikidata.org/entity/Q1092177>	"Message-oriented middleware"@en
+<http://www.wikidata.org/entity/Q14246221>	"Meteor (web framework)"@en
+<http://www.wikidata.org/entity/Q815844>	"Method (computer programming)"@en
+<http://www.wikidata.org/entity/Q954199>	"MHTML"@en
+<http://www.wikidata.org/entity/Q80689>	"Microsoft Access"@en
+<http://www.wikidata.org/entity/Q725967>	"Microsoft Azure"@en
+<http://www.wikidata.org/entity/Q1023647>	"Microsoft Compiled HTML Help"@en
+<http://www.wikidata.org/entity/Q1142291>	"Microsoft CryptoAPI"@en
+<http://www.wikidata.org/entity/Q856705>	"Microsoft Dynamics"@en
+<http://www.wikidata.org/entity/Q1568337>	"Microsoft Dynamics 365 Sales"@en
+<http://www.wikidata.org/entity/Q675860>	"Microsoft Dynamics AX"@en
+<http://www.wikidata.org/entity/Q1170618>	"Microsoft Dynamics GP"@en
+<http://www.wikidata.org/entity/Q18698690>	"Microsoft Edge (series of web browsers)"@en
+<http://www.wikidata.org/entity/Q11272>	"Microsoft Excel"@en
+<http://www.wikidata.org/entity/Q223653>	"Microsoft Exchange Server"@en
+<http://www.wikidata.org/entity/Q908419>	"Microsoft Foundation Class Library"@en
+<http://www.wikidata.org/entity/Q1756018>	"Microsoft Macro Assembler"@en
+<http://www.wikidata.org/entity/Q489048>	"Microsoft Silverlight"@en
+<http://www.wikidata.org/entity/Q215819>	"Microsoft SQL Server"@en
+<http://www.wikidata.org/entity/Q135288>	"Microsoft Store"@en
+<http://www.wikidata.org/entity/Q847296>	"Microsoft Visual C++"@en
+<http://www.wikidata.org/entity/Q1406>	"Microsoft Windows"@en
+<http://www.wikidata.org/entity/Q11261>	"Microsoft Word"@en
+<http://www.wikidata.org/entity/Q1340000>	"Midnight Commander"@en
+<http://www.wikidata.org/entity/Q389260>	"MiKTeX"@en
+<http://www.wikidata.org/entity/Q192902>	"MIME"@en
+<http://www.wikidata.org/entity/Q105729297>	"Minecraft: Java Edition"@en
+<http://www.wikidata.org/entity/Q1504993>	"Ming library"@en
+<http://www.wikidata.org/entity/Q595758>	"MinGW"@en
+<http://www.wikidata.org/entity/Q86358817>	"MiniZinc"@en
+<http://www.wikidata.org/entity/Q527464>	"MIPS architecture"@en
+<http://www.wikidata.org/entity/Q3858763>	"Mirah (programming language)"@en
+<http://www.wikidata.org/entity/Q18346290>	"Mocha (JavaScript framework)"@en
+<http://www.wikidata.org/entity/Q582253>	"Mock object"@en
+<http://www.wikidata.org/entity/Q6887970>	"Mod deflate"@en
+<http://www.wikidata.org/entity/Q44860>	"Model–view–controller"@en
+<http://www.wikidata.org/entity/Q944207>	"Model–view–presenter"@en
+<http://www.wikidata.org/entity/Q1247905>	"Model–view–viewmodel"@en
+<http://www.wikidata.org/entity/Q1941824>	"Modelio"@en
+<http://www.wikidata.org/entity/Q1939556>	"Mod jk"@en
+<http://www.wikidata.org/entity/Q6887977>	"Mod mono"@en
+<http://www.wikidata.org/entity/Q292390>	"Mod perl"@en
+<http://www.wikidata.org/entity/Q6887981>	"Mod proxy"@en
+<http://www.wikidata.org/entity/Q288423>	"Mod python"@en
+<http://www.wikidata.org/entity/Q16254048>	"Mod ssl"@en
+<http://www.wikidata.org/entity/Q289446>	"Mod wsgi"@en
+<http://www.wikidata.org/entity/Q1165204>	"MongoDB"@en
+<http://www.wikidata.org/entity/Q152611>	"Mongoose (web server)"@en
+<http://www.wikidata.org/entity/Q722656>	"Mono (software)"@en
+<http://www.wikidata.org/entity/Q6908549>	"Moose (Perl)"@en
+<http://www.wikidata.org/entity/Q273902>	"MPEG-2"@en
+<http://www.wikidata.org/entity/Q219763>	"MPEG-4"@en
+<http://www.wikidata.org/entity/Q1194435>	"MPEG transport stream"@en
+<http://www.wikidata.org/entity/Q1814051>	"MPICH"@en
+<http://www.wikidata.org/entity/Q10322548>	"MQTT"@en
+<http://www.wikidata.org/entity/Q6717408>	"MQX"@en
+<http://www.wikidata.org/entity/Q2065919>	"MSBuild"@en
+<http://www.wikidata.org/entity/Q192845>	"MSN"@en
+<http://www.wikidata.org/entity/Q1771973>	"MultiDimensional eXpressions"@en
+<http://www.wikidata.org/entity/Q6934531>	"MultiMarkdown"@en
+<http://www.wikidata.org/entity/Q846651>	"Multiprocessing"@en
+<http://www.wikidata.org/entity/Q1064412>	"Multithreading (computer architecture)"@en
+<http://www.wikidata.org/entity/Q1882071>	"MUMPS"@en
+<http://www.wikidata.org/entity/Q6930567>	"MuPDF"@en
+<http://www.wikidata.org/entity/Q14005>	"MusicBrainz"@en
+<http://www.wikidata.org/entity/Q4308623>	"Mutation testing"@en
+<http://www.wikidata.org/entity/Q11342745>	"Mutex"@en
+<http://www.wikidata.org/entity/Q917941>	"MyISAM"@en
+<http://www.wikidata.org/entity/Q850>	"MySQL"@en
+<http://www.wikidata.org/entity/Q1536136>	"MySQLi"@en
+<http://www.wikidata.org/entity/Q640741>	"MySQL Workbench"@en
+<http://www.wikidata.org/entity/Q858684>	"NaN"@en
+<http://www.wikidata.org/entity/Q2389023>	"NAnt"@en
+<http://www.wikidata.org/entity/Q6966885>	"Nashorn (JavaScript engine)"@en
+<http://www.wikidata.org/entity/Q28127049>	"NativeScript"@en
+<http://www.wikidata.org/entity/Q1513879>	"Natural language generation"@en
+<http://www.wikidata.org/entity/Q30642>	"Natural language processing"@en
+<http://www.wikidata.org/entity/Q1635410>	"Natural Language Toolkit"@en
+<http://www.wikidata.org/entity/Q1628290>	"Neo4j"@en
+<http://www.wikidata.org/entity/Q1438843>	"Neos Flow"@en
+<http://www.wikidata.org/entity/Q28975246>	"Neovim"@en
+<http://www.wikidata.org/entity/Q21622213>	".NET"@en
+<http://www.wikidata.org/entity/Q264456>	"NetBeans"@en
+<http://www.wikidata.org/entity/Q1545633>	"Netfilter"@en
+<http://www.wikidata.org/entity/Q5289>	".NET Framework"@en
+<http://www.wikidata.org/entity/Q56102498>	"Netlify"@en
+<http://www.wikidata.org/entity/Q672307>	"NetLogo"@en
+<http://www.wikidata.org/entity/Q158833>	".NET Micro Framework"@en
+<http://www.wikidata.org/entity/Q6107820>	"Netty (software)"@en
+<http://www.wikidata.org/entity/Q1571077>	"Netwide Assembler"@en
+<http://www.wikidata.org/entity/Q632343>	"Network socket"@en
+<http://www.wikidata.org/entity/Q192776>	"Neural network (machine learning)"@en
+<http://www.wikidata.org/entity/Q12040856>	"NexusDB"@en
+<http://www.wikidata.org/entity/Q306144>	"Nginx"@en
+<http://www.wikidata.org/entity/Q1213732>	"NHibernate"@en
+<http://www.wikidata.org/entity/Q21998874>	"NixOS"@en
+<http://www.wikidata.org/entity/Q623332>	"Nmap"@en
+<http://www.wikidata.org/entity/Q1777473>	"Node (computer science)"@en
+<http://www.wikidata.org/entity/Q756100>	"Node.js"@en
+<http://www.wikidata.org/entity/Q22907329>	"Node-RED"@en
+<http://www.wikidata.org/entity/Q17071956>	"Nokogiri (software)"@en
+<http://www.wikidata.org/entity/Q476604>	"NoScript"@en
+<http://www.wikidata.org/entity/Q82231>	"NoSQL"@en
+<http://www.wikidata.org/entity/Q2033>	"Notepad++"@en
+<http://www.wikidata.org/entity/Q310474>	"Nouveau (software)"@en
+<http://www.wikidata.org/entity/Q1530690>	"Noweb"@en
+<http://www.wikidata.org/entity/Q215206>	"NP-completeness"@en
+<http://www.wikidata.org/entity/Q628036>	"NP (complexity)"@en
+<http://www.wikidata.org/entity/Q1137554>	"NP-hardness"@en
+<http://www.wikidata.org/entity/Q7067518>	"Npm"@en
+<http://www.wikidata.org/entity/Q44044>	"N-Triples"@en
+<http://www.wikidata.org/entity/Q11563>	"Number"@en
+<http://www.wikidata.org/entity/Q12479>	"Number theory"@en
+<http://www.wikidata.org/entity/Q197520>	"NumPy"@en
+<http://www.wikidata.org/entity/Q1747342>	"NUnit"@en
+<http://www.wikidata.org/entity/Q55641291>	"Nuxt"@en
+<http://www.wikidata.org/entity/Q743238>	"OAuth"@en
+<http://www.wikidata.org/entity/Q97371579>	"OAuth 2.0"@en
+<http://www.wikidata.org/entity/Q216601>	"Object (computer science)"@en
+<http://www.wikidata.org/entity/Q1760719>	"Object diagram"@en
+<http://www.wikidata.org/entity/Q188531>	"Objective-C"@en
+<http://www.wikidata.org/entity/Q79872>	"Object-oriented programming"@en
+<http://www.wikidata.org/entity/Q2819430>	"ObjectWeb ASM"@en
+<http://www.wikidata.org/entity/Q212587>	"OCaml"@en
+<http://www.wikidata.org/entity/Q832300>	"Odoo"@en
+<http://www.wikidata.org/entity/Q1073498>	"OGRE"@en
+<http://www.wikidata.org/entity/Q1141018>	"OllyDbg"@en
+<http://www.wikidata.org/entity/Q58425577>	"Ontotext GraphDB"@en
+<http://www.wikidata.org/entity/Q7096323>	"Open-access repository"@en
+<http://www.wikidata.org/entity/Q2025399>	"OpenChrom"@en
+<http://www.wikidata.org/entity/Q165277>	"OpenCV"@en
+<http://www.wikidata.org/entity/Q1466576>	"OpenEmbedded"@en
+<http://www.wikidata.org/entity/Q178570>	"OpenGL"@en
+<http://www.wikidata.org/entity/Q1137220>	"OpenGL ES"@en
+<http://www.wikidata.org/entity/Q779819>	"OpenGL Shading Language"@en
+<http://www.wikidata.org/entity/Q304094>	"OpenGL Utility Toolkit"@en
+<http://www.wikidata.org/entity/Q1461054>	"OpenJDK"@en
+<http://www.wikidata.org/entity/Q682918>	"OpenLDAP"@en
+<http://www.wikidata.org/entity/Q496579>	"OpenMP"@en
+<http://www.wikidata.org/entity/Q5583871>	"OpenRefine"@en
+<http://www.wikidata.org/entity/Q86762127>	"OpenResty"@en
+<http://www.wikidata.org/entity/Q237580>	"OpenSolaris"@en
+<http://www.wikidata.org/entity/Q1052790>	"OpenSSL"@en
+<http://www.wikidata.org/entity/Q16691>	"OpenSUSE"@en
+<http://www.wikidata.org/entity/Q19599503>	"OpenUI5"@en
+<http://www.wikidata.org/entity/Q509075>	"OpenVPN"@en
+<http://www.wikidata.org/entity/Q1140401>	"OpenWrt"@en
+<http://www.wikidata.org/entity/Q9135>	"Operating system"@en
+<http://www.wikidata.org/entity/Q41242>	"Opera (web browser)"@en
+<http://www.wikidata.org/entity/Q19348696>	"OPNsense"@en
+<http://www.wikidata.org/entity/Q2027912>	"Oracle Application Server"@en
+<http://www.wikidata.org/entity/Q185524>	"Oracle Database"@en
+<http://www.wikidata.org/entity/Q14646>	"Oracle Solaris"@en
+<http://www.wikidata.org/entity/Q83589>	"Oracle WebLogic Server"@en
+<http://www.wikidata.org/entity/Q16927751>	"Orbot"@en
+<http://www.wikidata.org/entity/Q1256483>	"Orchard Project"@en
+<http://www.wikidata.org/entity/Q808716>	"OrientDB"@en
+<http://www.wikidata.org/entity/Q93312>	"OSI model"@en
+<http://www.wikidata.org/entity/Q476915>	"OS X Lion"@en
+<http://www.wikidata.org/entity/Q17107792>	"OS X Yosemite"@en
+<http://www.wikidata.org/entity/Q369550>	"OTRS"@en
+<http://www.wikidata.org/entity/Q850109>	"Outlook Express"@en
+<http://www.wikidata.org/entity/Q290284>	"OwnCloud"@en
+<http://www.wikidata.org/entity/Q2855711>	"Padrino (web framework)"@en
+<http://www.wikidata.org/entity/Q2049263>	"Panda3D"@en
+<http://www.wikidata.org/entity/Q15967387>	"Pandas (software)"@en
+<http://www.wikidata.org/entity/Q2049294>	"Pandoc"@en
+<http://www.wikidata.org/entity/Q232661>	"Parallel computing"@en
+<http://www.wikidata.org/entity/Q1349704>	"Parallels Desktop for Mac"@en
+<http://www.wikidata.org/entity/Q817765>	"Path (computing)"@en
+<http://www.wikidata.org/entity/Q42332>	"PDF"@en
+<http://www.wikidata.org/entity/Q693274>	"PDF.js"@en
+<http://www.wikidata.org/entity/Q1681038>	"Perforce Helix"@en
+<http://www.wikidata.org/entity/Q42478>	"Perl"@en
+<http://www.wikidata.org/entity/Q125267>	"Perl Compatible Regular Expressions"@en
+<http://www.wikidata.org/entity/Q1048975>	"Permalink"@en
+<http://www.wikidata.org/entity/Q310946>	"PfSense"@en
+<http://www.wikidata.org/entity/Q20712371>	"PhantomJS"@en
+<http://www.wikidata.org/entity/Q59>	"PHP"@en
+<http://www.wikidata.org/entity/Q14270>	"PhpBB"@en
+<http://www.wikidata.org/entity/Q188104>	"PhpMyAdmin"@en
+<http://www.wikidata.org/entity/Q1786113>	"PhpStorm"@en
+<http://www.wikidata.org/entity/Q334824>	"Phusion Passenger"@en
+<http://www.wikidata.org/entity/Q9349>	"Picasa"@en
+<http://www.wikidata.org/entity/Q7190889>	"Pickle (Python)"@en
+<http://www.wikidata.org/entity/Q3388543>	"Pimcore"@en
+<http://www.wikidata.org/entity/Q1196672>	"Pipeline (Unix)"@en
+<http://www.wikidata.org/entity/Q355198>	"Pixel"@en
+<http://www.wikidata.org/entity/Q18346546>	"PlantUML"@en
+<http://www.wikidata.org/entity/Q1153767>	"Platform as a service"@en
+<http://www.wikidata.org/entity/Q3392101>	"Play Framework"@en
+<http://www.wikidata.org/entity/Q1474611>	"Plot (graphics)"@en
+<http://www.wikidata.org/entity/Q17146476>	"Plotly"@en
+<http://www.wikidata.org/entity/Q41574>	"PL/SQL"@en
+<http://www.wikidata.org/entity/Q178051>	"PNG"@en
+<http://www.wikidata.org/entity/Q4817319>	"Point Cloud Library"@en
+<http://www.wikidata.org/entity/Q118155>	"Pointer (computer programming)"@en
+<http://www.wikidata.org/entity/Q1569955>	"PostGIS"@en
+<http://www.wikidata.org/entity/Q192490>	"PostgreSQL"@en
+<http://www.wikidata.org/entity/Q30100408>	"Postgres-XL"@en
+<http://www.wikidata.org/entity/Q218170>	"PostScript"@en
+<http://www.wikidata.org/entity/Q580882>	"PowerBuilder"@en
+<http://www.wikidata.org/entity/Q840410>	"PowerShell"@en
+<http://www.wikidata.org/entity/Q378530>	"Praat"@en
+<http://www.wikidata.org/entity/Q2107523>	"Pragmatic General Multicast"@en
+<http://www.wikidata.org/entity/Q387397>	"Prepared statement"@en
+<http://www.wikidata.org/entity/Q215121>	"Presentation layer"@en
+<http://www.wikidata.org/entity/Q1080982>	"PrestaShop"@en
+<http://www.wikidata.org/entity/Q1227452>	"Pretty Good Privacy"@en
+<http://www.wikidata.org/entity/Q838016>	"Printf"@en
+<http://www.wikidata.org/entity/Q187466>	"Processor register"@en
+<http://www.wikidata.org/entity/Q490173>	"Programming idiom"@en
+<http://www.wikidata.org/entity/Q9143>	"Programming language"@en
+<http://www.wikidata.org/entity/Q24479>	"Progress Chef"@en
+<http://www.wikidata.org/entity/Q7120392>	"PROJ"@en
+<http://www.wikidata.org/entity/Q22673>	"Project Gutenberg"@en
+<http://www.wikidata.org/entity/Q7249373>	"Project Wonder"@en
+<http://www.wikidata.org/entity/Q163468>	"Prolog"@en
+<http://www.wikidata.org/entity/Q52534999>	"Prometheus (software)"@en
+<http://www.wikidata.org/entity/Q2123335>	"Property (programming)"@en
+<http://www.wikidata.org/entity/Q2066865>	"Protégé (software)"@en
+<http://www.wikidata.org/entity/Q1645574>	"Protocol Buffers"@en
+<http://www.wikidata.org/entity/Q746599>	"Prototype JavaScript Framework"@en
+<http://www.wikidata.org/entity/Q7253227>	"Pry (software)"@en
+<http://www.wikidata.org/entity/Q928112>	"Pthreads"@en
+<http://www.wikidata.org/entity/Q274758>	"Public key certificate"@en
+<http://www.wikidata.org/entity/Q201339>	"Public-key cryptography"@en
+<http://www.wikidata.org/entity/Q180686>	"PubMed"@en
+<http://www.wikidata.org/entity/Q13043846>	"Pulse-code modulation"@en
+<http://www.wikidata.org/entity/Q28455953>	"Push Notification"@en
+<http://www.wikidata.org/entity/Q2110792>	"Py2exe"@en
+<http://www.wikidata.org/entity/Q1140252>	"Pygame"@en
+<http://www.wikidata.org/entity/Q1514769>	"PyGTK"@en
+<http://www.wikidata.org/entity/Q21028952>	"PyMC"@en
+<http://www.wikidata.org/entity/Q2382780>	"PyQt"@en
+<http://www.wikidata.org/entity/Q31205855>	"Python 3"@en
+<http://www.wikidata.org/entity/Q2984686>	"Python Package Index"@en
+<http://www.wikidata.org/entity/Q4047696>	"Python Paste"@en
+<http://www.wikidata.org/entity/Q28865>	"Python (programming language)"@en
+<http://www.wikidata.org/entity/Q47509047>	"PyTorch"@en
+<http://www.wikidata.org/entity/Q1329181>	"QGIS"@en
+<http://www.wikidata.org/entity/Q2121795>	"Qt Creator"@en
+<http://www.wikidata.org/entity/Q1037416>	"QtJambi"@en
+<http://www.wikidata.org/entity/Q201904>	"Qt (software)"@en
+<http://www.wikidata.org/entity/Q7268893>	"Quantcast File System"@en
+<http://www.wikidata.org/entity/Q845739>	"Query language"@en
+<http://www.wikidata.org/entity/Q486598>	"Quicksort"@en
+<http://www.wikidata.org/entity/Q1243769>	"QuickTime"@en
+<http://www.wikidata.org/entity/Q1254148>	"Racket (programming language)"@en
+<http://www.wikidata.org/entity/Q571734>	"Rack (web server interface)"@en
+<http://www.wikidata.org/entity/Q1968674>	"Rake (software)"@en
+<http://www.wikidata.org/entity/Q245748>	"Random forest"@en
+<http://www.wikidata.org/entity/Q176640>	"Randomness"@en
+<http://www.wikidata.org/entity/Q1886131>	"Random seed"@en
+<http://www.wikidata.org/entity/Q965395>	"RapidMiner"@en
+<http://www.wikidata.org/entity/Q16928056>	"Rational Team Concert"@en
+<http://www.wikidata.org/entity/Q7455975>	"RDF4J"@en
+<http://www.wikidata.org/entity/Q7299894>	"RDRAND"@en
+<http://www.wikidata.org/entity/Q55774523>	"React Native"@en
+<http://www.wikidata.org/entity/Q19399674>	"React (software)"@en
+<http://www.wikidata.org/entity/Q2032810>	"Read–eval–print loop"@en
+<http://www.wikidata.org/entity/Q7301613>	"Rebasing"@en
+<http://www.wikidata.org/entity/Q2470517>	"Record (computer science)"@en
+<http://www.wikidata.org/entity/Q1457734>	"Recurrent neural network"@en
+<http://www.wikidata.org/entity/Q264164>	"Recursion (computer science)"@en
+<http://www.wikidata.org/entity/Q215273>	"Red Hat Enterprise Linux"@en
+<http://www.wikidata.org/entity/Q2136322>	"Redis"@en
+<http://www.wikidata.org/entity/Q23665359>	"RedoxOS"@en
+<http://www.wikidata.org/entity/Q208042>	"Regression analysis"@en
+<http://www.wikidata.org/entity/Q185612>	"Regular expression"@en
+<http://www.wikidata.org/entity/Q830687>	"Reinforcement learning"@en
+<http://www.wikidata.org/entity/Q3932296>	"Relational database management system"@en
+<http://www.wikidata.org/entity/Q176953>	"Rendering (computer graphics)"@en
+<http://www.wikidata.org/entity/Q54872>	"Resource Description Framework"@en
+<http://www.wikidata.org/entity/Q1196805>	"Resource Interchange File Format"@en
+<http://www.wikidata.org/entity/Q585603>	"Rhino (JavaScript engine)"@en
+<http://www.wikidata.org/entity/Q7333190>	"Rietveld (software)"@en
+<http://www.wikidata.org/entity/Q17637401>	"RISC-V"@en
+<http://www.wikidata.org/entity/Q2160022>	"Robot Framework"@en
+<http://www.wikidata.org/entity/Q2160077>	"Robot Operating System"@en
+<http://www.wikidata.org/entity/Q1143754>	"Rockbox"@en
+<http://www.wikidata.org/entity/Q24050001>	"Rocket.Chat"@en
+<http://www.wikidata.org/entity/Q1131652>	"Rocq"@en
+<http://www.wikidata.org/entity/Q947171>	"ROOT"@en
+<http://www.wikidata.org/entity/Q6840207>	"Roslyn (compiler)"@en
+<http://www.wikidata.org/entity/Q1769269>	"Roundcube"@en
+<http://www.wikidata.org/entity/Q1366302>	"Row (database)"@en
+<http://www.wikidata.org/entity/Q206904>	"R (programming language)"@en
+<http://www.wikidata.org/entity/Q1049812>	"RRDtool"@en
+<http://www.wikidata.org/entity/Q181551>	"RSA cryptosystem"@en
+<http://www.wikidata.org/entity/Q3463141>	"RSpec"@en
+<http://www.wikidata.org/entity/Q45432>	"RSS"@en
+<http://www.wikidata.org/entity/Q4798119>	"RStudio"@en
+<http://www.wikidata.org/entity/Q283774>	"Rsync"@en
+<http://www.wikidata.org/entity/Q1853420>	"RubyGems"@en
+<http://www.wikidata.org/entity/Q4048590>	"RubyMine"@en
+<http://www.wikidata.org/entity/Q190478>	"Ruby on Rails"@en
+<http://www.wikidata.org/entity/Q161053>	"Ruby (programming language)"@en
+<http://www.wikidata.org/entity/Q684223>	"Run-time type information"@en
+<http://www.wikidata.org/entity/Q575650>	"Rust (programming language)"@en
+<http://www.wikidata.org/entity/Q7396340>	"SabreDAV"@en
+<http://www.wikidata.org/entity/Q35773>	"Safari (web browser)"@en
+<http://www.wikidata.org/entity/Q1165184>	"SageMath"@en
+<http://www.wikidata.org/entity/Q1830735>	"Samba (software)"@en
+<http://www.wikidata.org/entity/Q951374>	"SAP HANA"@en
+<http://www.wikidata.org/entity/Q1572865>	"Sass (style sheet language)"@en
+<http://www.wikidata.org/entity/Q608931>	"Saxon XSLT"@en
+<http://www.wikidata.org/entity/Q452197>	"SBML"@en
+<http://www.wikidata.org/entity/Q460584>	"Scala (programming language)"@en
+<http://www.wikidata.org/entity/Q17079423>	"Scalatra"@en
+<http://www.wikidata.org/entity/Q837994>	"Scanf"@en
+<http://www.wikidata.org/entity/Q2645567>	"Scapy"@en
+<http://www.wikidata.org/entity/Q1123036>	"Scheduling (computing)"@en
+<http://www.wikidata.org/entity/Q22442795>	"Scikit-image"@en
+<http://www.wikidata.org/entity/Q1026367>	"Scikit-learn"@en
+<http://www.wikidata.org/entity/Q197492>	"SciPy"@en
+<http://www.wikidata.org/entity/Q1034415>	"Scope (computer programming)"@en
+<http://www.wikidata.org/entity/Q275131>	"Scratch (programming language)"@en
+<http://www.wikidata.org/entity/Q181319>	"Scrolling"@en
+<http://www.wikidata.org/entity/Q1091813>	"Scroll wheel"@en
+<http://www.wikidata.org/entity/Q4182287>	"Search engine"@en
+<http://www.wikidata.org/entity/Q19541>	"Search engine (computing)"@en
+<http://www.wikidata.org/entity/Q106827>	"Second Life"@en
+<http://www.wikidata.org/entity/Q1135046>	"Secure copy protocol"@en
+<http://www.wikidata.org/entity/Q170460>	"Secure Shell"@en
+<http://www.wikidata.org/entity/Q305876>	"Sed"@en
+<http://www.wikidata.org/entity/Q1164001>	"Select (SQL)"@en
+<http://www.wikidata.org/entity/Q752522>	"Selenium (software)"@en
+<http://www.wikidata.org/entity/Q20728>	"Semantic MediaWiki"@en
+<http://www.wikidata.org/entity/Q54837>	"Semantic Web"@en
+<http://www.wikidata.org/entity/Q221682>	"Semaphore (programming)"@en
+<http://www.wikidata.org/entity/Q2271421>	"Sentiment analysis"@en
+<http://www.wikidata.org/entity/Q1127410>	"Serialization"@en
+<http://www.wikidata.org/entity/Q44127>	"Server (computing)"@en
+<http://www.wikidata.org/entity/Q3958022>	"Serverless computing"@en
+<http://www.wikidata.org/entity/Q22952981>	"Serverless Framework"@en
+<http://www.wikidata.org/entity/Q1220872>	"Service (systems architecture)"@en
+<http://www.wikidata.org/entity/Q932410>	"Session (computer networking)"@en
+<http://www.wikidata.org/entity/Q18833>	"SharePoint"@en
+<http://www.wikidata.org/entity/Q18109>	"Shell (computing)"@en
+<http://www.wikidata.org/entity/Q1805797>	"Shopware"@en
+<http://www.wikidata.org/entity/Q1109779>	"Shortcut (computing)"@en
+<http://www.wikidata.org/entity/Q208163>	"Signal processing"@en
+<http://www.wikidata.org/entity/Q1056761>	"Significant figures"@en
+<http://www.wikidata.org/entity/Q1538532>	"Simple Common Gateway Interface"@en
+<http://www.wikidata.org/entity/Q2288360>	"Simple Knowledge Organization System"@en
+<http://www.wikidata.org/entity/Q160453>	"Simple Mail Transfer Protocol"@en
+<http://www.wikidata.org/entity/Q3484685>	"SimpleXML"@en
+<http://www.wikidata.org/entity/Q657028>	"Sinatra (software)"@en
+<http://www.wikidata.org/entity/Q2289219>	"Single program, multiple data"@en
+<http://www.wikidata.org/entity/Q2663195>	"Sitecore"@en
+<http://www.wikidata.org/entity/Q7534974>	"Skia Graphics Engine"@en
+<http://www.wikidata.org/entity/Q1319169>	"Skyscanner"@en
+<http://www.wikidata.org/entity/Q17130715>	"Slack (software)"@en
+<http://www.wikidata.org/entity/Q1056934>	"SLF4J"@en
+<http://www.wikidata.org/entity/Q2206569>	"SLIME"@en
+<http://www.wikidata.org/entity/Q333618>	"Snapchat"@en
+<http://www.wikidata.org/entity/Q3487131>	"Snappy (compression)"@en
+<http://www.wikidata.org/entity/Q189620>	"SOAP"@en
+<http://www.wikidata.org/entity/Q2296314>	"SoapUI"@en
+<http://www.wikidata.org/entity/Q7552998>	"Socket.IO"@en
+<http://www.wikidata.org/entity/Q188522>	"Software testing"@en
+<http://www.wikidata.org/entity/Q2583627>	"SOLID"@en
+<http://www.wikidata.org/entity/Q2303697>	"Sorting"@en
+<http://www.wikidata.org/entity/Q128751>	"Source code"@en
+<http://www.wikidata.org/entity/Q165400>	"SourceForge"@en
+<http://www.wikidata.org/entity/Q3487229>	"SoX"@en
+<http://www.wikidata.org/entity/Q28406945>	"SpaCy"@en
+<http://www.wikidata.org/entity/Q4049850>	"Spanner (database)"@en
+<http://www.wikidata.org/entity/Q3493345>	"SPARK (programming language)"@en
+<http://www.wikidata.org/entity/Q54871>	"SPARQL"@en
+<http://www.wikidata.org/entity/Q189436>	"Speech recognition"@en
+<http://www.wikidata.org/entity/Q1848400>	"SpiderMonkey"@en
+<http://www.wikidata.org/entity/Q959513>	"SPIN model checker"@en
+<http://www.wikidata.org/entity/Q7580383>	"Spring Batch"@en
+<http://www.wikidata.org/entity/Q98731994>	"Spring Boot"@en
+<http://www.wikidata.org/entity/Q720314>	"Spring Framework"@en
+<http://www.wikidata.org/entity/Q83994>	"Spring Integration"@en
+<http://www.wikidata.org/entity/Q4049967>	"Spring Roo"@en
+<http://www.wikidata.org/entity/Q4049968>	"Spring Security"@en
+<http://www.wikidata.org/entity/Q47607>	"SQL"@en
+<http://www.wikidata.org/entity/Q1092514>	"SQLAlchemy"@en
+<http://www.wikidata.org/entity/Q319417>	"SQLite"@en
+<http://www.wikidata.org/entity/Q1231051>	"SQL Server Integration Services"@en
+<http://www.wikidata.org/entity/Q4048883>	"SQL Server Management Studio"@en
+<http://www.wikidata.org/entity/Q846897>	"SQL Server Reporting Services"@en
+<http://www.wikidata.org/entity/Q841783>	"Squid (software)"@en
+<http://www.wikidata.org/entity/Q1752969>	"SquirrelMail"@en
+<http://www.wikidata.org/entity/Q1050182>	"SRWare Iron"@en
+<http://www.wikidata.org/entity/Q6011196>	"SSE4"@en
+<http://www.wikidata.org/entity/Q1126823>	"SSH File Transfer Protocol"@en
+<http://www.wikidata.org/entity/Q17088889>	"Stackdriver"@en
+<http://www.wikidata.org/entity/Q597330>	"Standard ML"@en
+<http://www.wikidata.org/entity/Q741235>	"Standard Template Library"@en
+<http://www.wikidata.org/entity/Q996596>	"StarUML"@en
+<http://www.wikidata.org/entity/Q599031>	"State (computer science)"@en
+<http://www.wikidata.org/entity/Q77916592>	"Static site generator"@en
+<http://www.wikidata.org/entity/Q1744628>	"Statistical classification"@en
+<http://www.wikidata.org/entity/Q337535>	"Steam (service)"@en
+<http://www.wikidata.org/entity/Q7607505>	"Stencyl"@en
+<http://www.wikidata.org/entity/Q846619>	"Stored procedure"@en
+<http://www.wikidata.org/entity/Q576997>	"Stream Control Transmission Protocol"@en
+<http://www.wikidata.org/entity/Q184754>	"String (computer science)"@en
+<http://www.wikidata.org/entity/Q2506681>	"Stripes (framework)"@en
+<http://www.wikidata.org/entity/Q1164699>	"Struct (C programming language)"@en
+<http://www.wikidata.org/entity/Q267193>	"Sublime Text"@en
+<http://www.wikidata.org/entity/Q1418295>	"Subpixel"@en
+<http://www.wikidata.org/entity/Q7632132>	"Substitution failure is not an error"@en
+<http://www.wikidata.org/entity/Q2626534>	"Substring"@en
+<http://www.wikidata.org/entity/Q2713292>	"Subtyping"@en
+<http://www.wikidata.org/entity/Q300883>	"Sudo"@en
+<http://www.wikidata.org/entity/Q16294867>	"SuiteCRM"@en
+<http://www.wikidata.org/entity/Q282453>	"Support vector machine"@en
+<http://www.wikidata.org/entity/Q16863097>	"Svelte"@en
+<http://www.wikidata.org/entity/Q2078>	"SVG"@en
+<http://www.wikidata.org/entity/Q17118377>	"Swift (programming language)"@en
+<http://www.wikidata.org/entity/Q859221>	"Swing (Java)"@en
+<http://www.wikidata.org/entity/Q2665141>	"SWI-Prolog"@en
+<http://www.wikidata.org/entity/Q1322933>	"Symfony"@en
+<http://www.wikidata.org/entity/Q5971368>	"SymPy"@en
+<http://www.wikidata.org/entity/Q1753563>	"SystemC"@en
+<http://www.wikidata.org/entity/Q286124>	"Systemd"@en
+<http://www.wikidata.org/entity/Q278425>	"Table (database)"@en
+<http://www.wikidata.org/entity/Q83510>	"Tablespace"@en
+<http://www.wikidata.org/entity/Q1340959>	"Tail call"@en
+<http://www.wikidata.org/entity/Q3515953>	"Taskwarrior"@en
+<http://www.wikidata.org/entity/Q5288>	"Tcl (programming language)"@en
+<http://www.wikidata.org/entity/Q306031>	"Tcsh"@en
+<http://www.wikidata.org/entity/Q4050768>	"TeamCity"@en
+<http://www.wikidata.org/entity/Q15616276>	"Telegram (software)"@en
+<http://www.wikidata.org/entity/Q1411845>	"Template (C++)"@en
+<http://www.wikidata.org/entity/Q351507>	"Template processor"@en
+<http://www.wikidata.org/entity/Q21447895>	"TensorFlow"@en
+<http://www.wikidata.org/entity/Q3518405>	"Terminal (telecommunication)"@en
+<http://www.wikidata.org/entity/Q28957072>	"Terraform (software)"@en
+<http://www.wikidata.org/entity/Q945242>	"Tesseract (software)"@en
+<http://www.wikidata.org/entity/Q7705752>	"Test automation framework"@en
+<http://www.wikidata.org/entity/Q950250>	"Test-driven development"@en
+<http://www.wikidata.org/entity/Q4385601>	"TestNG"@en
+<http://www.wikidata.org/entity/Q1426129>	"Texinfo"@en
+<http://www.wikidata.org/entity/Q184752>	"Text-based user interface"@en
+<http://www.wikidata.org/entity/Q1315657>	"Textile (markup language)"@en
+<http://www.wikidata.org/entity/Q676880>	"Text mining"@en
+<http://www.wikidata.org/entity/Q4050893>	"Text Services Framework"@en
+<http://www.wikidata.org/entity/Q7777252>	"Theano (software)"@en
+<http://www.wikidata.org/entity/Q1384104>	"Threading Building Blocks"@en
+<http://www.wikidata.org/entity/Q1326976>	"Thread safety"@en
+<http://www.wikidata.org/entity/Q3525922>	"Three.js"@en
+<http://www.wikidata.org/entity/Q3526177>	"Thymeleaf"@en
+<http://www.wikidata.org/entity/Q56375088>	"TiDB"@en
+<http://www.wikidata.org/entity/Q1410847>	"Tiki Wiki CMS Groupware"@en
+<http://www.wikidata.org/entity/Q186588>	"Time series"@en
+<http://www.wikidata.org/entity/Q1730569>	"Tiny C Compiler"@en
+<http://www.wikidata.org/entity/Q173871>	"Tkinter"@en
+<http://www.wikidata.org/entity/Q202044>	"Tor (network)"@en
+<http://www.wikidata.org/entity/Q3979682>	"TORQUE"@en
+<http://www.wikidata.org/entity/Q178572>	"TortoiseGit"@en
+<http://www.wikidata.org/entity/Q1062467>	"TortoiseSVN"@en
+<http://www.wikidata.org/entity/Q765385>	"Trac"@en
+<http://www.wikidata.org/entity/Q96332968>	"Traefik Proxy"@en
+<http://www.wikidata.org/entity/Q1411245>	"Transact-SQL"@en
+<http://www.wikidata.org/entity/Q8803>	"Transmission Control Protocol"@en
+<http://www.wikidata.org/entity/Q206494>	"Transport Layer Security"@en
+<http://www.wikidata.org/entity/Q223655>	"Tree (abstract data type)"@en
+<http://www.wikidata.org/entity/Q8084>	"Trigonometry"@en
+<http://www.wikidata.org/entity/Q1306585>	"Turbo Basic"@en
+<http://www.wikidata.org/entity/Q114409>	"Turtle (syntax)"@en
+<http://www.wikidata.org/entity/Q1375130>	"Type class"@en
+<http://www.wikidata.org/entity/Q17451>	"Typeface"@en
+<http://www.wikidata.org/entity/Q978185>	"TypeScript"@en
+<http://www.wikidata.org/entity/Q865760>	"Type system"@en
+<http://www.wikidata.org/entity/Q618512>	"TYPO3"@en
+<http://www.wikidata.org/entity/Q117858460>	"Typst"@en
+<http://www.wikidata.org/entity/Q381>	"Ubuntu"@en
+<http://www.wikidata.org/entity/Q284593>	"UClibc"@en
+<http://www.wikidata.org/entity/Q117480832>	"UIKit"@en
+<http://www.wikidata.org/entity/Q1606279>	"Umbrello UML Modeller"@en
+<http://www.wikidata.org/entity/Q956141>	"UMLet"@en
+<http://www.wikidata.org/entity/Q4052375>	"Underscore.js"@en
+<http://www.wikidata.org/entity/Q8819>	"Unicode"@en
+<http://www.wikidata.org/entity/Q169411>	"Unified Modeling Language"@en
+<http://www.wikidata.org/entity/Q907375>	"Unit testing"@en
+<http://www.wikidata.org/entity/Q63966>	"Unity (game engine)"@en
+<http://www.wikidata.org/entity/Q11368>	"Unix"@en
+<http://www.wikidata.org/entity/Q14663>	"Unix shell"@en
+<http://www.wikidata.org/entity/Q4052419>	"Unladen Swallow"@en
+<http://www.wikidata.org/entity/Q2298909>	"Unobtrusive JavaScript"@en
+<http://www.wikidata.org/entity/Q1076005>	"Update (SQL)"@en
+<http://www.wikidata.org/entity/Q1440450>	"URI fragment"@en
+<http://www.wikidata.org/entity/Q42253>	"URL"@en
+<http://www.wikidata.org/entity/Q613423>	"Use case diagram"@en
+<http://www.wikidata.org/entity/Q3604202>	"User account"@en
+<http://www.wikidata.org/entity/Q818381>	"User Account Control"@en
+<http://www.wikidata.org/entity/Q11163>	"User Datagram Protocol"@en
+<http://www.wikidata.org/entity/Q47146>	"User interface"@en
+<http://www.wikidata.org/entity/Q4820732>	"User-Mode Driver Framework"@en
+<http://www.wikidata.org/entity/Q1138939>	"Vala (programming language)"@en
+<http://www.wikidata.org/entity/Q17152756>	"Variadic template"@en
+<http://www.wikidata.org/entity/Q189439>	"Version control"@en
+<http://www.wikidata.org/entity/Q3257930>	"Version control system"@en
+<http://www.wikidata.org/entity/Q2297950>	"Video4Linux"@en
+<http://www.wikidata.org/entity/Q131382>	"Vim (text editor)"@en
+<http://www.wikidata.org/entity/Q1602447>	"Vinyl Cache"@en
+<http://www.wikidata.org/entity/Q11393>	"VirtualBox"@en
+<http://www.wikidata.org/entity/Q192726>	"Virtual machine"@en
+<http://www.wikidata.org/entity/Q7935151>	"Virtual private cloud"@en
+<http://www.wikidata.org/entity/Q7935239>	"Virtuoso Universal Server"@en
+<http://www.wikidata.org/entity/Q667566>	"Visual Basic for Applications"@en
+<http://www.wikidata.org/entity/Q50077>	"Visual Basic (.NET)"@en
+<http://www.wikidata.org/entity/Q385715>	"Visual Component Library"@en
+<http://www.wikidata.org/entity/Q451553>	"Visualization (graphics)"@en
+<http://www.wikidata.org/entity/Q134067>	"Visual Studio"@en
+<http://www.wikidata.org/entity/Q19841877>	"Visual Studio Code"@en
+<http://www.wikidata.org/entity/Q214743>	"Vi (text editor)"@en
+<http://www.wikidata.org/entity/Q16452>	"VLAN"@en
+<http://www.wikidata.org/entity/Q171477>	"VLC media player"@en
+<http://www.wikidata.org/entity/Q935100>	"VMware Fusion"@en
+<http://www.wikidata.org/entity/Q7942323>	"Vowpal Wabbit"@en
+<http://www.wikidata.org/entity/Q24589705>	"Vue.js"@en
+<http://www.wikidata.org/entity/Q19407678>	"Vulkan"@en
+<http://www.wikidata.org/entity/Q1585009>	"W3C Geolocation API"@en
+<http://www.wikidata.org/entity/Q217570>	"WAV"@en
+<http://www.wikidata.org/entity/Q14561>	"Wayland (protocol)"@en
+<http://www.wikidata.org/entity/Q15961745>	"Wear OS"@en
+<http://www.wikidata.org/entity/Q286180>	"Web2py"@en
+<http://www.wikidata.org/entity/Q991293>	"Web cache"@en
+<http://www.wikidata.org/entity/Q1330336>	"Web framework"@en
+<http://www.wikidata.org/entity/Q375913>	"WebGL"@en
+<http://www.wikidata.org/entity/Q654034>	"WebKit"@en
+<http://www.wikidata.org/entity/Q22909730>	"Webpack"@en
+<http://www.wikidata.org/entity/Q665452>	"Web scraping"@en
+<http://www.wikidata.org/entity/Q11288>	"Web server"@en
+<http://www.wikidata.org/entity/Q539164>	"Web Server Gateway Interface"@en
+<http://www.wikidata.org/entity/Q193424>	"Web service"@en
+<http://www.wikidata.org/entity/Q623338>	"Web Services Description Language"@en
+<http://www.wikidata.org/entity/Q35127>	"Website"@en
+<http://www.wikidata.org/entity/Q4053022>	"WebSphere Portal"@en
+<http://www.wikidata.org/entity/Q110741340>	"WebView"@en
+<http://www.wikidata.org/entity/Q7978628>	"Web worker"@en
+<http://www.wikidata.org/entity/Q4018860>	"Well-known text representation of geometry"@en
+<http://www.wikidata.org/entity/Q1049511>	"WhatsApp"@en
+<http://www.wikidata.org/entity/Q838101>	"While loop"@en
+<http://www.wikidata.org/entity/Q1193246>	"Widget toolkit"@en
+<http://www.wikidata.org/entity/Q171>	"Wiki"@en
+<http://www.wikidata.org/entity/Q2013>	"Wikidata"@en
+<http://www.wikidata.org/entity/Q20950365>	"Wikidata Query Service"@en
+<http://www.wikidata.org/entity/Q565>	"Wikimedia Commons"@en
+<http://www.wikidata.org/entity/Q52>	"Wikipedia"@en
+<http://www.wikidata.org/entity/Q1055099>	"WinDbg"@en
+<http://www.wikidata.org/entity/Q18168774>	"Windows 10"@en
+<http://www.wikidata.org/entity/Q107269746>	"Windows 11"@en
+<http://www.wikidata.org/entity/Q1672210>	"Windows-1250"@en
+<http://www.wikidata.org/entity/Q11215>	"Windows 7"@en
+<http://www.wikidata.org/entity/Q5046>	"Windows 8"@en
+<http://www.wikidata.org/entity/Q3569290>	"Windows 8.1"@en
+<http://www.wikidata.org/entity/Q219710>	"Windows Aero"@en
+<http://www.wikidata.org/entity/Q828191>	"Windows API"@en
+<http://www.wikidata.org/entity/Q488244>	"Windows CE"@en
+<http://www.wikidata.org/entity/Q2994643>	"Windows Console"@en
+<http://www.wikidata.org/entity/Q1067615>	"Windows Driver Frameworks"@en
+<http://www.wikidata.org/entity/Q1329009>	"Windows Driver Model"@en
+<http://www.wikidata.org/entity/Q3054349>	"Windows Enhanced Metafile"@en
+<http://www.wikidata.org/entity/Q613361>	"Windows Forms"@en
+<http://www.wikidata.org/entity/Q181233>	"Windows Installer"@en
+<http://www.wikidata.org/entity/Q648495>	"Windows Live Writer"@en
+<http://www.wikidata.org/entity/Q1072083>	"Windows Metafile"@en
+<http://www.wikidata.org/entity/Q21207>	"Windows Mobile"@en
+<http://www.wikidata.org/entity/Q4885200>	"Windows Phone"@en
+<http://www.wikidata.org/entity/Q34825>	"Windows Phone 8"@en
+<http://www.wikidata.org/entity/Q15282750>	"Windows Phone 8.1"@en
+<http://www.wikidata.org/entity/Q239084>	"Windows Presentation Foundation"@en
+<http://www.wikidata.org/entity/Q463244>	"Windows Registry"@en
+<http://www.wikidata.org/entity/Q17424>	"Windows RT"@en
+<http://www.wikidata.org/entity/Q11246>	"Windows Server 2003"@en
+<http://www.wikidata.org/entity/Q11233>	"Windows Server 2008"@en
+<http://www.wikidata.org/entity/Q11226>	"Windows Server 2008 R2"@en
+<http://www.wikidata.org/entity/Q11222>	"Windows Server 2012"@en
+<http://www.wikidata.org/entity/Q15222398>	"Windows Server 2012 R2"@en
+<http://www.wikidata.org/entity/Q19754851>	"Windows Server 2016"@en
+<http://www.wikidata.org/entity/Q50911826>	"Windows Server 2019"@en
+<http://www.wikidata.org/entity/Q5353026>	"Windows shell"@en
+<http://www.wikidata.org/entity/Q29000599>	"Windows shortcut"@en
+<http://www.wikidata.org/entity/Q23894260>	"Windows Subsystem for Linux"@en
+<http://www.wikidata.org/entity/Q553850>	"Windows Template Library"@en
+<http://www.wikidata.org/entity/Q11230>	"Windows Vista"@en
+<http://www.wikidata.org/entity/Q1160381>	"WinSCP"@en
+<http://www.wikidata.org/entity/Q1501914>	"Winsock"@en
+<http://www.wikidata.org/entity/Q268201>	"Wireless Markup Language"@en
+<http://www.wikidata.org/entity/Q403539>	"Wireshark"@en
+<http://www.wikidata.org/entity/Q207006>	"WolframAlpha"@en
+<http://www.wikidata.org/entity/Q15241057>	"Wolfram Language"@en
+<http://www.wikidata.org/entity/Q81294>	"Wolfram Mathematica"@en
+<http://www.wikidata.org/entity/Q15855099>	"WooCommerce"@en
+<http://www.wikidata.org/entity/Q13166>	"WordPress"@en
+<http://www.wikidata.org/entity/Q466>	"World Wide Web"@en
+<http://www.wikidata.org/entity/Q4053267>	"WxFormBuilder"@en
+<http://www.wikidata.org/entity/Q284522>	"WxPython"@en
+<http://www.wikidata.org/entity/Q284875>	"X264"@en
+<http://www.wikidata.org/entity/Q182933>	"X86"@en
+<http://www.wikidata.org/entity/Q272629>	"X86-64"@en
+<http://www.wikidata.org/entity/Q291904>	"X87"@en
+<http://www.wikidata.org/entity/Q250328>	"Xcode"@en
+<http://www.wikidata.org/entity/Q863957>	"Xen"@en
+<http://www.wikidata.org/entity/Q26839>	"XeTeX"@en
+<http://www.wikidata.org/entity/Q170821>	"Xfce"@en
+<http://www.wikidata.org/entity/Q166074>	"XHTML"@en
+<http://www.wikidata.org/entity/Q4021848>	"Xlet"@en
+<http://www.wikidata.org/entity/Q3570412>	"XLispStat"@en
+<http://www.wikidata.org/entity/Q2115>	"XML"@en
+<http://www.wikidata.org/entity/Q2295992>	"XML namespace"@en
+<http://www.wikidata.org/entity/Q16342>	"XML Schema (W3C)"@en
+<http://www.wikidata.org/entity/Q188951>	"XMPP"@en
+<http://www.wikidata.org/entity/Q518900>	"X.Org Server"@en
+<http://www.wikidata.org/entity/Q16340>	"XPath"@en
+<http://www.wikidata.org/entity/Q1570078>	"Xpdf"@en
+<http://www.wikidata.org/entity/Q850661>	"XQuery"@en
+<http://www.wikidata.org/entity/Q32087>	"XSL Formatting Objects"@en
+<http://www.wikidata.org/entity/Q32110>	"XSLT"@en
+<http://www.wikidata.org/entity/Q918>	"X (social network)"@en
+<http://www.wikidata.org/entity/Q284297>	"Xterm"@en
+<http://www.wikidata.org/entity/Q285539>	"XUnit"@en
+<http://www.wikidata.org/entity/Q526699>	"XWiki"@en
+<http://www.wikidata.org/entity/Q178481>	"X Window System"@en
+<http://www.wikidata.org/entity/Q305932>	"Yacc"@en
+<http://www.wikidata.org/entity/Q281876>	"YAML"@en
+<http://www.wikidata.org/entity/Q1466168>	"Yii"@en
+<http://www.wikidata.org/entity/Q866>	"YouTube"@en
+<http://www.wikidata.org/entity/Q28401317>	"Youtube-dl"@en
+<http://www.wikidata.org/entity/Q577472>	"Zeek"@en
+<http://www.wikidata.org/entity/Q136218>	"ZIP (file format)"@en
+<http://www.wikidata.org/entity/Q227308>	"Z shell"@en

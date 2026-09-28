@@ -1,0 +1,195 @@
+order {'dim': 32, 'margin': 0.1} ep=60 lr=0.001: val 0.263
+order {'dim': 32, 'margin': 0.1} ep=150 lr=0.001: val 0.321
+order {'dim': 32, 'margin': 0.1} ep=150 lr=0.003: val 0.230
+order {'dim': 32, 'margin': 1.0} ep=60 lr=0.001: val 0.237
+order {'dim': 32, 'margin': 1.0} ep=150 lr=0.001: val 0.252
+order {'dim': 32, 'margin': 1.0} ep=150 lr=0.003: val 0.293
+order {'dim': 64, 'margin': 0.1} ep=60 lr=0.001: val 0.313
+order {'dim': 64, 'margin': 0.1} ep=150 lr=0.001: val 0.369
+order {'dim': 64, 'margin': 0.1} ep=150 lr=0.003: val 0.278
+order {'dim': 64, 'margin': 1.0} ep=60 lr=0.001: val 0.208
+order {'dim': 64, 'margin': 1.0} ep=150 lr=0.001: val 0.271
+order {'dim': 64, 'margin': 1.0} ep=150 lr=0.003: val 0.300
+order {'dim': 128, 'margin': 0.1} ep=60 lr=0.001: val 0.333
+order {'dim': 128, 'margin': 0.1} ep=150 lr=0.001: val 0.379
+order {'dim': 128, 'margin': 0.1} ep=150 lr=0.003: val 0.281
+order {'dim': 128, 'margin': 1.0} ep=60 lr=0.001: val 0.243
+order {'dim': 128, 'margin': 1.0} ep=150 lr=0.001: val 0.294
+order {'dim': 128, 'margin': 1.0} ep=150 lr=0.003: val 0.321
+order_trans {'dim': 32, 'margin': 0.1} ep=150 lr=0.01: val 0.088
+order_trans {'dim': 32, 'margin': 0.1} ep=300 lr=0.01: val 0.085
+order_trans {'dim': 32, 'margin': 1.0} ep=150 lr=0.01: val 0.082
+order_trans {'dim': 32, 'margin': 1.0} ep=300 lr=0.01: val 0.074
+order_trans {'dim': 64, 'margin': 0.1} ep=150 lr=0.01: val 0.110
+order_trans {'dim': 64, 'margin': 0.1} ep=300 lr=0.01: val 0.114
+order_trans {'dim': 64, 'margin': 1.0} ep=150 lr=0.01: val 0.134
+order_trans {'dim': 64, 'margin': 1.0} ep=300 lr=0.01: val 0.092
+order_trans {'dim': 128, 'margin': 0.1} ep=150 lr=0.01: val 0.111
+order_trans {'dim': 128, 'margin': 0.1} ep=300 lr=0.01: val 0.122
+order_trans {'dim': 128, 'margin': 1.0} ep=150 lr=0.01: val 0.135
+order_trans {'dim': 128, 'margin': 1.0} ep=300 lr=0.01: val 0.151
+hyp {'dim': 5, 'alpha': 0} ep=60 lr=0.001: val 0.314
+hyp+isa {'dim': 5, 'alpha': 0.1} ep=60 lr=0.001: val 0.314
+hyp+isa {'dim': 5, 'alpha': 1} ep=60 lr=0.001: val 0.311
+hyp+isa {'dim': 5, 'alpha': 10} ep=60 lr=0.001: val 0.311
+hyp+isa {'dim': 5, 'alpha': 100} ep=60 lr=0.001: val 0.208
+hyp+isa {'dim': 5, 'alpha': 1000} ep=60 lr=0.001: val 0.144
+hyp {'dim': 5, 'alpha': 0} ep=150 lr=0.001: val 0.307
+hyp+isa {'dim': 5, 'alpha': 0.1} ep=150 lr=0.001: val 0.307
+hyp+isa {'dim': 5, 'alpha': 1} ep=150 lr=0.001: val 0.301
+hyp+isa {'dim': 5, 'alpha': 10} ep=150 lr=0.001: val 0.282
+hyp+isa {'dim': 5, 'alpha': 100} ep=150 lr=0.001: val 0.198
+hyp+isa {'dim': 5, 'alpha': 1000} ep=150 lr=0.001: val 0.178
+hyp {'dim': 5, 'alpha': 0} ep=150 lr=0.003: val 0.337
+hyp+isa {'dim': 5, 'alpha': 0.1} ep=150 lr=0.003: val 0.338
+hyp+isa {'dim': 5, 'alpha': 1} ep=150 lr=0.003: val 0.331
+hyp+isa {'dim': 5, 'alpha': 10} ep=150 lr=0.003: val 0.254
+hyp+isa {'dim': 5, 'alpha': 100} ep=150 lr=0.003: val 0.184
+hyp+isa {'dim': 5, 'alpha': 1000} ep=150 lr=0.003: val 0.169
+hyp {'dim': 10, 'alpha': 0} ep=60 lr=0.001: val 0.322
+hyp+isa {'dim': 10, 'alpha': 0.1} ep=60 lr=0.001: val 0.322
+hyp+isa {'dim': 10, 'alpha': 1} ep=60 lr=0.001: val 0.322
+hyp+isa {'dim': 10, 'alpha': 10} ep=60 lr=0.001: val 0.308
+hyp+isa {'dim': 10, 'alpha': 100} ep=60 lr=0.001: val 0.190
+hyp+isa {'dim': 10, 'alpha': 1000} ep=60 lr=0.001: val 0.148
+hyp {'dim': 10, 'alpha': 0} ep=150 lr=0.001: val 0.336
+hyp+isa {'dim': 10, 'alpha': 0.1} ep=150 lr=0.001: val 0.336
+hyp+isa {'dim': 10, 'alpha': 1} ep=150 lr=0.001: val 0.331
+hyp+isa {'dim': 10, 'alpha': 10} ep=150 lr=0.001: val 0.291
+hyp+isa {'dim': 10, 'alpha': 100} ep=150 lr=0.001: val 0.177
+hyp+isa {'dim': 10, 'alpha': 1000} ep=150 lr=0.001: val 0.182
+hyp {'dim': 10, 'alpha': 0} ep=150 lr=0.003: val 0.381
+hyp+isa {'dim': 10, 'alpha': 0.1} ep=150 lr=0.003: val 0.380
+hyp+isa {'dim': 10, 'alpha': 1} ep=150 lr=0.003: val 0.375
+hyp+isa {'dim': 10, 'alpha': 10} ep=150 lr=0.003: val 0.271
+hyp+isa {'dim': 10, 'alpha': 100} ep=150 lr=0.003: val 0.190
+hyp+isa {'dim': 10, 'alpha': 1000} ep=150 lr=0.003: val 0.164
+hyp {'dim': 32, 'alpha': 0} ep=60 lr=0.001: val 0.312
+hyp+isa {'dim': 32, 'alpha': 0.1} ep=60 lr=0.001: val 0.312
+hyp+isa {'dim': 32, 'alpha': 1} ep=60 lr=0.001: val 0.308
+hyp+isa {'dim': 32, 'alpha': 10} ep=60 lr=0.001: val 0.275
+hyp+isa {'dim': 32, 'alpha': 100} ep=60 lr=0.001: val 0.176
+hyp+isa {'dim': 32, 'alpha': 1000} ep=60 lr=0.001: val 0.131
+hyp {'dim': 32, 'alpha': 0} ep=150 lr=0.001: val 0.315
+hyp+isa {'dim': 32, 'alpha': 0.1} ep=150 lr=0.001: val 0.314
+hyp+isa {'dim': 32, 'alpha': 1} ep=150 lr=0.001: val 0.311
+hyp+isa {'dim': 32, 'alpha': 10} ep=150 lr=0.001: val 0.268
+hyp+isa {'dim': 32, 'alpha': 100} ep=150 lr=0.001: val 0.177
+hyp+isa {'dim': 32, 'alpha': 1000} ep=150 lr=0.001: val 0.179
+hyp {'dim': 32, 'alpha': 0} ep=150 lr=0.003: val 0.336
+hyp+isa {'dim': 32, 'alpha': 0.1} ep=150 lr=0.003: val 0.334
+hyp+isa {'dim': 32, 'alpha': 1} ep=150 lr=0.003: val 0.324
+hyp+isa {'dim': 32, 'alpha': 10} ep=150 lr=0.003: val 0.260
+hyp+isa {'dim': 32, 'alpha': 100} ep=150 lr=0.003: val 0.190
+hyp+isa {'dim': 32, 'alpha': 1000} ep=150 lr=0.003: val 0.175
+hyp_trans {'dim': 5, 'alpha': 0} ep=150 lr=0.01: val 0.193
+hyp_trans+isa {'dim': 5, 'alpha': 0.1} ep=150 lr=0.01: val 0.184
+hyp_trans+isa {'dim': 5, 'alpha': 1} ep=150 lr=0.01: val 0.181
+hyp_trans+isa {'dim': 5, 'alpha': 10} ep=150 lr=0.01: val 0.149
+hyp_trans+isa {'dim': 5, 'alpha': 100} ep=150 lr=0.01: val 0.144
+hyp_trans+isa {'dim': 5, 'alpha': 1000} ep=150 lr=0.01: val 0.142
+hyp_trans {'dim': 5, 'alpha': 0} ep=300 lr=0.01: val 0.201
+hyp_trans+isa {'dim': 5, 'alpha': 0.1} ep=300 lr=0.01: val 0.194
+hyp_trans+isa {'dim': 5, 'alpha': 1} ep=300 lr=0.01: val 0.174
+hyp_trans+isa {'dim': 5, 'alpha': 10} ep=300 lr=0.01: val 0.155
+hyp_trans+isa {'dim': 5, 'alpha': 100} ep=300 lr=0.01: val 0.150
+hyp_trans+isa {'dim': 5, 'alpha': 1000} ep=300 lr=0.01: val 0.149
+hyp_trans {'dim': 5, 'alpha': 0} ep=300 lr=0.03: val 0.196
+hyp_trans+isa {'dim': 5, 'alpha': 0.1} ep=300 lr=0.03: val 0.196
+hyp_trans+isa {'dim': 5, 'alpha': 1} ep=300 lr=0.03: val 0.192
+hyp_trans+isa {'dim': 5, 'alpha': 10} ep=300 lr=0.03: val 0.167
+hyp_trans+isa {'dim': 5, 'alpha': 100} ep=300 lr=0.03: val 0.153
+hyp_trans+isa {'dim': 5, 'alpha': 1000} ep=300 lr=0.03: val 0.150
+hyp_trans {'dim': 10, 'alpha': 0} ep=150 lr=0.01: val 0.189
+hyp_trans+isa {'dim': 10, 'alpha': 0.1} ep=150 lr=0.01: val 0.181
+hyp_trans+isa {'dim': 10, 'alpha': 1} ep=150 lr=0.01: val 0.190
+hyp_trans+isa {'dim': 10, 'alpha': 10} ep=150 lr=0.01: val 0.166
+hyp_trans+isa {'dim': 10, 'alpha': 100} ep=150 lr=0.01: val 0.159
+hyp_trans+isa {'dim': 10, 'alpha': 1000} ep=150 lr=0.01: val 0.157
+hyp_trans {'dim': 10, 'alpha': 0} ep=300 lr=0.01: val 0.210
+hyp_trans+isa {'dim': 10, 'alpha': 0.1} ep=300 lr=0.01: val 0.210
+hyp_trans+isa {'dim': 10, 'alpha': 1} ep=300 lr=0.01: val 0.211
+hyp_trans+isa {'dim': 10, 'alpha': 10} ep=300 lr=0.01: val 0.167
+hyp_trans+isa {'dim': 10, 'alpha': 100} ep=300 lr=0.01: val 0.159
+hyp_trans+isa {'dim': 10, 'alpha': 1000} ep=300 lr=0.01: val 0.157
+hyp_trans {'dim': 10, 'alpha': 0} ep=300 lr=0.03: val 0.219
+hyp_trans+isa {'dim': 10, 'alpha': 0.1} ep=300 lr=0.03: val 0.218
+hyp_trans+isa {'dim': 10, 'alpha': 1} ep=300 lr=0.03: val 0.203
+hyp_trans+isa {'dim': 10, 'alpha': 10} ep=300 lr=0.03: val 0.198
+hyp_trans+isa {'dim': 10, 'alpha': 100} ep=300 lr=0.03: val 0.161
+hyp_trans+isa {'dim': 10, 'alpha': 1000} ep=300 lr=0.03: val 0.148
+hyp_trans {'dim': 32, 'alpha': 0} ep=150 lr=0.01: val 0.221
+hyp_trans+isa {'dim': 32, 'alpha': 0.1} ep=150 lr=0.01: val 0.208
+hyp_trans+isa {'dim': 32, 'alpha': 1} ep=150 lr=0.01: val 0.202
+hyp_trans+isa {'dim': 32, 'alpha': 10} ep=150 lr=0.01: val 0.168
+hyp_trans+isa {'dim': 32, 'alpha': 100} ep=150 lr=0.01: val 0.160
+hyp_trans+isa {'dim': 32, 'alpha': 1000} ep=150 lr=0.01: val 0.158
+hyp_trans {'dim': 32, 'alpha': 0} ep=300 lr=0.01: val 0.197
+hyp_trans+isa {'dim': 32, 'alpha': 0.1} ep=300 lr=0.01: val 0.201
+hyp_trans+isa {'dim': 32, 'alpha': 1} ep=300 lr=0.01: val 0.197
+hyp_trans+isa {'dim': 32, 'alpha': 10} ep=300 lr=0.01: val 0.175
+hyp_trans+isa {'dim': 32, 'alpha': 100} ep=300 lr=0.01: val 0.156
+hyp_trans+isa {'dim': 32, 'alpha': 1000} ep=300 lr=0.01: val 0.152
+hyp_trans {'dim': 32, 'alpha': 0} ep=300 lr=0.03: val 0.237
+hyp_trans+isa {'dim': 32, 'alpha': 0.1} ep=300 lr=0.03: val 0.238
+hyp_trans+isa {'dim': 32, 'alpha': 1} ep=300 lr=0.03: val 0.238
+hyp_trans+isa {'dim': 32, 'alpha': 10} ep=300 lr=0.03: val 0.213
+hyp_trans+isa {'dim': 32, 'alpha': 100} ep=300 lr=0.03: val 0.166
+hyp_trans+isa {'dim': 32, 'alpha': 1000} ep=300 lr=0.03: val 0.147
+pair_mlp {'hidden': 512} ep=20 lr=0.001: val 0.190
+pair_mlp {'hidden': 512} ep=60 lr=0.001: val 0.292
+pair_mlp {'hidden': 512} ep=150 lr=0.001: val 0.401
+pair_mlp {'hidden': 512} ep=60 lr=0.003: val 0.395
+model                  | A: MRR  R@10   MAP   dir | B: MRR  R@10   MAP   dir | fit_dir fit_MAP | MAP sd A/B
+cosine                 |  0.363 0.459 0.271 0.500 |  0.222 0.307 0.183 0.500 |     -       -   |   -  /  -  
+cos+gen(λ=0.05)        |  0.614 0.770 0.520 0.984 |  0.536 0.760 0.464 0.951 |     -       -   |   -  /  -  
+dual                   |  0.443 0.679 0.371 0.988 |  0.392 0.645 0.355 0.962 |   1.000     -   | 0.011/0.034
+box                    |  0.559 0.771 0.485 0.977 |  0.541 0.728 0.500 0.964 |   1.000     -   | 0.012/0.030
+box+gen+cos            |  0.670 0.815 0.582 0.979 |  0.611 0.765 0.540 0.964 |     -       -   | 0.018/0.004
+box_trans              |    -     -     -     -   |  0.221 0.405 0.188 0.949 |   0.999     -   |   -  /0.015
+llm:claude-sonnet-5    |  0.874 0.925 0.773 0.965 |  0.772 0.896 0.698 0.970 |     -       -   |   -  /  -  
+order done
+order_trans done
+hyp done
+hyp+isa done
+hyp_trans done
+hyp_trans+isa done
+pair_mlp done
+model                  | A: MRR  R@10   MAP   dir | B: MRR  R@10   MAP   dir | fit_dir fit_MAP | MAP sd A/B
+cosine                 |  0.363 0.459 0.271 0.500 |  0.222 0.307 0.183 0.500 |     -       -   |   -  /  -  
+cos+gen(λ=0.05)        |  0.614 0.770 0.520 0.984 |  0.536 0.760 0.464 0.951 |     -       -   |   -  /  -  
+dual                   |  0.443 0.679 0.371 0.988 |  0.392 0.645 0.355 0.962 |   1.000     -   | 0.011/0.034
+box                    |  0.559 0.771 0.485 0.977 |  0.541 0.728 0.500 0.964 |   1.000     -   | 0.012/0.030
+box+gen+cos            |  0.670 0.815 0.582 0.979 |  0.611 0.765 0.540 0.964 |     -       -   | 0.018/0.004
+box_trans              |    -     -     -     -   |  0.221 0.405 0.188 0.949 |   0.999     -   |   -  /0.015
+order                  |  0.532 0.791 0.469 0.984 |  0.516 0.733 0.479 0.967 |   1.000   0.764 | 0.029/0.022
+order_trans            |    -     -     -     -   |  0.220 0.377 0.177 0.960 |   1.000   1.000 |   -  /0.017
+hyp                    |  0.510 0.605 0.424 0.500 |  0.503 0.661 0.459 0.500 |   0.500   0.885 | 0.016/0.016
+hyp+isa                |  0.508 0.605 0.422 0.972 |  0.504 0.661 0.460 0.974 |   0.995   0.884 | 0.016/0.017
+hyp_trans              |    -     -     -     -   |  0.391 0.551 0.338 0.500 |   0.500   0.934 |   -  /0.011
+hyp_trans+isa          |    -     -     -     -   |  0.351 0.533 0.314 0.936 |   0.989   0.930 |   -  /0.003
+pair_mlp               |  0.598 0.806 0.521 0.989 |  0.457 0.634 0.411 0.969 |   1.000   0.499 | 0.012/0.010
+llm:claude-sonnet-5    |  0.874 0.925 0.773 0.965 |  0.772 0.896 0.698 0.970 |     -       -   |   -  /  -  
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 15602.02it/s]
+cross_enc epoch 1: val 0.440
+cross_enc epoch 2: val 0.434
+cross_enc epoch 3: val 0.466
+model                  | A: MRR  R@10   MAP   dir | B: MRR  R@10   MAP   dir | fit_dir fit_MAP | MAP sd A/B
+cosine                 |  0.363 0.459 0.271 0.500 |  0.222 0.307 0.183 0.500 |     -       -   |   -  /  -  
+cos+gen(λ=0.05)        |  0.614 0.770 0.520 0.984 |  0.536 0.760 0.464 0.951 |     -       -   |   -  /  -  
+dual                   |  0.443 0.679 0.371 0.988 |  0.392 0.645 0.355 0.962 |   1.000     -   | 0.011/0.034
+box                    |  0.559 0.771 0.485 0.977 |  0.541 0.728 0.500 0.964 |   1.000     -   | 0.012/0.030
+box+gen+cos            |  0.670 0.815 0.582 0.979 |  0.611 0.765 0.540 0.964 |     -       -   | 0.018/0.004
+box_trans              |    -     -     -     -   |  0.221 0.405 0.188 0.949 |   0.999     -   |   -  /0.015
+order                  |  0.532 0.791 0.469 0.984 |  0.516 0.733 0.479 0.967 |   1.000   0.764 | 0.029/0.022
+order_trans            |    -     -     -     -   |  0.220 0.377 0.177 0.960 |   1.000   1.000 |   -  /0.017
+hyp                    |  0.510 0.605 0.424 0.500 |  0.503 0.661 0.459 0.500 |   0.500   0.885 | 0.016/0.016
+hyp+isa                |  0.508 0.605 0.422 0.972 |  0.504 0.661 0.460 0.974 |   0.995   0.884 | 0.016/0.017
+hyp_trans              |    -     -     -     -   |  0.391 0.551 0.338 0.500 |   0.500   0.934 |   -  /0.011
+hyp_trans+isa          |    -     -     -     -   |  0.351 0.533 0.314 0.936 |   0.989   0.930 |   -  /0.003
+pair_mlp               |  0.598 0.806 0.521 0.989 |  0.457 0.634 0.411 0.969 |   1.000   0.499 | 0.012/0.010
+cross_enc              |  0.599 0.782 0.514 0.979 |  0.487 0.652 0.421 0.984 |   1.000     -   |   -  /  -  
+cross_enc rerank50     |  0.685 0.820 0.601 0.979 |  0.534 0.674 0.480 0.984 |     -       -   |   -  /  -  
+llm:claude-sonnet-5    |  0.874 0.925 0.773 0.965 |  0.772 0.896 0.698 0.970 |     -       -   |   -  /  -  
+llm:codex-gpt-6-astra  |  0.839 0.918 0.757 0.931 |  0.732 0.872 0.686 0.951 |     -       -   |   -  /  -  

@@ -1,0 +1,18 @@
+[project]
+name = "asymmetric-skills"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "networkx>=3.7",
+    "numpy>=2.5.3",
+    "qdrant-client[fastembed]>=1.19.1",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.1.0",
+    "torch>=2.14.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]

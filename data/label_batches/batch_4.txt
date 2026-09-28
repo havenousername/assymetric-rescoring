@@ -1,0 +1,439 @@
+1756 | A: JSDoc — in-comment documentation for JavaScript | B: JavaScript — high-level programming language | wd:programmed_in, wd:depends_on
+1757 | A: TortoiseGit — Git revision control client, implemented as a Windows shell extension and based on TortoiseSVN | B: TortoiseSVN — Subversion client, implemented as a Microsoft Windows shell extension | wd:based_on
+1758 | A: Adobe Illustrator — vector graphics editor developed and marketed by Adobe Systems | B: C++ — general-purpose programming language | wd:programmed_in
+1759 | A: Azure — cloud computing platform operated by Microsoft | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+1760 | A: chromium — free and open-source cross-platform web browser | B: WebKit —  | wd:based_on
+1761 | A: Theano — numerical computation library for Python | B: Python — general-purpose programming language | wd:programmed_in
+1762 | A: Dframe Framework — PHP framework | B: web framework — (category) | wd:instance_of
+1763 | A: Apache Lucene — Java library for full-text search | B: search engine — (category) | wd:instance_of
+1764 | A: RSS — standard for sharing website summaries | B: markup language — (category) | wd:instance_of
+1765 | A: Mozilla Firefox — free and open source web browser | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+1766 | A: Mozilla Firefox — free and open source web browser | B: D-Bus — protocol for inter-process communication on the Linux desktop | wd:depends_on
+1767 | A: MHTML — file format | B: HTML — family of markup languages for displaying content in a web browser | wd:based_on
+1768 | A: server — computer program or device that provides access to a central resource or other functionality for clients | B: client-server model — distributed application structure in computing | wd:part_of
+1769 | A: Microsoft CryptoAPI — application programming interface | B: Windows API — Microsoft's core set of application programming interfaces available in Windows operating systems | wd:part_of
+1770 | A: Apache Airflow — open-source workflow management platform written in Python, where workflows are created via Python scripts | B: Python — general-purpose programming language | wd:programmed_in
+1771 | A: systemd — init system and system/service manager for Linux systems | B: iptables — Linux firewall software | wd:depends_on
+1772 | A: HSQLDB — Java-based database engine | B: relational database management system — DBMS that is based on the relational model | wd:instance_of
+1773 | A: x264 — encoder for the video coding format H.264 | B: assembly language — any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions | wd:programmed_in
+1774 | A: OpenRefine — data wrangling software | B: Java — object-oriented programming language | wd:programmed_in
+1775 | A: Falcon — programming language | B: C++ — general-purpose programming language | wd:programmed_in
+1776 | A: Firestore — cloud document database offered by Google's Cloud Platform | B: cloud database — (category) | wd:instance_of
+1777 | A: AppKit — graphical user interface toolkit for macOS applications | B: widget toolkit — (category) | wd:instance_of
+1778 | A: CLion — cross-platform C/C++ IDE integrated with the CMake build system | B: Java — object-oriented programming language | wd:programmed_in
+1779 | A: Apache Ant — software tool for automating software build processes | B: build system — (category) | wd:instance_of
+1780 | A: Firefox Sync — synchronization free software for Firefox | B: Python — general-purpose programming language | wd:programmed_in
+1781 | A: Google Web Toolkit — free Java library | B: widget toolkit — (category) | wd:instance_of
+1782 | A: Cloud DNS — DNS service offered by Google Cloud Platform | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+1783 | A: Cygwin — Unix subsystem for Windows machines | B: MinGW — implementation of the GNU toolchain for Windows, 32-bit version; see also Mingw-w64 | wd:depends_on
+1784 | A: Google Cloud Armor — web application firewall offered by Google's Cloud Platform | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+1785 | A: Pickle — Python object serialization library and format | B: Python — general-purpose programming language | wd:programmed_in
+1786 | A: AdoptOpenJDK — software library | B: Java — object-oriented programming language | wd:programmed_in
+1787 | A: rendering — producing image of 3D scene from precise specification using computer | B: 3D computer graphics — graphics that use a three-dimensional representation of geometric data | wd:part_of
+1788 | A: MicroXML —  | B: XML — markup language by the W3C for encoding of data | wd:based_on
+1789 | A: scroll wheel — component of a computer mouse used to scroll up and down | B: computer mouse — hand-held device used to move a pointer on a computer display | wd:part_of
+1790 | A: JsRender/JsViews — open-source JavaScript library for writing single-page web applications | B: jQuery — JavaScript library | wd:depends_on
+1791 | A: text mining — process of analysing text to extract information from it | B: natural language processing — field of computer science and linguistics | wd:subclass_of
+1792 | A: MariaDB — database management system, relational, open source, community developed fork of MySQL | B: relational database management system — DBMS that is based on the relational model | wd:instance_of
+1793 | A: Play Framework — Open-source web framework written in Scala | B: Java — object-oriented programming language | wd:programmed_in
+1794 | A: Oracle Database — proprietary database management system | B: C++ — general-purpose programming language | wd:programmed_in
+1795 | A: ArcadeDB — multi-model graph database supporting SQL, Cypher, Gremlin, and MongoDB query language; conceptual fork of OrientDB | B: graph database management system — (category) | wd:instance_of
+1796 | A: Neo4j — graph database management system implemented in Java | B: Scala — general-purpose programming language | wd:programmed_in
+1797 | A: Clojure — dialect of the Lisp programming language | B: JVM language — (category) | wd:instance_of
+1798 | A: Svelte — JavaScript framework | B: web framework — (category) | wd:instance_of
+1799 | A: Linux on embedded systems — uses in embedded systems | B: Linux distribution — operating system based on the Linux kernel and often core GNU components | wd:subclass_of
+1800 | A: CakePHP — web application framework | B: web framework — (category) | wd:instance_of
+1801 | A: Windows 8.1 — personal computer operating system by Microsoft that was released in 2013 | B: Windows 8 — personal computer operating system by Microsoft that was released in 2012 | wd:based_on
+1802 | A: MySQL — Open-source relational database management system | B: C++ — general-purpose programming language | wd:programmed_in
+1803 | A: Camlp4 — extensible programming language parser toolkit | B: OCaml — extension of the Caml programming language | wd:programmed_in
+1804 | A: ruby — general-purpose programming language | B: C — general-purpose programming language | wd:programmed_in
+1805 | A: Essbase — database management system | B: C — general-purpose programming language | wd:programmed_in
+1806 | A: GTK — cross-platform widget toolkit for creating graphical user interfaces | B: C — general-purpose programming language | wd:programmed_in
+1807 | A: Vue.js — JavaScript framework | B: JavaScript framework — (category) | wd:instance_of
+1808 | A: ArcadeDB — multi-model graph database supporting SQL, Cypher, Gremlin, and MongoDB query language; conceptual fork of OrientDB | B: OrientDB — open source NoSQL database management system written in Java | wd:based_on
+1809 | A: Apache Maven — build automation tool used primarily for Java projects | B: build automation — (category) | wd:instance_of
+1810 | A: multipart/form-data —  | B: Multipurpose Internet Mail Extensions — Internet standard that extends the format of email | wd:based_on
+1811 | A: Redox — operating system written in Rust | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+1812 | A: ASP.NET Core — web framework | B: C# — multi-paradigm (object-oriented) programming language | wd:programmed_in
+1813 | A: IBM Bluemix — Platform as a Service | B: Java — object-oriented programming language | wd:programmed_in
+1814 | A: CVS — historical centralized version control system | B: C — general-purpose programming language | wd:programmed_in
+1815 | A: Plotly — online analytics and data visualization tool | B: JavaScript — high-level programming language | wd:programmed_in
+1816 | A: React Native — JavaScript framework to create cross-platform mobile applications | B: Python — general-purpose programming language | wd:programmed_in
+1817 | A: OTRS — service management software | B: Perl — interpreted programming language first released in 1987 | wd:programmed_in
+1818 | A: Apache CouchDB — document-oriented DBMS | B: C++ — general-purpose programming language | wd:programmed_in
+1819 | A: telegram — instant messaging service | B: C++ — general-purpose programming language | wd:programmed_in
+1820 | A: mitmproxy — free and open source interactive HTTPS proxy | B: Flask — Python web framework | wd:depends_on
+1821 | A: node — basic unit of a graph data structure such as a tree or linked list | B: linked list — data structure which is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer | wd:part_of
+1822 | A: Facebook Query Language — query language | B: query language — (category) | wd:instance_of
+1823 | A: ffmpeg — multimedia framework | B: assembly language — any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions | wd:programmed_in
+1824 | A: GitHub — hosting service for software projects using Git | B: continuous integration software — (category) | wd:instance_of
+1825 | A: Plotly — online analytics and data visualization tool | B: Mapbox GL JS — interactive map library for the Web | wd:depends_on
+1826 | A: cyanogenmod — mobile operating system based on Android | B: Linux distribution — operating system based on the Linux kernel and often core GNU components | wd:instance_of
+1827 | A: GNU C++ Compiler —  | B: GNU Compiler Collection — optimizing compiler produced by the GNU Project, key component of the GNU tool-chain and standard compiler for most projects related to GNU and the Linux kernel. | wd:part_of
+1828 | A: Active Directory — directory service created by Microsoft for Windows domain networks | B: Windows Server 2008 — version of the Windows Server line of server operating systems, based on Windows Vista and released in 2008 | wd:part_of
+1829 | A: MyISAM — database engine | B: C — general-purpose programming language | wd:programmed_in
+1830 | A: acrobat — set of application software to view, edit and manage files in Portable Document Format (PDF) | B: C++ — general-purpose programming language | wd:programmed_in
+1831 | A: secure copy protocol — network protocol and program for copying files between computers | B: Secure Shell — cryptographic network protocol for secure remote access | wd:based_on
+1832 | A: R — programming language for statistical analysis | B: C — general-purpose programming language | wd:programmed_in
+1833 | A: openchrom — cross-platform open source software for chromatography and mass spectrometry | B: Java — object-oriented programming language | wd:programmed_in
+1834 | A: Chef — configuration management tool | B: ruby — general-purpose programming language | wd:programmed_in
+1835 | A: BitcoinJS — JavaScript Bitcoin library | B: TypeScript — programming language, superset of JavaScript that compiles to JavaScript | wd:programmed_in
+1836 | A: Ansible — open-source software platform for remote configuring and managing computers | B: Unix shell — command-line interpreter for Unix operating system | wd:programmed_in
+1837 | A: Firefox OS — Linux-based mobile operating system by Mozilla | B: HTML5 — fifth and current version of the hypertext markup language | wd:programmed_in
+1838 | A: Drupal — free and open-source web content management system | B: jQuery — JavaScript library | wd:depends_on
+1839 | A: Apache Pulsar — cloud software | B: Java — object-oriented programming language | wd:programmed_in
+1840 | A: HTTP/2 — version 2 of the Hypertext Transfer Protocol used by the World Wide Web | B: Hypertext Transfer Protocol — application-layer protocol for transferring web resources | wd:depends_on
+1841 | A: Intel Integrated Performance Primitives — software library | B: C — general-purpose programming language | wd:programmed_in
+1842 | A: Camping — web application microframework written in Ruby | B: ruby — general-purpose programming language | wd:programmed_in
+1843 | A: Easybase — cloud computing and app development platform | B: Python — general-purpose programming language | wd:programmed_in
+1844 | A: OXID eShop —  | B: PHP — scripting language focused on web development | wd:programmed_in
+1845 | A: ArangoDB — open-source multi-model database system | B: graph database management system — (category) | wd:instance_of
+1846 | A: DCAT — data format for metadata about datasets | B: SKOS — W3C recommendation designed for representation of thesauri, classification schemes, taxonomies, subject-heading systems, or other structured controlled vocabularies | wd:based_on
+1847 | A: Froala Editor — JavaScript WYSIWYG rich text editor | B: JavaScript — high-level programming language | wd:programmed_in
+1848 | A: Protégé — Ontology editor | B: Java — object-oriented programming language | wd:programmed_in
+1849 | A: GNOME — desktop environment and graphical user interface | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+1850 | A: Outlook Express — Microsoft e-mail client software | B: Internet Explorer 5 — web browser of Microsoft | wd:part_of
+1851 | A: Serverless Framework — a framework for web, mobile and IoT applications with serverless architectures | B: Node.js — JavaScript runtime environment | wd:programmed_in
+1852 | A: Ethereum — public blockchain platform with programmable transaction functionality | B: assembly language — any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions | wd:programmed_in
+1853 | A: infrastructure as a service — cloud computing service model | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:subclass_of
+1854 | A: lighttpd — open-source web server software | B: web server — computer software that distributes web pages | wd:instance_of
+1855 | A: OrientDB — open source NoSQL database management system written in Java | B: graph database management system — (category) | wd:instance_of
+1856 | A: Microsoft Dynamics AX — enterprise resource planning software produced by Microsoft | B: Microsoft Dynamics — line of enterprise resource planning and customer relationship management software applications | wd:part_of
+1857 | A: ArcadeDB — multi-model graph database supporting SQL, Cypher, Gremlin, and MongoDB query language; conceptual fork of OrientDB | B: Java — object-oriented programming language | wd:programmed_in
+1858 | A: Microsoft Dynamics GP — software package | B: Microsoft Dynamics — line of enterprise resource planning and customer relationship management software applications | wd:part_of
+1859 | A: NativeScript — Open-source framework to develop native mobile apps | B: JavaScript framework — (category) | wd:instance_of
+1860 | A: MPEG-2 transport stream — digital video format used for storage network transmission | B: MPEG-2 — standard for the generic coding of moving pictures and audio | wd:part_of
+1861 | A: gulp.js — build tool based on Node.js and npm | B: build system — (category) | wd:instance_of
+1862 | A: Apache Parquet — language agnostic, open source Columnar file format for analytics | B: Java — object-oriented programming language | wd:programmed_in
+1863 | A: APT — free software package management system | B: XML — markup language by the W3C for encoding of data | wd:programmed_in
+1864 | A: Gitea — free forge based on git written in Go | B: Go — programming language developed by Google and the open-source community | wd:programmed_in
+1865 | A: Opera — web browser developed by Opera Software | B: WebKit —  | wd:based_on
+1866 | A: Semantic MediaWiki — software for creating, managing and sharing structured data in MediaWiki | B: MySQL — Open-source relational database management system | wd:depends_on
+1867 | A: XPath — query language for selecting nodes from an XML document | B: query language — (category) | wd:instance_of
+1868 | A: Rocq prover — proof assistant | B: C — general-purpose programming language | wd:programmed_in
+1869 | A: vim — text editor, improved version of Vi | B: C — general-purpose programming language | wd:programmed_in
+1870 | A: Ethereum — public blockchain platform with programmable transaction functionality | B: Java — object-oriented programming language | wd:programmed_in
+1871 | A: Oracle Database — proprietary database management system | B: C — general-purpose programming language | wd:programmed_in
+1872 | A: NebulaGraph — open-source distributed graph database system | B: Java — object-oriented programming language | wd:programmed_in
+1873 | A: Quantcast File System — file system | B: C++ — general-purpose programming language | wd:programmed_in
+1874 | A: Apache OpenWhisk — distributed serverless computing platform | B: Scala — general-purpose programming language | wd:programmed_in
+1875 | A: MySQL — Open-source relational database management system | B: C — general-purpose programming language | wd:programmed_in
+1876 | A: mutation testing — method of software testing | B: software testing — (category) | wd:subclass_of
+1877 | A: Ethereum — public blockchain platform with programmable transaction functionality | B: AMPL — algebraic modeling language | wd:programmed_in
+1878 | A: debian — free operating system | B: Linux distribution — operating system based on the Linux kernel and often core GNU components | wd:instance_of
+1879 | A: Jamstack — web development architecture based on client-side JavaScript, APIs, and markup | B: JavaScript — high-level programming language | wd:programmed_in
+1880 | A: DBpedia — online database project of structured data extracted from Wikipedia | B: Java — object-oriented programming language | wd:programmed_in
+1881 | A: mod_ssl — Apache module | B: openssl — open-source implementation of the SSL and TLS protocols | wd:depends_on
+1882 | A: Active Template Library — C++ class template library developed by Microsoft, intended to simplify the programming of COM objects | B: C++ — general-purpose programming language | wd:programmed_in
+1883 | A: IntelliJ IDEA — integrated development environment | B: Java — object-oriented programming language | wd:programmed_in, so:P(dst|src)=0.40
+1884 | A: Blink — free and open-source browser engine of the Chromium project | B: WebKit —  | wd:based_on
+1885 | A: Apache ZooKeeper — system for distributed coordination | B: Java — object-oriented programming language | wd:programmed_in
+1886 | A: text-based user interface — type of interface based on outputting to or controlling a text display | B: string — data type representing a finite sequence of encoded characters | wd:based_on
+1887 | A: JBoss Seam — web application framework | B: web framework — (category) | wd:instance_of
+1888 | A: Project IDX — online integrated development environment | B: Visual Studio Code — source code editor developed by Microsoft | wd:based_on
+1889 | A: Rack — API specification for web applications in programming language Ruby | B: ruby — general-purpose programming language | wd:programmed_in
+1890 | A: ext4 — journaling file system for Linux | B: C — general-purpose programming language | wd:programmed_in
+1891 | A: Cloud Composer — workflow orchestration service built on Apache Airflow offered by Google's Cloud Platform | B: Apache Airflow — open-source workflow management platform written in Python, where workflows are created via Python scripts | wd:based_on
+1892 | A: ltrace — command line program to track runtime library calls in dynamically linked programs | B: C — general-purpose programming language | wd:programmed_in
+1893 | A: ipados — mobile operating system of the iPad, developed by Apple Inc. | B: C — general-purpose programming language | wd:programmed_in
+1894 | A: Element — UI Toolkit for Web | B: JavaScript — high-level programming language | wd:programmed_in
+1895 | A: nginx — open source web server and a reverse proxy server | B: C — general-purpose programming language | wd:programmed_in
+1896 | A: macOS Server — Applications provided for macOS | B: C — general-purpose programming language | wd:programmed_in
+1897 | A: Apache CouchDB — document-oriented DBMS | B: C — general-purpose programming language | wd:programmed_in
+1898 | A: OrientDB — open source NoSQL database management system written in Java | B: database management system — (category) | wd:instance_of
+1899 | A: computer font — digital description of a typographical font | B: typeface — set of glyphs that share common design features | wd:part_of
+1900 | A: MuPDF — free PDF, XPS and CBZ document viewer software | B: Java — object-oriented programming language | wd:programmed_in
+1901 | A: Tiki Wiki CMS Groupware — Content management system, free and open-source wiki software | B: jQuery — JavaScript library | wd:depends_on
+1902 | A: fish — user-friendly interactive Unix shell | B: Unix shell — command-line interpreter for Unix operating system | wd:instance_of
+1903 | A: Tiki Wiki CMS Groupware — Content management system, free and open-source wiki software | B: SQL — relational database language that allows to extract from data tables a series of records with selection, sorting and computation criteria, or to update, delete or add records | wd:programmed_in
+1904 | A: FreeRTOS — Real-time operating system | B: C — general-purpose programming language | wd:programmed_in
+1905 | A: Semantic MediaWiki — software for creating, managing and sharing structured data in MediaWiki | B: JavaScript — high-level programming language | wd:programmed_in
+1906 | A: Ming library — library | B: C — general-purpose programming language | wd:programmed_in
+1907 | A: Google Native Client — software | B: C++ — general-purpose programming language | wd:programmed_in
+1908 | A: Picasa — former image organizer and image viewer by Google | B: C++ — general-purpose programming language | wd:programmed_in
+1909 | A: Fluentd — data collection software | B: C — general-purpose programming language | wd:programmed_in
+1910 | A: JUnit — Unit testing library for Java | B: test automation framework — (category) | wd:instance_of
+1911 | A: IDispatch — COM interface initially designed to support Automation | B: IUnknown — Base interface of every other COM interface. | wd:based_on
+1912 | A: JSONPath — query language for selecting nodes from a JSON object | B: query language — (category) | wd:instance_of
+1913 | A: gitlab — online git source code repository host | B: Git — distributed version control system | wd:based_on, so:P(dst|src)=0.29
+1914 | A: Easybase — cloud computing and app development platform | B: React — JavaScript library for building user interfaces | wd:programmed_in, wd:depends_on
+1915 | A: OPNsense — open-source firewall | B: pfSense — operating system and firewall | wd:based_on
+1916 | A: bitcoind — cryptocurrency wallet and node for Bitcoin | B: Boost — collection of C++ libraries | wd:depends_on
+1917 | A: TestNG — testing framework for the Java programming language | B: Java — object-oriented programming language | wd:programmed_in
+1918 | A: KDE — free software project and community | B: C++ — general-purpose programming language | wd:programmed_in
+1919 | A: xfce — open-source desktop environment for Linux and BSD | B: C — general-purpose programming language | wd:programmed_in
+1920 | A: android — operating system created by Google for use on mobile devices | B: Java — object-oriented programming language | wd:programmed_in
+1921 | A: Python Cryptography Toolkit — Python extension with collection of crypto-related algorithms and protocols implemented | B: Python — general-purpose programming language | wd:programmed_in
+1922 | A: varnish — HTTP accelerator software | B: C — general-purpose programming language | wd:programmed_in
+1923 | A: OrientDB — open source NoSQL database management system written in Java | B: Java — object-oriented programming language | wd:programmed_in
+1924 | A: Amazon Elastic Compute Cloud — Amazon cloud computing platform | B: Amazon Web Services — subsidiary of Amazon that provides on-demand cloud computing platforms on a metered pay-as-you-go basis | wd:part_of, so:P(dst|src)=0.61
+1925 | A: UIKit — graphical user interface toolkit for iOS, iPadOS, and tvOS applications | B: widget toolkit — (category) | wd:instance_of
+1926 | A: Linux distribution — operating system based on the Linux kernel and often core GNU components | B: Linux — family of Unix-like operating systems | wd:based_on
+1927 | A: GNU Make — implementation of the program make | B: build system — (category) | wd:instance_of
+1928 | A: Textile — lightweight markup language | B: Python — general-purpose programming language | wd:programmed_in
+1929 | A: Pragmatic General Multicast — Internet protocol | B: Internet protocol suite — framework for communication protocols used in IP networking | wd:part_of
+1930 | A: Apache Wicket — web application framework written in Java | B: Java — object-oriented programming language | wd:programmed_in
+1931 | A: Ontotext GraphDB — graph database system with RDF and SPARQL support | B: graph database management system — (category) | wd:instance_of
+1932 | A: Java Native Access — library that provides Java programs easy access to native shared libraries | B: C — general-purpose programming language | wd:programmed_in
+1933 | A: Nominatim — OpenStreetMap tool for address geocoding and reverse geocoding | B: Transact-SQL — Microsoft's and Sybase's proprietary extension to SQL (Structured Query Language) used to interact with relational databases | wd:programmed_in
+1934 | A: Jitsi — VoIP and instant messaging application with video conferencing capabilities | B: Java — object-oriented programming language | wd:programmed_in
+1935 | A: Beautiful Soup — Python HTML/XML parser | B: Python — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.86
+1936 | A: Steam — video game store and digital distribution platform among other services | B: Objective-C — general-purpose, high-level, object-oriented programming language | wd:programmed_in
+1937 | A: noweb — literate programming tool | B: C — general-purpose programming language | wd:programmed_in
+1938 | A: TeamCity — build management and continuous integration server | B: continuous integration software — (category) | wd:instance_of
+1939 | A: Liquid — template language created by Shopify | B: template processor — (category) | wd:instance_of
+1940 | A: Cucumber — software tool for behavior-driven development | B: ruby — general-purpose programming language | wd:programmed_in
+1941 | A: Enterprise Application aRchive — file format | B: Java archive — archive file format based on the zip format | wd:based_on
+1942 | A: Mozilla Firefox — free and open source web browser | B: C++ — general-purpose programming language | wd:programmed_in
+1943 | A: discrete mathematics — study of discrete mathematical structures | B: mathematics — field of study | wd:part_of
+1944 | A: Ember.js — JavaScript framework | B: JavaScript — high-level programming language | wd:programmed_in
+1945 | A: GNU Radio — toolkit for software-defined radios | B: GNU Multiple Precision Arithmetic Library — library for arbitrary precision arithmetic, operating on signed integers, rational numbers and floating point numbers | wd:depends_on
+1946 | A: Firebug — web development add-on for Firefox | B: JavaScript — high-level programming language | wd:programmed_in
+1947 | A: Squid — proxy server and web cache daemon | B: C++ — general-purpose programming language | wd:programmed_in
+1948 | A: NP-complete — complexity class | B: NP-hard — complexity class | wd:part_of
+1949 | A: Deno — secure runtime for JavaScript and TypeScript based on the V8 JavaScript engine and the Rust programming language | B: C++ — general-purpose programming language | wd:programmed_in
+1950 | A: eclipse — software development environment | B: Java — object-oriented programming language | wd:based_on, wd:programmed_in, so:P(dst|src)=0.48
+1951 | A: CocoaPods — dependency manager for Swift and Objective-C Cocoa projects | B: ruby — general-purpose programming language | wd:programmed_in
+1952 | A: MediaWiki — free and open-source wiki software, developed by the Wikimedia Foundation | B: PostgreSQL — free and open-source relational database management system | wd:depends_on
+1953 | A: Jekyll — Ruby-based static website generator | B: ruby — general-purpose programming language | wd:programmed_in
+1954 | A: Nmap — network discovery and security auditing tool | B: Java — object-oriented programming language | wd:programmed_in
+1955 | A: Gentoo Linux — Linux distribution | B: Linux distribution — operating system based on the Linux kernel and often core GNU components | wd:instance_of
+1956 | A: MediaWiki — free and open-source wiki software, developed by the Wikimedia Foundation | B: PHP — scripting language focused on web development | wd:programmed_in, wd:depends_on
+1957 | A: environment variable — dynamic value that affects the behavior of processes on a computer | B: operating system — software that manages computer hardware resources | wd:part_of
+1958 | A: Vue.js — JavaScript framework | B: TypeScript — programming language, superset of JavaScript that compiles to JavaScript | wd:programmed_in
+1959 | A: RubyGems — Package manager for Ruby | B: ruby — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.65
+1960 | A: Docker — open-source software for deploying and running of containerized applications | B: Go — programming language developed by Google and the open-source community | wd:programmed_in
+1961 | A: Spring Boot — Java framework to create enterprise grade applications | B: web framework — (category) | wd:instance_of
+1962 | A: OpenGL Shading Language — shading language | B: OpenGL — cross-platform graphics API | wd:part_of, so:P(dst|src)=0.59
+1963 | A: Firefox OS — Linux-based mobile operating system by Mozilla | B: C++ — general-purpose programming language | wd:programmed_in
+1964 | A: Pimcore — free open source CMS | B: Laminas — web application framework | wd:depends_on
+1965 | A: GlassFish — application server project started by Sun Microsystems | B: application server — (category) | wd:instance_of
+1966 | A: Orchard Project —  | B: web framework — (category) | wd:instance_of
+1967 | A: HDF4 — General purpose data model, library, and file format for storing scientific and engineering data | B: C — general-purpose programming language | wd:programmed_in
+1968 | A: Steam — video game store and digital distribution platform among other services | B: C++ — general-purpose programming language | wd:programmed_in
+1969 | A: Cloud Bigtable — NoSQL wide-column database service | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+1970 | A: Pry — shell interface for the Ruby programming language | B: ruby — general-purpose programming language | wd:programmed_in
+1971 | A: GNOME Shell — core user interface of the GNOME desktop environment | B: GStreamer — Pipeline-based multimedia framework | wd:depends_on
+1972 | A: Encapsulated PostScript — graphics file format | B: postscript — programming language | wd:based_on
+1973 | A: VirtualBox — open-source x86 virtualization application | B: assembly language — any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions | wd:programmed_in
+1974 | A: Azure DevOps Server — source code management software | B: C++ — general-purpose programming language | wd:programmed_in
+1975 | A: Fiji — open source image processing software | B: Java — object-oriented programming language | wd:programmed_in
+1976 | A: Laminas — web application framework | B: PHP — scripting language focused on web development | wd:programmed_in, so:P(dst|src)=0.62
+1977 | A: TiDB — newSQL relational distributed database software | B: relational database management system — DBMS that is based on the relational model | wd:instance_of
+1978 | A: substring — subsequence of the symbols in a string, where the order of the elements is preserved | B: string — data type representing a finite sequence of encoded characters | wd:part_of, so:P(dst|src)=0.36
+1979 | A: HCL Domino — rapid application development platform | B: Java — object-oriented programming language | wd:programmed_in
+1980 | A: TYPO3 — web content management framework | B: web framework — (category) | wd:instance_of
+1981 | A: hgweb — web interface software for Mercurial | B: Mercurial — cross-platform, distributed revision-control tool for software developers | wd:part_of
+1982 | A: Gogs — free forge based on Git written in Go | B: Go — programming language developed by Google and the open-source community | wd:programmed_in
+1983 | A: logcat — command-line tool that dumps a log of system messages on Android | B: C++ — general-purpose programming language | wd:programmed_in
+1984 | A: SPARK — programming language | B: Ada — programming language | wd:programmed_in
+1985 | A: Google Native Client — software | B: C — general-purpose programming language | wd:programmed_in
+1986 | A: mod_proxy — Apache module | B: C — general-purpose programming language | wd:programmed_in
+1987 | A: Apache Tapestry — web application framework | B: web framework — (category) | wd:instance_of
+1988 | A: Google Kubernetes Engine — cloud-based platform for running containerized applications | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+1989 | A: dispatcher —  | B: operating system — software that manages computer hardware resources | wd:part_of
+1990 | A: Elasticsearch — distributed, scalable, and highly available real-time search platform with a RESTful API | B: Java — object-oriented programming language | wd:programmed_in
+1991 | A: StarUML — UML diagram software | B: Electron — framework that enables cross-platform desktop applications | wd:programmed_in
+1992 | A: DuckDuckGo — privacy-focused online search engine | B: search engine — (category) | wd:instance_of
+1993 | A: NumPy — numerical programming package for the Python programming language | B: C — general-purpose programming language | wd:programmed_in
+1994 | A: Apache Tomcat — an implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies | B: application server — (category) | wd:instance_of
+1995 | A: cluster analysis — task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters) | B: data analysis — activity for gaining insight from data | wd:part_of
+1996 | A: GNOME — desktop environment and graphical user interface | B: Vala — programming language | wd:programmed_in
+1997 | A: Grunt — JavaScript task runner | B: Node.js — JavaScript runtime environment | wd:programmed_in
+1998 | A: Microsoft SharePoint — web application platform part of Microsoft 365 | B: content management system — software type | wd:instance_of
+1999 | A: Mozilla Firefox — free and open source web browser | B: Expat — XML parser library | wd:depends_on
+2000 | A: BusyBox — collection of Unix tools in a single executable file | B: C — general-purpose programming language | wd:programmed_in
+2001 | A: Mantis Bug Tracker — free and open source, web-based bug tracking system | B: HTML — family of markup languages for displaying content in a web browser | wd:programmed_in
+2002 | A: bitcoind — cryptocurrency wallet and node for Bitcoin | B: Python — general-purpose programming language | wd:programmed_in
+2003 | A: Spring Roo — open-source software tool | B: web framework — (category) | wd:instance_of
+2004 | A: GnuCOBOL — COBOL compiler and runtime | B: C — general-purpose programming language | wd:programmed_in
+2005 | A: CSipSimple —  | B: Java — object-oriented programming language | wd:programmed_in
+2006 | A: Textile — lightweight markup language | B: Perl — interpreted programming language first released in 1987 | wd:programmed_in
+2007 | A: Ruby on Rails — open-source web application framework | B: Rack — API specification for web applications in programming language Ruby | wd:depends_on
+2008 | A: google-plus — defunct social networking service | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+2009 | A: Google Docs — office application suite from Google | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+2010 | A: Emscripten — program converting LLVM bytecode to WebAssembly or asm.js | B: C — general-purpose programming language | wd:programmed_in
+2011 | A: Bottle (Web Framework) — Python micro web framework | B: Python — general-purpose programming language | wd:programmed_in
+2012 | A: automatic summarization — computer-based method for shortening a text | B: natural language processing — field of computer science and linguistics | wd:subclass_of
+2013 | A: Appium — Automation for Apps | B: Selenium — testing framework for web applications | wd:based_on, so:P(dst|src)=0.29, so:P(dst|src)=0.29
+2014 | A: Visual C++ — compiler (and formerly a standalone IDE) by Microsoft | B: C++ — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.53
+2015 | A: BigQuery — fully managed, scalable data warehouse with built-in machine learning | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+2016 | A: axum framework — modular Rust web framework built with Tokio, Tower, and Hyper | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+2017 | A: linuxmint — Ubuntu/Debian-based Linux distribution | B: Ubuntu — Linux distribution developed by Canonical | wd:based_on
+2018 | A: Amazon S3 — cloud storage service offered by Amazon Web Services | B: Amazon Web Services — subsidiary of Amazon that provides on-demand cloud computing platforms on a metered pay-as-you-go basis | wd:part_of, so:P(dst|src)=0.55
+2019 | A: Tiny C Compiler — fast, small and free C compiler | B: assembly language — any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions | wd:programmed_in
+2020 | A: Mozilla Firefox — free and open source web browser | B: C — general-purpose programming language | wd:programmed_in
+2021 | A: Robot Framework — open source test automation software for acceptance testing | B: Python — general-purpose programming language | wd:programmed_in
+2022 | A: Google Apps Script — scripting platform developed by Google | B: web framework — (category) | wd:instance_of
+2023 | A: Dat — data distribution software with a version control feature for tracking changes and publishing datasets | B: JavaScript — high-level programming language | wd:programmed_in
+2024 | A: Google Hangouts — communication software by Google | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+2025 | A: JavaScriptMVC — open-source rich internet application | B: JavaScript — high-level programming language | wd:programmed_in
+2026 | A: GraphicsMagick — raster graphics editor | B: C — general-purpose programming language | wd:programmed_in
+2027 | A: Apache Subversion — advanced version control system | B: ruby — general-purpose programming language | wd:programmed_in
+2028 | A: Windows Template Library — C++ template library for Win32 development | B: Active Template Library — C++ class template library developed by Microsoft, intended to simplify the programming of COM objects | wd:depends_on
+2029 | A: Mathematica — computational software program | B: C — general-purpose programming language | wd:programmed_in
+2030 | A: Dijkstra's algorithm — graph search algorithm | B: breadth-first search — algorithm for searching the nodes of a graph in order by their hop count from a starting node | wd:based_on
+2031 | A: Node-RED — visual flow-based programming tool for network-aware hardware devices | B: JavaScript — high-level programming language | wd:programmed_in
+2032 | A: Agavi — software | B: web framework — (category) | wd:instance_of
+2033 | A: SquirrelMail — open source web-based email client | B: PHP — scripting language focused on web development | wd:programmed_in
+2034 | A: Flask — Python web framework | B: web framework — (category) | wd:instance_of
+2035 | A: Scribunto — MediaWiki extension that allows for embedding Lua scripts | B: PHP — scripting language focused on web development | wd:programmed_in
+2036 | A: SQL — relational database language that allows to extract from data tables a series of records with selection, sorting and computation criteria, or to update, delete or add records | B: first-order logic — collection of formal systems used in mathematics, philosophy, linguistics, and computer science. | wd:based_on
+2037 | A: Apache ActiveMQ — message broker software | B: Python — general-purpose programming language | wd:programmed_in
+2038 | A: TortoiseSVN — Subversion client, implemented as a Microsoft Windows shell extension | B: C++ — general-purpose programming language | wd:programmed_in
+2039 | A: Git — distributed version control system | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+2040 | A: Mathematica — computational software program | B: functional programming language — (category) | wd:instance_of
+2041 | A: RStudio — integrated development environment for the programming language R | B: JavaScript — high-level programming language | wd:programmed_in
+2042 | A: ios — mobile operating system by Apple Inc. | B: C — general-purpose programming language | wd:programmed_in
+2043 | A: mod_ssl — Apache module | B: C — general-purpose programming language | wd:programmed_in
+2044 | A: Samba — free software re-implementation of the SMB networking protocol | B: C — general-purpose programming language | wd:programmed_in
+2045 | A: scikit-learn — machine learning library for the Python programming language | B: NumPy — numerical programming package for the Python programming language | wd:depends_on
+2046 | A: MySQL — Open-source relational database management system | B: relational database management system — DBMS that is based on the relational model | wd:instance_of
+2047 | A: Bun — JavaScript runtime | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+2048 | A: Standard ML — programming language | B: functional programming language — (category) | wd:instance_of
+2049 | A: Dart — programming language | B: functional programming language — (category) | wd:instance_of
+2050 | A: Isabelle — higher-order logic (HOL) proof assistant | B: Scala — general-purpose programming language | wd:programmed_in
+2051 | A: Clojure — dialect of the Lisp programming language | B: Java — object-oriented programming language | wd:programmed_in
+2052 | A: Open Liberty — application server runtime environment | B: Java — object-oriented programming language | wd:programmed_in
+2053 | A: Buildroot — free software | B: C — general-purpose programming language | wd:programmed_in
+2054 | A: Microsoft Visual Studio LightSwitch —  | B: Visual Studio — integrated development environment | wd:part_of
+2055 | A: root — data analysis software | B: C++ — general-purpose programming language | wd:programmed_in
+2056 | A: Mapnik — open source mapping toolkit | B: C++ — general-purpose programming language | wd:programmed_in
+2057 | A: DataTables — JavaScript library for creating interactive tables | B: Cascading Style Sheets — declarative language for styling web pages | wd:programmed_in
+2058 | A: Google Forms — cloud-based form/survey software | B: Google Workspace — email, cloud storage, collaboration tools, hardware, administration, social media and other business apps | wd:part_of
+2059 | A: Messenger — instant messaging app developed by Meta Platforms | B: C++ — general-purpose programming language | wd:programmed_in
+2060 | A: cursor — part of a computer UI that indicates the position (textual or graphical) that operations will affect | B: user interface — means by which a user interacts with and controls a machine | wd:part_of
+2061 | A: Jekyll — Ruby-based static website generator | B: static site generator — (category) | wd:instance_of
+2062 | A: Google Now — intelligent personal assistant | B: Google Search — search engine by Google LLC | wd:part_of
+2063 | A: Threading Building Blocks — C++ programming library | B: C++ — general-purpose programming language | wd:programmed_in
+2064 | A: Dframe Framework — PHP framework | B: PHP — scripting language focused on web development | wd:programmed_in
+2065 | A: black-box testing — method of software testing that examines the functionality of an application without peering into its internal structures or workings | B: software testing — (category) | wd:subclass_of
+2066 | A: Gitea — free forge based on git written in Go | B: Git — distributed version control system | wd:based_on
+2067 | A: Ethereum — public blockchain platform with programmable transaction functionality | B: Cascading Style Sheets — declarative language for styling web pages | wd:programmed_in
+2068 | A: Adobe ColdFusion — rapid web app development platform | B: application server — (category) | wd:instance_of
+2069 | A: macports — package management system | B: Tcl — scripting language | wd:programmed_in
+2070 | A: AWS Batch — cloud system for running batch computing jobs from Amazon Web Services | B: infrastructure as a service — cloud computing service model | wd:instance_of
+2071 | A: Blender — 3D computer graphics software (free and open-source) | B: C++ — general-purpose programming language | wd:programmed_in
+2072 | A: mod_mono — Apache module | B: C — general-purpose programming language | wd:programmed_in
+2073 | A: GNOME Shell — core user interface of the GNOME desktop environment | B: C — general-purpose programming language | wd:programmed_in
+2074 | A: XML — markup language by the W3C for encoding of data | B: functional programming language — (category) | wd:instance_of
+2075 | A: GLFW — utility library for use with OpenGL | B: C — general-purpose programming language | wd:programmed_in
+2076 | A: Rake — Make-like tool written in Ruby | B: ruby — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.49
+2077 | A: Apache ActiveMQ — message broker software | B: message-oriented middleware — type of software or hardware infrastructure | wd:instance_of
+2078 | A: android — operating system created by Google for use on mobile devices | B: XML Schema — W3C XML schema language | wd:programmed_in
+2079 | A: Kivy — free and multi-platform graphical library for Python | B: Cython — programming language compatible with Python | wd:programmed_in
+2080 | A: Jakarta Enterprise Beans — server software for modular construction of enterprise software | B: Jakarta EE — set of specifications extending Java SE | wd:part_of
+2081 | A: PyGTK — set of Python wrappers for the GTK graphical user interface library | B: Python — general-purpose programming language | wd:programmed_in
+2082 | A: machine translation — use of software for language translation | B: natural language processing — field of computer science and linguistics | wd:subclass_of
+2083 | A: Pimcore — free open source CMS | B: content management system — software type | wd:instance_of
+2084 | A: chromium — free and open-source cross-platform web browser | B: JavaScript — high-level programming language | wd:programmed_in
+2085 | A: Bouncy Castle — collection of APIs used in cryptography, written in Java and C# | B: C# — multi-paradigm (object-oriented) programming language | wd:programmed_in
+2086 | A: MariaDB — database management system, relational, open source, community developed fork of MySQL | B: Perl — interpreted programming language first released in 1987 | wd:programmed_in
+2087 | A: Ruby on Rails — open-source web application framework | B: ruby — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.29
+2088 | A: LAME — MPEG-1 Audio Layer 3 (MP3) audio encoder | B: C — general-purpose programming language | wd:programmed_in
+2089 | A: Amazon Neptune — graph database service offered as a service by Amazon Web Services | B: Amazon Web Services — subsidiary of Amazon that provides on-demand cloud computing platforms on a metered pay-as-you-go basis | wd:part_of
+2090 | A: seaborn — Python data visualization library based on matplotlib | B: Matplotlib — comprehensive library for creating static, animated, and interactive visualizations in Python | wd:depends_on, so:P(dst|src)=0.56
+2091 | A: serverless computing — cloud computing model | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:subclass_of
+2092 | A: ActiveX — software framework created by Microsoft | B: Component Object Model — Application Binary Interface by Microsoft | wd:based_on
+2093 | A: R — programming language for statistical analysis | B: Fortran — general-purpose programming language | wd:programmed_in
+2094 | A: openjdk — Java development kit | B: Java — object-oriented programming language | wd:programmed_in
+2095 | A: fragment identifier — optional final component of a URI, referring to a sub-component of the identified resource | B: URL — web address to a particular file or page | wd:part_of
+2096 | A: PyMC — Python library for programming Bayesian analysis | B: Pandas — Python library for data manipulation and analysis | wd:depends_on
+2097 | A: Wikipedia — free multilingual online encyclopedia | B: PHP — scripting language focused on web development | wd:programmed_in
+2098 | A: Underscore.js — JavaScript library | B: JavaScript — high-level programming language | wd:programmed_in, wd:depends_on
+2099 | A: distributed computing — system whose components are located on different networked computers | B: parallel computing — programming paradigm in which many calculations or the execution of processes are carried out simultaneously | wd:subclass_of
+2100 | A: Apache Spark — open-source data analytics cluster computing framework | B: cloud computing — form of Internet-based computing, whereby shared resources, software and information are provided to computers and other devices | wd:instance_of
+2101 | A: CakePHP — web application framework | B: PHP — scripting language focused on web development | wd:programmed_in, so:P(dst|src)=0.45
+2102 | A: Mercurial — cross-platform, distributed revision-control tool for software developers | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+2103 | A: wxPython — Python binding for the wxWidgets | B: widget toolkit — (category) | wd:instance_of
+2104 | A: GNOME — desktop environment and graphical user interface | B: C — general-purpose programming language | wd:programmed_in
+2105 | A: Mozilla Firefox — free and open source web browser | B: Mesa — free and open-source library for 3D graphics rendering | wd:depends_on
+2106 | A: android — operating system created by Google for use on mobile devices | B: Linux kernel — Unix-like operating system kernel, basis for all Linux operating systems | wd:depends_on
+2107 | A: Indexed Database API — JavaScript application programming interface provided by web browsers for managing a NoSQL database of JSON objects | B: database management system — (category) | wd:instance_of
+2108 | A: DirectX — collection of multimedia related APIs on Microsoft platforms | B: Component Object Model — Application Binary Interface by Microsoft | wd:based_on
+2109 | A: Arduino — open-source microcontroller hardware platform | B: JavaScript — high-level programming language | wd:programmed_in
+2110 | A: bitcoinj — Java Bitcoin library | B: Java — object-oriented programming language | wd:programmed_in
+2111 | A: gulp.js — build tool based on Node.js and npm | B: JavaScript framework — (category) | wd:instance_of
+2112 | A: cyanogenmod — mobile operating system based on Android | B: C++ — general-purpose programming language | wd:programmed_in
+2113 | A: Apache ActiveMQ — message broker software | B: Perl — interpreted programming language first released in 1987 | wd:programmed_in
+2114 | A: Stream Control Transmission Protocol — computer network protocol | B: Internet protocol suite — framework for communication protocols used in IP networking | wd:part_of
+2115 | A: HTML5 — fifth and current version of the hypertext markup language | B: markup language — (category) | wd:instance_of
+2116 | A: MultiMarkdown — Lightweight markup language | B: Markdown — a lightweight markup language with plain-text formatting syntax that is popularly used | wd:based_on
+2117 | A: Microsoft Foundation Class Library — programming library for C++ | B: widget toolkit — (category) | wd:instance_of
+2118 | A: Layer 2 Tunneling Protocol — computer network protocol | B: Internet protocol suite — framework for communication protocols used in IP networking | wd:part_of
+2119 | A: jq — command-line JSON processor | B: C — general-purpose programming language | wd:programmed_in
+2120 | A: Windows Phone 8.1 — third generation of Microsoft's Windows Phone mobile operating system | B: Windows Phone 8 — second generation of Microsoft's Windows Phone mobile operating system | wd:based_on
+2121 | A: wxFormBuilder — Open source GUI design application | B: C++ — general-purpose programming language | wd:programmed_in
+2122 | A: Visual Studio — integrated development environment | B: C++ — general-purpose programming language | wd:programmed_in
+2123 | A: Wolfram Language — programming language and environment | B: functional programming language — (category) | wd:instance_of
+2124 | A: ECharts — charting and visualization library based on zrender | B: JavaScript — high-level programming language | wd:programmed_in
+2125 | A: MifosX —  | B: Java — object-oriented programming language | wd:programmed_in
+2126 | A: Google Programmable Search Engine — platform for creating custom search engines based on Google Search | B: search engine — (category) | wd:instance_of
+2127 | A: PROJ — map projection software | B: C — general-purpose programming language | wd:programmed_in
+2128 | A: Orbot — free software proxy app for mobile devices | B: Java — object-oriented programming language | wd:programmed_in
+2129 | A: Video4Linux — video capture and output device API and driver framework for the Linux kernel | B: C — general-purpose programming language | wd:programmed_in
+2130 | A: mod_python — Apache HTTP Server module that integrates the Python programming language with the server | B: C — general-purpose programming language | wd:programmed_in
+2131 | A: SpiderMonkey — JavaScript engine maintained by the Mozilla Foundation | B: rust — memory-safe programming language without garbage collection | wd:programmed_in
+2132 | A: Jetpack Compose — Android UI development framework in Kotlin | B: Android Jetpack — suite of libraries for Android development | wd:part_of
+2133 | A: Sage — mathematical software application | B: C++ — general-purpose programming language | wd:programmed_in
+2134 | A: PyQt — GUI Library for Python | B: Python — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.83
+2135 | A: Safari — web browser developed by Apple | B: JavaScript — high-level programming language | wd:programmed_in
+2136 | A: Windows Phone — operating system for mobile devices created by Microsoft | B: C++ — general-purpose programming language | wd:programmed_in
+2137 | A: Apache Spark — open-source data analytics cluster computing framework | B: SQL — relational database language that allows to extract from data tables a series of records with selection, sorting and computation criteria, or to update, delete or add records | wd:programmed_in
+2138 | A: DirectX Graphics Infrastructure — user-mode component of Windows | B: Windows 8 — personal computer operating system by Microsoft that was released in 2012 | wd:part_of
+2139 | A: WebSphere Portal — web portal software | B: Java — object-oriented programming language | wd:programmed_in
+2140 | A: computer mouse — hand-held device used to move a pointer on a computer display | B: terminal — device which ends a telecommunications link and is the point at which a signal enters and/or leaves a network | wd:part_of
+2141 | A: Gradle — open source software build automation tool | B: Kotlin — general-purpose programming language derived from Java | wd:programmed_in
+2142 | A: Mantis Bug Tracker — free and open source, web-based bug tracking system | B: Cascading Style Sheets — declarative language for styling web pages | wd:programmed_in
+2143 | A: SAP HANA — relational database management system | B: C++ — general-purpose programming language | wd:programmed_in
+2144 | A: Play Framework — Open-source web framework written in Scala | B: Scala — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.42
+2145 | A: Asterisk — open source software implementing a private branch exchange for various Voice over IP protocols | B: C — general-purpose programming language | wd:programmed_in
+2146 | A: Nashorn — JavaScript engine | B: Java — object-oriented programming language | wd:programmed_in
+2147 | A: eSpeak — open source speech synthesis software | B: C — general-purpose programming language | wd:programmed_in
+2148 | A: gmail — email service developed by Google | B: Google Workspace — email, cloud storage, collaboration tools, hardware, administration, social media and other business apps | wd:part_of
+2149 | A: QGIS — open source desktop geographic information system software | B: C++ — general-purpose programming language | wd:programmed_in
+2150 | A: Apache Geronimo — open source application server developed by the Apache Software Foundation | B: Java — object-oriented programming language | wd:programmed_in
+2151 | A: Apache Cordova — free software framework for multiplatform hybrid mobile apps | B: Java — object-oriented programming language | wd:programmed_in
+2152 | A: apk — file format used for software on Google's Android operating system | B: Java archive — archive file format based on the zip format | wd:based_on
+2153 | A: OpenWrt — Linux distribution for wireless routers and embedded systems | B: Linux distribution — operating system based on the Linux kernel and often core GNU components | wd:instance_of
+2154 | A: Keras — neural network library | B: Python — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.63
+2155 | A: application layer — Highest layer of a networked communication model | B: OSI model — model with 7 layers to describe communication systems | wd:part_of
+2156 | A: Tkinter — Interface allowing the Python programming language to utilize the Tk library | B: Python — general-purpose programming language | wd:programmed_in, so:P(dst|src)=0.87
+2157 | A: Mesa — free and open-source library for 3D graphics rendering | B: C++ — general-purpose programming language | wd:programmed_in
+2158 | A: IBM Informix — relational database management system | B: database management system — (category) | wd:subclass_of
+2159 | A: Second Life — virtual online world | B: C++ — general-purpose programming language | wd:programmed_in
+2160 | A: DotNetBrowser —  | B: C++ — general-purpose programming language | wd:programmed_in
+2161 | A: Apache Xerces for C++ XML Parser — software | B: Apache Xerces — Library of XML parsers and related software | wd:part_of
+2162 | A: TeamCity — build management and continuous integration server | B: Java — object-oriented programming language | wd:programmed_in
+2163 | A: Ant Design — UI Design Language and React UI library | B: TypeScript — programming language, superset of JavaScript that compiles to JavaScript | wd:programmed_in
+2164 | A: TensorFlow.js — JavaScript machine learning library | B: TypeScript — programming language, superset of JavaScript that compiles to JavaScript | wd:programmed_in
+2165 | A: database engine — underlying software component that a database management system (DBMS) uses to create, read, update and delete (CRUD) data from a database | B: database management system — (category) | wd:part_of
+2166 | A: musicbrainz — online music metadata database | B: Semantic Web — extension of the Web to facilitate data exchange | wd:part_of
+2167 | A: Scalatra — free and open source web application framework written in Scala | B: Scala — general-purpose programming language | wd:programmed_in
+2168 | A: embedded SQL — SQL used as an embedded domain-specific language | B: SQL — relational database language that allows to extract from data tables a series of records with selection, sorting and computation criteria, or to update, delete or add records | wd:based_on
+2169 | A: Tiki Wiki CMS Groupware — Content management system, free and open-source wiki software | B: Vue.js — JavaScript framework | wd:depends_on
+2170 | A: IPython — advanced interactive shell for Python | B: C — general-purpose programming language | wd:programmed_in
+2171 | A: SPIN model checker — tool for verifying the correctness of software models | B: C — general-purpose programming language | wd:programmed_in
+2172 | A: whatsapp — Meta Platforms-owned mobile instant messenger and social media service | B: xmpp — communications protocol for message-oriented middleware | wd:based_on
+2173 | A: Astah — UML and SysML modeling tool developed by Change Vision, Inc. | B: Java — object-oriented programming language | wd:programmed_in
+2174 | A: Easybase — cloud computing and app development platform | B: Node.js — JavaScript runtime environment | wd:programmed_in
+2175 | A: Compose Multiplatform — cross-platform implemention of Jetpack Compose by JetBrains | B: Jetpack Compose — Android UI development framework in Kotlin | wd:based_on
+2176 | A: MySQL Workbench — database design graphical tool | B: C# — multi-paradigm (object-oriented) programming language | wd:programmed_in
+2177 | A: Slack — web-based instant messaging service | B: JavaScript — high-level programming language | wd:programmed_in
+2178 | A: Elvish — programming language and shell | B: Go — programming language developed by Google and the open-source community | wd:programmed_in
+2179 | A: wxPython — Python binding for the wxWidgets | B: C++ — general-purpose programming language | wd:programmed_in
+2180 | A: Sanity — Headless CMS | B: content management system — software type | wd:instance_of
+2181 | A: Roundcube — open-source web-based IMAP email client | B: PHP — scripting language focused on web development | wd:programmed_in
+2182 | A: Ruby on Rails — open-source web application framework | B: web framework — (category) | wd:instance_of
+2183 | A: JGit — Java implementation of Git | B: Java — object-oriented programming language | wd:programmed_in
+2184 | A: Mozilla Firefox — free and open source web browser | B: ffmpeg — multimedia framework | wd:depends_on
+2185 | A: Python Paste — set of utilities for web development in Python | B: Python — general-purpose programming language | wd:programmed_in
+2186 | A: Tiki Wiki CMS Groupware — Content management system, free and open-source wiki software | B: PHP — scripting language focused on web development | wd:programmed_in
+2187 | A: rsync — file synchronization protocol and software | B: C — general-purpose programming language | wd:programmed_in
+2188 | A: SSE4 — SIMD CPU instruction set used in the Intel Core microarchitecture and AMD K10 (K8L) | B: x86 — type of instruction set architecture | wd:part_of
+2189 | A: Adobe Premiere Pro — professional timeline-based video editing, special effects, and visual effects software developed by Adobe | B: Adobe Creative Cloud — software as a service offering from Adobe Inc. | wd:part_of
+2190 | A: bitcoind — cryptocurrency wallet and node for Bitcoin | B: qt4 — object-oriented framework for GUI creation | wd:depends_on
+2191 | A: AUCTeX — Emacs environment for the typesetting of texts with TeX or LaTeX | B: Emacs Lisp — dialect of Lisp used in GNU Emacs | wd:programmed_in
+2192 | A: Hexo — a blog framework powered by Node.js | B: JavaScript — high-level programming language | wd:programmed_in
+2193 | A: Direct Web Remoting — Java web framework | B: Java — object-oriented programming language | wd:programmed_in
+2194 | A: PyMC — Python library for programming Bayesian analysis | B: NumPy — numerical programming package for the Python programming language | wd:depends_on

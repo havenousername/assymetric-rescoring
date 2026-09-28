@@ -1,0 +1,16 @@
+route                                      D MAP    R@10    R@50   R@100     n
+ingest s                                  81.799
+dense, direct                              0.274   0.412   0.689   0.775    69
+order+gen+cos, torch                       0.491   0.622   0.816   0.904    69
+order+gen+cos@10                           0.451   0.564   0.679   0.748    69
+order+gen+cos@50                           0.490   0.622   0.787   0.875    69
+order+gen+cos@100                          0.491   0.622   0.801   0.889    69
+order+gen+cos@925                          0.491   0.622   0.816   0.904    69
+cos+gen, torch                             0.436   0.622   0.815   0.863    69
+cos+gen@10                                 0.379   0.506   0.609   0.649    69
+cos+gen@50                                 0.436   0.622   0.815   0.863    69
+cos+gen@100                                0.436   0.622   0.815   0.863    69
+cos+gen@925                                0.436   0.622   0.815   0.863    69
+order+gen+cos@100, label text linked       0.443   0.561   0.739   0.818    69
+link@1                                     0.855
+p50 ms (link + top 10)                    10.456

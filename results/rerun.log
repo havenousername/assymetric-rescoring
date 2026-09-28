@@ -1,0 +1,4 @@
+recall exit 0
+down exit 0
+qdrant_serve exit 0
+llm_judge exit 0
