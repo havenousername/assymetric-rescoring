@@ -255,6 +255,7 @@ The hyperbolic models, TransE and the two duals do worst at direct scoring: {dd(
 """)
 
 assert max(R, key=lambda n: R[n].get("A MAP", 0)) == O
+assert C["pair_mlp+gen+cos"]["B"]["MAP"] < R["cos+gen"]["B MAP"] and all(w[0] == 0 for w in C["pair_mlp+gen+cos"]["w"])
 B_ = "box+gen+cos"; T_ = "transe+gen+cos"; P_ = "pair_mlp"; CG = "cos+gen"; H_ = "hyp+gen+cos"
 ms = f"{Q['p50 ms (link + top 10)']:.1f} ms"
 md(f"""
@@ -269,7 +270,7 @@ md(f"""
 | order + gen + cos | candidate | first pick |
 | box + gen + cos | candidate | second pick, with the most untested upside |
 | TransE + gen + cos | candidate | keep only if the graph gets more relation types |
-| pairwise MLP | candidate | drop, unless pair_mlp + gen + cos changes the picture |
+| pairwise MLP | candidate | drop |
 | dual, distilled dual, hyperbolic, graph-only methods, popularity | | not worth more time now |
 
 ### Baselines
@@ -290,7 +291,7 @@ md(f"""
 
 **TransE + gen + cos** is close to box + gen + cos: {up(T_)} on up-new, {kn(T_)} on up-known, {dx(T_)} via expansion. Most of that comes from the gen + cos part, though, because TransE alone scores {up("transe")} on up-new, below cosine. Its one distinctive feature is the relation vector, which pays off in a graph with several relation types, such as "requires", "is an alternative to" and "is used with". With the single relation we have, order and box do the same job better.
 
-**The pairwise MLP I'd drop.** It ties cos + gen on up-new ({up(P_)} against {up(CG)}) and loses to it on up-known ({kn(P_)} against {kn(CG)}), on pairs with no graph evidence ({v(R[P_], "no nb")} against {v(R[CG], "no nb")}) and on the down search via expansion ({dx(P_)} against {dx(CG)}). It needs training and still doesn't beat the free baseline. Its serving limit (rerank only) matters less once profiles are expanded offline, so the quality numbers are the real reason. One run could change this verdict: pair_mlp + gen + cos was never tried.
+**The pairwise MLP I'd drop.** It ties cos + gen on up-new ({up(P_)} against {up(CG)}) and loses to it on up-known ({kn(P_)} against {kn(CG)}), on pairs with no graph evidence ({v(R[P_], "no nb")} against {v(R[CG], "no nb")}) and on the down search via expansion ({dx(P_)} against {dx(CG)}). It needs training and still doesn't beat the free baseline. Its serving limit (rerank only) matters less once profiles are expanded offline, so the quality numbers are the real reason. Adding gen + cos doesn't rescue it (`results/compare.json`): pair_mlp + gen + cos reaches {v(C[P_ + "+gen+cos"]["A"], "MAP")} on up-new, level with box + gen + cos, but {v(C[P_ + "+gen+cos"]["B"], "MAP")} on up-known, still below cos + gen. Val gave it no generality weight on any seed.
 
 ### Not worth more time now
 
@@ -473,7 +474,6 @@ md(f"""
 - Requirements outside the catalogue (case 2 in section 9), as a measured split.
 - Profiles with several skills: box intersection against order's coordinate-wise maximum.
 - Qdrant at scale and Qdrant Cloud inference. Only 1041 points ran here, through the local FastEmbed path.
-- pair_mlp + gen + cos, the one run that could change the verdict on the pairwise classifier.
 - The label audit (`docs/audit_100.csv`). Every number above depends on it.
 """)
 nb = {"cells": cells, "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
