@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/andrei/projects/asymmetric-skills/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights: 100%|██████████| 394/394 [00:00<00:00, 9698.89it/s]
+ghubs50                              edges   1696 build  328.3s outside-kNN 0.73 recall-out 0.32 prec 0.26 | A 0.338 B 0.291 C exp 0.238 D exp 0.420 | identity FAIL | λ 0.05 | t 0.5 pairs 45775 new 14387 NLI 327s
+text+ghubs50+knn10                   edges   3068 build   23.7s outside-kNN 0.59 recall-out 0.41 prec 0.24 | A 0.376 B 0.277 C exp 0.238 D exp 0.421 | identity FAIL | λ 0.05 | t 0.3 pairs 52248 new 0 NLI 0s
+text+ghubs50+knn10 top-m             edges   1774 build   29.0s outside-kNN 0.49 recall-out 0.31 prec 0.33 | A 0.396 B 0.296 C exp 0.248 D exp 0.418 | identity FAIL | λ 0.05 | m, t (2, 0.1)

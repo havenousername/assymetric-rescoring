@@ -1,0 +1,4 @@
+invCL words                          edges   7391 build    1.4s outside-kNN 0.64 recall-out 0.08 prec 0.04 | A 0.268 B 0.196 C exp 0.195 D exp 0.391 | identity pass | λ 0.02 m 10
+SLQS gen words                       edges      - build    0.1s outside-kNN nan recall-out nan prec nan | A 0.277 B 0.184 C exp 0.191 D exp 0.398 | identity pass | λ 0.002
+invCL comention                      edges   4492 build    7.6s outside-kNN 0.72 recall-out 0.52 prec 0.16 | A 0.432 B 0.366 C exp 0.224 D exp 0.440 | identity pass | λ 0.02 m 10
+SLQS gen comention                   edges      - build    0.0s outside-kNN nan recall-out nan prec nan | A 0.272 B 0.176 C exp 0.179 D exp 0.417 | identity pass | λ 0.01

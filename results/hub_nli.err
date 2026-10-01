@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/andrei/projects/asymmetric-skills/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights: 100%|██████████| 394/394 [00:00<00:00, 10554.88it/s]
+text                                 edges   1107 build   24.9s outside-kNN 0.43 recall-out 0.30 prec 0.46 | A 0.446 B 0.383 C exp 0.242 D exp 0.466 | identity pass | λ 0.05 | t 0.3 pairs 2763 new 1394 NLI 18s
+knn10                                edges   1246 build    0.0s outside-kNN 0.00 recall-out 0.00 prec 0.38 | A 0.452 B 0.345 C exp 0.221 D exp 0.445 | identity pass | λ 0.05 | t 0.3 pairs 6956 new 0 NLI 0s
+Loading weights:   0%|          | 0/394 [00:00<?, ?it/s]Loading weights: 100%|██████████| 394/394 [00:00<00:00, 9364.94it/s]
+hubs50                               edges   6366 build  590.6s outside-kNN 0.92 recall-out 0.41 prec 0.07 | A 0.352 B 0.247 C exp 0.244 D exp 0.429 | identity pass | λ 0.02 | t 0.1 pairs 45775 new 42551 NLI 583s
+text+hubs50                          edges   6791 build   30.5s outside-kNN 0.87 recall-out 0.48 prec 0.10 | A 0.384 B 0.245 C exp 0.252 D exp 0.453 | identity pass | λ 0.02 | t 0.1 pairs 46760 new 0 NLI 0s
+text+knn10                           edges   1727 build   39.4s outside-kNN 0.28 recall-out 0.30 prec 0.37 | A 0.460 B 0.361 C exp 0.246 D exp 0.471 | identity pass | λ 0.05 | t 0.3 pairs 8647 new 0 NLI 0s
+text+hubs50+knn10                    edges   7578 build   44.9s outside-kNN 0.78 recall-out 0.48 prec 0.10 | A 0.354 B 0.277 C exp 0.209 D exp 0.423 | identity pass | λ 0.02 | t 0.1 pairs 52003 new 0 NLI 1s

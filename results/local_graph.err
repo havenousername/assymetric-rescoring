@@ -1,0 +1,4 @@
+mention                              edges   2711 build    6.8s outside-kNN 0.62 recall-out 0.48 prec 0.24 | A 0.440 B 0.389 C exp 0.235 D exp 0.453 | identity pass | λ 0.05
+genus                                edges    439 build    0.3s outside-kNN 0.44 recall-out 0.20 prec 0.59 | A 0.418 B 0.356 C exp 0.222 D exp 0.460 | identity FAIL | λ 0.05
+label                                edges    136 build    0.1s outside-kNN 0.18 recall-out 0.01 prec 0.57 | A 0.336 B 0.289 C exp 0.213 D exp 0.417 | identity pass | λ 0.05
+mention gen                          edges      - build    6.7s outside-kNN nan recall-out nan prec nan | A 0.444 B 0.410 C exp 0.220 D exp 0.454 | identity pass | λ 0.05

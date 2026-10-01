@@ -1,0 +1,10 @@
+Claude edges, all: 891 edges, cos+gen A 0.520 B 0.464
+Claude edges, all            cos+gen          A 0.520  B 0.464  C exp 0.221  D exp 0.436  identity up 0.995 down 1.000
+Claude edges, all            order            A 0.474  B 0.490  C exp 0.221  D exp 0.292  identity up 0.371 down 0.849
+Claude edges, all            order+gen+cos    A 0.577  B 0.497  C exp 0.264  D exp 0.505  identity up 1.000 down 1.000
+Claude edges, kNN top-10 only: 512 edges, cos+gen A 0.484 B 0.421
+Claude edges, kNN top-10 only cos+gen          A 0.484  B 0.421  C exp 0.229  D exp 0.443  identity up 0.998 down 1.000
+Claude edges, kNN top-10 only order            A 0.436  B 0.419  C exp 0.178  D exp 0.335  identity up 0.449 down 0.806
+Claude edges, kNN top-10 only order+gen+cos    A 0.546  B 0.474  C exp 0.247  D exp 0.482  identity up 0.999 down 1.000
+kNN→NLI graph                box              A 0.180  B 0.128  C exp 0.125  D exp 0.132  identity up 0.037 down 0.415
+kNN→NLI graph                box+gen+cos      A 0.376  B 0.253  C exp 0.172  D exp 0.317  identity up 0.995 down 0.999

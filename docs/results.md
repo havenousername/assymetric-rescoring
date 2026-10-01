@@ -1,6 +1,6 @@
 # Asymmetric skill implication — model comparison (round 3)
 
-Data, splits, negatives and metrics as in `src/spike.py`: 1,106 skills, 1,253 training pairs (graph closure).
+Data, splits, negatives and metrics as in `skillmatch/` (`data.py`, `training.py`, `metrics.py`, `tasks.py`): 1,106 skills, 1,253 training pairs (graph closure).
 Test sets: 99 held-out skills with a training ancestor (Task A: rank training skills as ancestors of an unseen skill) and 183 pairs implied by 104 held-out
 edges (Task B: filtered ranking over 114 query skills). MAP is the main score; `dir` = share of true pairs scored higher in
 the true direction (0.5 = coin flip). Learned models: 3-seed means (MAP sd ≤ 0.03), configs picked on val only.
@@ -61,6 +61,8 @@ is of this kind: 0.905–0.93 at 5–20 dims).
   no training details, so Nickel & Kiela 2017 loss (softmax of −distance, true ancestor vs 10 unrelated skills).
   Adam on tangent vectors via exp map at the origin instead of Riemannian SGD. Text → ball: 10 dims, 150 epochs.
   Free points: 32 dims, 300 epochs. **is-a** = N&K score −(1 + α(‖b‖ − ‖a‖))·d(a, b), α = 0.1 picked on val.
+  **depth** (down direction only) = + μ·d(0, a), the profile's distance from the centre (`PoincareEmbedding.mu`; not the
+  hybrid's cosine μ). Constant for a fixed query skill, so it changes no up ranking; μ picked per seed on Task D val.
 - **order** (Vendrov+ 2016): f ≥ 0, a ⊑ b iff f(a) ≥ f(b) per coordinate; score −‖max(0, f(b) − f(a))‖²,
   max-margin loss. 128 dims, margin 0.1, 150 epochs.
 - **+ generality + cosine** (any model M): M(a, b) + λ·log(1 + #train descendants of b) + μ·cos(a, b), (λ, μ) picked
@@ -119,7 +121,8 @@ is of this kind: 0.905–0.93 at 5–20 dims).
      for the up direction only: at query time in the down direction it falls to D MAP 0.089 (see "Down direction").
 7. **Hyperbolic reproduces the article's fit but not generalization.** With text and the hybrid it is slightly ahead of order on B
    (0.544 vs 0.529) but trails it on A (0.547 vs 0.618) and stays symmetric: val drops the generality term (λ = 0; untested explanation:
-   the ball already puts general skills near the centre). The is-a term is still needed for direction. See the next
+   the ball already puts general skills near the centre). The is-a term is still needed for direction. In the down direction a depth term lifts it from last to mid-table
+   (D MAP 0.331 with gen + cos, see "Down direction"). See the next
    section for why free hyperbolic vectors beat the other free-vector models, and why that doesn't matter much.
 8. **Text is what generalizes**, and it is not because the child names the parent. See the section after next.
 
@@ -176,7 +179,7 @@ Same pairs, split by whether the parent's label appears in the child's encoder t
 - Most of it is already in the pretrained encoder plus popularity (cos + gen 0.56). Training adds about 0.09.
 - Correlational only. The causal test is to strip parent names and synonyms from child texts and retrain.
 
-## Beyond MAP: recall, generalization, cost (`src/recall.py`)
+## Beyond MAP: recall, generalization, cost (`experiments/recall.py`)
 
 Same test sets, 3 seeds. R@K = share of true answers in the top K of the 925 candidate skills
 (K = 50 / 100 is 5% / 11% of the catalogue). "No evidence" = hit@10 on the 86 Task B pairs that no graph neighbour of the
@@ -214,7 +217,7 @@ Small differences from the main table (box up to 0.025) are different random dra
   gen + cos (0.659), and order + gen + cos (0.640). Free vectors and the vote are at 0.01–0.28.
 - **Training cost is negligible** here (3–15 s per model). In a new domain the real costs are labels and choosing an encoder.
 
-## Down direction: requirement → who has it (`src/down.py`)
+## Down direction: requirement → who has it (`experiments/down.py`)
 
 Tasks A and B only measure the up direction (skill → what it implies). A search like "who knows FP?" runs down.
 
@@ -225,7 +228,7 @@ Tasks A and B only measure the up direction (skill → what it implies). A searc
 - **Two routes are compared:**
   - *Query-time*: score(profile, requirement) directly.
   - *Expanded*: each profile ranks the catalogue in the tested up direction, and the requirement then ranks profiles by where it falls in their lists. This is what storing each profile's top-K implied skills at ingest gives you.
-- Configs, seeds and (λ, μ) are the same as in `recall.py`. In the down direction λ·gen(requirement) is a constant, so cos + gen ranks exactly like cosine at query time. A query-time route with (λ, μ) tuned for the down search is untested.
+- Configs, seeds and (λ, μ) are the same as in `recall.py`. In the down direction λ·gen(requirement) is a constant, so cos + gen ranks exactly like cosine at query time. A query-time route with (λ, μ) tuned for the down search is untested. The one down-tuned weight is hyperbolic's depth μ in the "+ depth" rows (picked per seed on Task D val from 0–2: 1.1 / 1.5 / 1.1 alone, 1.5 / 1.3 / 1.1 inside gen + cos).
 - **Ties are broken at random** (`rank_metrics`, since 2026-09-28). Before, `argsort` broke them by candidate position, and in Task D every relevant candidate sits at the end of the list.
   - The expanded scores tie often, because many profiles place a requirement at the same rank.
   - Breaking ties by the raw score, as the first version of this table did, scored below random (0.273 vs 0.313 before the self-profile fix): among profiles that share a rank, the direct down score is worse than chance.
@@ -240,19 +243,25 @@ Tasks A and B only measure the up direction (skill → what it implies). A searc
 | box | 0.219 | 0.377 | 0.641 | 0.249 | 0.442 | 0.755 |
 | box + gen + cos | 0.350 | 0.530 | 0.726 | 0.449 | 0.640 | 0.795 |
 | order | 0.181 | 0.325 | 0.657 | 0.314 | 0.533 | 0.759 |
-| order + gen + cos | **0.366** | **0.552** | **0.769** | **0.498** | **0.642** | 0.832 |
+| order + gen + cos | **0.366** | **0.552** | 0.769 | **0.498** | **0.642** | 0.832 |
 | hyperbolic | 0.019 | 0.015 | 0.142 | 0.255 | 0.371 | 0.674 |
 | hyperbolic + is-a | 0.019 | 0.015 | 0.142 | 0.250 | 0.373 | 0.674 |
 | hyperbolic + gen + cos | 0.056 | 0.097 | 0.327 | 0.423 | 0.599 | **0.866** |
+| hyperbolic + depth | 0.195 | 0.325 | 0.635 | 0.255 | 0.371 | 0.674 |
+| hyperbolic + gen + cos + depth | 0.331 | 0.516 | **0.794** | 0.423 | 0.599 | **0.866** |
 | TransE | 0.083 | 0.152 | 0.292 | 0.102 | 0.198 | 0.385 |
 | TransE + gen + cos | 0.312 | 0.460 | 0.649 | 0.447 | 0.620 | 0.789 |
 | pairwise MLP | 0.270 | 0.463 | 0.685 | 0.412 | 0.624 | 0.830 |
 
-- **Down is much harder than up.** The best query-time model, order + gen + cos, reaches D MAP 0.366, against 0.274 for cosine; its up-direction A MAP is 0.618. Only the + gen + cos hybrids of box, order and TransE beat cosine at query time.
+- **Down is much harder than up.** The best query-time model, order + gen + cos, reaches D MAP 0.366, against 0.274 for cosine; its up-direction A MAP is 0.618. Only the + gen + cos hybrids of box, order and TransE, and hyperbolic + gen + cos + depth, beat cosine at query time.
 - **Expansion wins for every model.** Order + gen + cos goes from 0.366 to 0.498. Cos + gen expanded (no training) reaches 0.436, above every query-time model.
-- **Hyperbolic, TransE and both duals collapse at query time.** Hyperbolic: 0.019, and 0.056 with gen + cos (0.423 expanded). Folded dual: 0.089 (0.257 expanded). TransE 0.083 and the dual 0.091 stay near 0.1 expanded too. Guesses for two of them, untested:
-  - the student was distilled with a per-query softmax over candidates, and adding a constant to one profile's scores leaves that loss unchanged, so nothing constrains how profiles compare for a fixed requirement;
-  - symmetric hyperbolic distance puts general catalogue nodes near every requirement.
+- **TransE and both duals collapse at query time.** Folded dual: 0.089 (0.257 expanded). TransE 0.083 and the dual 0.091 stay near 0.1 expanded too. A guess for the folded dual, untested: the student was distilled with a per-query softmax over candidates, and adding a constant to one profile's scores leaves that loss unchanged, so nothing constrains how profiles compare for a fixed requirement.
+- **Hyperbolic collapsed too (0.019; 0.056 with gen + cos) mostly because its distance is symmetric; a depth term on the profile fixes most of that** (0.195; 0.331 with gen + cos).
+  - Cause: in the symmetric top 10, 88% of the wrong profiles are *more general* than the requirement (3 seeds; a one-off check, not in `experiments/`). The right ones are more specific, and symmetric distance can't tell the two apart.
+  - μ·d(0, profile) rewards being deeper in the ball. At μ = 1 the score is d(0, a) − d(a, b), which peaks when the requirement b lies on the path from the centre to the profile a, as an ancestor does in a tree.
+  - Hyperbolic + gen + cos + depth has the best direct R@50 (0.794), but its MAP (0.331) is below order + gen + cos (0.366) and box + gen + cos (0.350), and its expanded route is unchanged (0.423).
+  - The same term doesn't help the up direction: there the right answers and 100% of the wrong ones are *more general* than the query, so depth can't separate them (val picks a weight of 0 for the up analogue, −λ·d(0, b)).
+  - Not yet served: it needs a Formula Query rerank with d(0, a) from the stored `sq_norm`, and a prefetch wide enough to hold the deep profiles.
 - → **Serve by expanding at ingest**: store implied skills as a sparse vector or payload per profile. A query-time down search over these heads isn't competitive. Expanding at ingest also makes the LLM affordable, because it runs once per profile, not once per query.
 
 **CV demo (`showcase.ipynb`, 6 hand-written CVs, my labels: an anecdote, not a measurement).**
@@ -263,7 +272,7 @@ Tasks A and B only measure the up direction (skill → what it implies). A searc
 - The LLM separates the two groups: 0.85–0.99 for the FP CVs, 0.15–0.2 for the rest, including the trap.
 - The heads were trained on encyclopedia descriptions of skills, not CVs, so CV text is off-distribution for them.
 
-## Served from Qdrant (`src/qdrant_serve.py`)
+## Served from Qdrant (`experiments/qdrant_serve.py`)
 
 The expanded route, run end to end in Qdrant 1.18 (local podman container, qdrant-client 1.19).
 - **Ingest.**
@@ -293,18 +302,47 @@ The expanded route, run end to end in Qdrant 1.18 (local podman container, qdran
 - **p50 latency is 10.5 ms** for embed + link + sparse top 10, measured on the 1035 Task D profiles (load average 6.7 during the run; the same query path measured 7.7 ms earlier the same day, and a repeat gave 10.8 ms). Scale is untested.
 - In the notebook's CV demo (section 10), Qdrant shows the same weakness as in torch: FP is in the top 10 of every CV's expansion, so K = 100 returns all six, and the recruiter trap ties the Haskell CV at rank 1.
 
+## Identity check (`experiments/identity.py`)
+
+Every skill implies itself, so a search for skill b should return b's own profile first. Per catalogue skill b (925), same models, seeds and (λ, μ) as `down.py`; ties count half, so "top 1" means alone at the top.
+- **up top 1**: b ranks first in its own implied list. **in top 100**: b is inside the K = 100 list Qdrant stores; past it, b's own profile never comes back for b.
+- **down direct / expanded top 1**: b's own profile ranks first of the 1035 Task D profiles for requirement b.
+
+| model | up top 1 | up median rank | in top 100 | down direct top 1 | down expanded top 1 | expanded top 10 |
+|---|---|---|---|---|---|---|
+| cosine | 1.000 | 1 | 1.000 | 1.000 | 0.896 | 1.000 |
+| cos+gen | 0.995 | 1 | 1.000 | 1.000 | 0.960 | 1.000 |
+| dual | 0.008 | 141 | 0.406 | 0.015 | 0.026 | 0.207 |
+| box | 0.077 | 9.3 | 1.000 | 0.584 | 0.761 | 0.983 |
+| box+gen+cos | 0.994 | 1 | 1.000 | 0.996 | 0.940 | 1.000 |
+| order | 0.343 | 1.5 | 1.000 | 0.841 | 0.924 | 0.992 |
+| order+gen+cos | 1.000 | 1 | 1.000 | 1.000 | 0.951 | 1.000 |
+| hyp | 1.000 | 1 | 1.000 | 1.000 | 0.981 | 0.999 |
+| hyp+gen+cos | 1.000 | 1 | 1.000 | 1.000 | 0.970 | 1.000 |
+| transe | 0.002 | 192 | 0.231 | 0.003 | 0.012 | 0.177 |
+| transe+gen+cos | 0.765 | 1.3 | 1.000 | 0.959 | 0.898 | 0.996 |
+| pair_mlp | 0.405 | 2.7 | 0.976 | 0.979 | 0.953 | 0.993 |
+
+- **Both picks pass.** order + gen + cos and box + gen + cos keep b first in its own list and first in the direct down score, and b's own profile is in the expanded top 10 for every requirement.
+- **Expanded top 1 below 1 is mostly a tie, not a miss**, for heads with up top 1 ≥ 0.99: nearly every catalogue profile ranks itself first, so the profile sharing rank 1 with b's own is nearly always an unseen test profile whose top skill is b. Whether those tie partners are true matches is untested.
+- **order alone ties b with its ancestors** (order score is 0 for self and for every ancestor it contains; median rank 1.5). The +gen+cos terms break the tie.
+- **box alone ranks general ancestors above b itself** (median rank 9). The cause is untested; a guess is the soft box intersection, which makes a box's overlap with itself smaller than a big box's overlap with it.
+- **hyp + depth and hyp + gen + cos + depth give the same row as hyp and hyp + gen + cos**: with μ up to 1.5, b's own profile still comes first in the direct down score.
+- **TransE and the dual fail by construction**: TransE's self score is −‖r‖, and a dot product between separate source and target vectors has no reason to peak on the diagonal (the dual part is a guess). Their own profile falls outside the stored top 100 for 77% and 59% of skills.
+
 ## What is tested and what isn't
 
 **Tested** (numbers above):
 - every row in both tables: 3 seeds except the cross-encoder, configs picked on val, direction for every model;
 - hyperbolic reproduces the article's fit (MAP 0.934 on seen pairs, 32 dims);
 - the is-a norm term fixes hyperbolic direction (0.50 → 0.97) at no ranking cost;
+- a depth term on the profile fixes hyperbolic's down-direction collapse (D MAP 0.019 → 0.195; 0.056 → 0.331 with gen + cos);
 - why hyperbolic wins among free vectors (curvature, not the loss; it approximates vote + popularity);
 - text models don't depend on the child naming the parent; their edge is on pairs with no graph evidence;
 - TransE alone and in the hybrid; distillation into a dual, plain and folded;
-- recall at prefetch depth (R@50/100/200) and training time for every indexable method (`src/recall.py`);
-- the down direction (requirement → unseen profiles) at query time and through ingest-time expansion (`src/down.py`);
-- the expanded route served from Qdrant: same metrics as torch at K = 925, the effect of K, free-text linking, p50 latency on the 1035-profile collection (`src/qdrant_serve.py`);
+- recall at prefetch depth (R@50/100/200) and training time for every indexable method (`experiments/recall.py`);
+- the down direction (requirement → unseen profiles) at query time and through ingest-time expansion (`experiments/down.py`);
+- the expanded route served from Qdrant: same metrics as torch at K = 925, the effect of K, free-text linking, p50 latency on the 1035-profile collection (`experiments/qdrant_serve.py`);
 - the cos + gen top-50 holds 99% (A) / 93% (B) of test answers, which is the rerank ceiling;
 - the two LLM judges agree (Spearman 0.87 / 0.90); cost and latency per call;
 - 32 true test pairs are rejected by both judges; 13 of them go through `JavaScript → JScript`.
@@ -330,8 +368,8 @@ The expanded route, run end to end in Qdrant 1.18 (local podman container, qdran
 | profile ⇒ project coverage with several skills (box intersection, order max) | a set of profiles and projects with judged matches |
 | private skills with thin text; CV-style profile text | company skills, or descriptions reduced to labels; a set of real CVs with judged skills (the notebook's 6 CVs are an anecdote) |
 | LLM expansion at ingest beats the heads on CVs | the same CV set, LLM vs heads |
-| why the folded dual and hyperbolic collapse at query time in the down direction | distill with a column-wise loss too; per-depth analysis |
-| a query-time down route with (λ, μ) tuned for the down search | a val split of down queries and the same HW grid |
+| why the folded dual collapses at query time in the down direction | distill with a column-wise loss too; per-depth analysis |
+| a query-time down route with (λ, μ) tuned for the down search (only hyperbolic's depth μ is down-tuned) | a val split of down queries and the same HW grid |
 | LLM as teacher (graded relabel, then train/distill) | your go; about 27 calls per judge |
 | results hold beyond popular skills, and for held-out skills whose parent is also new | popularity-stratified and new-parent splits |
 | hyperbolic's edge grows on bigger, deeper hierarchies | a second graph (e.g. ESCO) |
@@ -345,22 +383,27 @@ The expanded route, run end to end in Qdrant 1.18 (local podman container, qdran
 1. Relabel all 2,630 candidate edges with graded p from both judges (about 27 calls each). This also fixes the
    JScript and "built with" errors, and gives calibration targets.
 2. Train order / box on the soft labels, and distill order + gen + cos (or the LLM itself) into the folded dual.
-3. The expanded route now runs in Qdrant (`src/qdrant_serve.py`). What's left is scale (10k+ profiles, p99) and a real CV
+3. The expanded route now runs in Qdrant (`experiments/qdrant_serve.py`). What's left is scale (10k+ profiles, p99) and a real CV
    set, the weak spot: every embedding head is fooled by CV text, and the LLM isn't.
 
 ## Reproduce
 
+Code layout: `skillmatch/` is the library (data, training loops, metrics, tasks, Qdrant serving) with one file per
+method in `skillmatch/methods/`; `experiments/` holds the runs behind `results/*.json` (`zoo.py` = configs picked on
+val); `pipeline/` builds `data/graph.json`; `tools/` builds the notebooks. Run from the repo root:
+
 ```
-uv run python src/spike.py            # cosine, cos+gen, dual, box, box+gen+cos  → results/spike.json
-uv run python src/compare.py sweep    # val grid → results/compare_sweep.json
-uv run python src/compare.py test     # 3 seeds, incl. +gen+cos rows → results/compare.json
-uv run python src/compare.py ce       # cross-encoder → results/compare.json
-uv run python src/compare.py distill [fold]   # distillation into the dual → results/compare.json
-uv run python src/llm_judge.py        # both judges (cached in data/llm_cache/) → results/llm_judge.json
-uv run python src/probe.py            # strata + no-learning baselines → stdout (results/probe.log)
-uv run python src/recall.py           # R@K, no-evidence hit@10, train time → results/recall.json
-uv run python src/down.py             # down direction, query-time vs expanded → results/down.json
-uv run python src/qdrant_serve.py     # needs Qdrant on :6333; expanded route served from Qdrant → results/qdrant.json
+uv run python -m experiments.spike            # cosine, cos+gen, dual, box, box+gen+cos  → results/spike.json
+uv run python -m experiments.compare sweep    # val grid → results/compare_sweep.json
+uv run python -m experiments.compare test     # 3 seeds, incl. +gen+cos rows → results/compare.json
+uv run python -m experiments.compare ce       # cross-encoder → results/compare.json
+uv run python -m experiments.compare distill [fold]   # distillation into the dual → results/compare.json
+uv run python -m experiments.llm_judge        # both judges (cached in data/llm_cache/) → results/llm_judge.json
+uv run python -m experiments.probe            # strata + no-learning baselines → stdout (results/probe.log)
+uv run python -m experiments.recall           # R@K, no-evidence hit@10, train time → results/recall.json
+uv run python -m experiments.down             # down direction, query-time vs expanded → results/down.json
+uv run python -m experiments.qdrant_serve     # needs Qdrant on :6333; expanded route served from Qdrant → results/qdrant.json
+uv run python -m experiments.identity         # does b's own profile top the search for b? → results/identity.json
 uv run --with jupyter jupyter lab showcase.ipynb   # tables, live models, demos, Qdrant part (~3 min to run)
-uv run python src/compare.py table
+uv run python -m experiments.compare table
 ```

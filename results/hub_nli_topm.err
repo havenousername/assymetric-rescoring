@@ -1,0 +1,4 @@
+text+knn10 top-m                     edges   1560 build   22.6s outside-kNN 0.28 recall-out 0.29 prec 0.40 | A 0.459 B 0.377 C exp 0.249 D exp 0.475 | identity pass | λ 0.05 | m, t (3, 0.3)
+text+hubs50+knn10 top-m              edges   4552 build   36.6s outside-kNN 0.75 recall-out 0.39 prec 0.15 | A 0.367 B 0.263 C exp 0.236 D exp 0.416 | identity pass | λ 0.02 | m, t (5, 0.1)
+hubs50 top-m                         edges   4362 build   14.1s outside-kNN 0.90 recall-out 0.35 prec 0.10 | A 0.345 B 0.293 C exp 0.246 D exp 0.413 | identity pass | λ 0.02 | m, t (5, 0.1)
+text top-m                           edges   1222 build   21.2s outside-kNN 0.46 recall-out 0.34 prec 0.44 | A 0.427 B 0.374 C exp 0.235 D exp 0.457 | identity pass | λ 0.05 | m, t (3, 0.1)

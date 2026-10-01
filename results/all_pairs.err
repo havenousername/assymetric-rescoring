@@ -1,0 +1,15 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/138 [00:00<?, ?it/s]Loading weights: 100%|██████████| 138/138 [00:00<00:00, 4013.38it/s]
+  nli-modernbert row 0/941 4.7 s/row
+  nli-modernbert row 50/941 3.6 s/row
+  nli-modernbert row 100/941 2.8 s/row
+  nli-modernbert row 150/941 2.5 s/row
+  nli-modernbert row 200/941 2.3 s/row
+  nli-modernbert row 250/941 2.1 s/row
+  nli-modernbert row 300/941 2.1 s/row
+  nli-modernbert row 350/941 2.0 s/row
+  nli-modernbert row 400/941 2.1 s/row
+  nli-modernbert row 450/941 2.3 s/row
+  nli-modernbert row 500/941 2.3 s/row
+/Users/andrei/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

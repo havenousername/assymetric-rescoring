@@ -1,0 +1,6 @@
+text+knn10: LM scores cover 0/8647 pairs, agreement skipped
+text+knn10 +mention gen              edges   1727 build    0.0s outside-kNN 0.28 recall-out 0.30 prec 0.37 | A 0.463 B 0.407 C exp 0.226 D exp 0.452 | identity pass | λ 0.02
+text: LM scores cover 0/2763 pairs, agreement skipped
+text +mention gen                    edges   1107 build    0.0s outside-kNN 0.43 recall-out 0.30 prec 0.46 | A 0.438 B 0.400 C exp 0.230 D exp 0.443 | identity pass | λ 0.02
+knn10: LM scores cover 0/6956 pairs, agreement skipped
+knn10 +mention gen                   edges   1246 build    0.0s outside-kNN 0.00 recall-out 0.00 prec 0.38 | A 0.446 B 0.400 C exp 0.219 D exp 0.445 | identity pass | λ 0.02
