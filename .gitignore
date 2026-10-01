@@ -12,3 +12,6 @@ wheels/
 # OS / Jupyter
 .DS_Store
 .ipynb_checkpoints/
+
+# Djinni CVs (226 MB, downloaded by cvsearch.data)
+data/djinni/

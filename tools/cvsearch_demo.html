@@ -1,0 +1,302 @@
+<title>Djinni CV Search</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground: #F3F5F8; --surface: #FFFFFF; --sunk: #EAEEF3; --ink: #17202C; --muted: #5A6574; --faint: #8A94A3;
+    --line: #D9DFE7; --accent: #2B5BD0; --accent-soft: #E3EAFB; --on-accent: #FFFFFF;
+    --ok: #1F7A4D; --ok-soft: #DDF1E6; --via: #8C670A; --via-soft: #F6EDD3; --mark: #FFE7A3; --mark-ink: #17202C;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --cond: "IBM Plex Sans Condensed", "IBM Plex Sans", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --ground: #0E1217; --surface: #161B22; --sunk: #1D232C; --ink: #E3E8EF; --muted: #A0AAB8; --faint: #6F7A89;
+      --line: #2A323D; --accent: #86A6FF; --accent-soft: #1F2B47; --on-accent: #0E1217;
+      --ok: #5FD39A; --ok-soft: #173527; --via: #E2BC55; --via-soft: #352B12; --mark: #5C4A12; --mark-ink: #FFF3CF;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --ground: #0E1217; --surface: #161B22; --sunk: #1D232C; --ink: #E3E8EF; --muted: #A0AAB8; --faint: #6F7A89;
+    --line: #2A323D; --accent: #86A6FF; --accent-soft: #1F2B47; --on-accent: #0E1217;
+    --ok: #5FD39A; --ok-soft: #173527; --via: #E2BC55; --via-soft: #352B12; --mark: #5C4A12; --mark-ink: #FFF3CF;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--ground); color: var(--ink); font: 14px/1.5 var(--sans); }
+  .wrap { max-width: 1240px; margin: 0 auto; padding-inline: 20px; padding-block: 20px 48px; display: grid; gap: 16px; }
+  header { display: grid; gap: 6px; }
+  h1 { font: 600 27px/1.15 var(--cond); margin: 0; letter-spacing: -0.01em; }
+  .lede { margin: 0; color: var(--muted); max-width: 82ch; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .bar { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; }
+  .lbl { font: 500 11px var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--faint); }
+  .field { display: grid; gap: 5px; min-width: 0; }
+  #q { font: 500 17px var(--sans); color: var(--ink); background: var(--sunk); border: 1px solid var(--line); border-radius: 8px; padding: 11px 13px; width: 100%; }
+  .examples, .chips, .methods { display: flex; flex-wrap: wrap; gap: 6px; }
+  .examples button, .chips button { all: unset; cursor: pointer; font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); }
+  .examples button:hover, .chips button:hover { border-color: var(--accent); }
+  .examples button:focus-visible, .chips button:focus-visible { outline: 2px solid var(--accent); }
+  .examples .m { font: 500 10.5px var(--mono); color: var(--faint); margin-left: 4px; }
+  .chips button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+  .row { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: end; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .seg button { all: unset; cursor: pointer; padding: 8px 13px; font-size: 13.5px; color: var(--muted); }
+  .seg button + button { border-left: 1px solid var(--line); }
+  .seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+  .seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .methods label { display: inline-flex; gap: 6px; align-items: center; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: 13px; }
+  .methods input { accent-color: var(--accent); margin: 0; }
+  .methods label:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+  .hint { margin: 0; font-size: 13px; color: var(--muted); max-width: 90ch; }
+  .warn { margin: 0; font-size: 13px; color: var(--via); }
+
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; align-items: start; }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); }
+  .panel h2 { margin: 0; font: 600 20px/1.2 var(--cond); overflow-wrap: anywhere; }
+  .panel .k { font: 500 11px var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--faint); }
+  .panel ul { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 3px; font-size: 13px; }
+  .panel li { display: flex; justify-content: space-between; gap: 8px; }
+  .panel li span:last-child { font: 12px var(--mono); color: var(--faint); font-variant-numeric: tabular-nums; }
+  .compare { display: grid; gap: 4px; font-size: 13px; }
+  .compare .r { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; }
+  .barline { height: 6px; border-radius: 3px; background: var(--sunk); overflow: hidden; grid-column: 1 / -1; }
+  .barline i { display: block; height: 100%; background: var(--ok); }
+
+  .results { display: grid; gap: 18px; min-width: 0; }
+  .group { display: grid; gap: 8px; }
+  .group h3 { margin: 0; font: 600 12px var(--sans); letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+  .group h3 .n { font: 500 12px var(--mono); color: var(--faint); letter-spacing: 0; text-transform: none; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; }
+  .card .top { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+  .card .rk { font: 12px var(--mono); color: var(--faint); min-width: 1.8em; }
+  .card .title { font-weight: 600; overflow-wrap: anywhere; }
+  .card .meta { font: 12px var(--mono); color: var(--muted); }
+  .pill { font: 500 11px var(--mono); padding: 1px 7px; border-radius: 4px; background: var(--sunk); color: var(--muted); white-space: nowrap; }
+  .pill.ok { background: var(--ok-soft); color: var(--ok); }
+  .why { font-size: 12.5px; padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+  .why.names { background: var(--accent-soft); color: var(--accent); }
+  .why.via { background: var(--via-soft); color: var(--via); }
+  .snip { margin: 0; font-size: 13px; color: var(--muted); overflow-wrap: anywhere; white-space: pre-line; }
+  mark { background: var(--mark); color: var(--mark-ink); border-radius: 2px; padding: 0 1px; }
+  .more { all: unset; cursor: pointer; color: var(--accent); font-size: 12.5px; justify-self: start; }
+  .more:focus-visible { outline: 2px solid var(--accent); }
+  .empty { margin: 0; color: var(--faint); font-size: 13px; }
+
+  details.notes { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+  details.notes summary { cursor: pointer; font-weight: 600; }
+  details.notes p, details.notes li { color: var(--muted); font-size: 13px; max-width: 95ch; }
+  .tablewrap { overflow-x: auto; }
+  table { border-collapse: collapse; font-size: 13px; min-width: 560px; }
+  th, td { text-align: left; padding: 6px 12px 6px 0; border-bottom: 1px solid var(--line); }
+  th { font: 500 11px var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--faint); }
+  td.num { font: 12.5px var(--mono); font-variant-numeric: tabular-nums; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .panel { position: static; order: -1; }
+  }
+  @media (max-width: 520px) { .wrap { padding-inline: 16px; } #q { font-size: 16px; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Djinni CV Search</h1>
+    <p class="lede" id="lede"></p>
+  </header>
+
+  <section class="bar" aria-label="Search">
+    <div class="field">
+      <label class="lbl" for="q">What are you looking for?</label>
+      <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="e.g. Looking for the C++ experts">
+    </div>
+    <div class="examples" id="examples" aria-label="Example requests"></div>
+    <div class="field">
+      <span class="lbl" id="skills-l">Skills found in the request</span>
+      <div class="chips" id="skills" role="group" aria-labelledby="skills-l"></div>
+      <p class="warn" id="warn" hidden></p>
+    </div>
+    <div class="row">
+      <div class="field">
+        <span class="lbl" id="mode-l">Mode</span>
+        <div class="seg" role="group" aria-labelledby="mode-l">
+          <button type="button" data-mode="down" aria-pressed="true">Who has it</button>
+          <button type="button" data-mode="up" aria-pressed="false">What it implies</button>
+        </div>
+      </div>
+      <div class="field" style="flex: 1 1 420px">
+        <span class="lbl" id="m-l">Method</span>
+        <div class="methods" id="methods" role="radiogroup" aria-labelledby="m-l"></div>
+      </div>
+    </div>
+    <p class="hint" id="modehint"></p>
+  </section>
+
+  <div class="layout">
+    <main class="results" id="results" aria-live="polite"></main>
+    <aside class="panel" id="panel" aria-label="What the graph knows"></aside>
+  </div>
+
+  <details class="notes">
+    <summary>How this works, and the test scores</summary>
+    <p>The CVs are the test split of the <a href="https://huggingface.co/datasets/lang-uk/recruitment-dataset-candidate-profiles-english" target="_blank" rel="noopener">Djinni recruitment dataset</a> (anonymized by its authors, MIT). Keywords are mined from the skill lists of 168k other Djinni CVs; the implication graph comes from their co-occurrence (“whoever names Qt almost always names C++”). No LLM, no labels, no taxonomy. The embedding models are trained on that graph.</p>
+    <p>Search reads the skills your text names, longest match first (“Spring Boot developer” is Spring Boot), using the same keyword rules as the notebook; words a third of the CVs use, like “developer”, don't count. It lists the CVs that name the skill first; the rest are a fallback ranked by their best keywords: in “Who has it”, keywords that imply the skill; in “What it implies”, keywords the skill implies, with the CVs that also look most like the skill first. Results are precomputed for the most named skills; seed 0 of each model.</p>
+    <p>The Primary Keyword is what the candidate picked as their main stack on the platform. Nothing in the pipeline reads it; it is shown to check results, with ✓ when it matches a query for one of the 18 evaluated technologies. Test scores over 6,713 CVs (MAP for “who has it”, accuracy@1 for “what is this CV's main stack”; seen = the CV names the skill):</p>
+    <div class="tablewrap"><table id="scores"></table></div>
+  </details>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const KW = id => D.kw[id] ?? "?";
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const fmt = n => n.toLocaleString("en-US");
+  const techByKey = new Map(D.tech.map(p => [keyOf(tokens(p)), p]));
+
+  // same rules as cvsearch.data: tokens keep + # . & ; keys drop dots and hyphens; 1–2 letter keys need a capital
+  function tokens(text) {
+    return (text.match(/[\p{L}\p{N}_+#.&'’-]+/gu) || []).map(t => t.replace(/[.'’-]+$/u, "")).filter(Boolean);
+  }
+  function keyOf(toks) { return toks.join("").replace(/[.\-]/g, "").toLowerCase(); }
+  const isLower = s => s === s.toLowerCase() && s !== s.toUpperCase();
+  function extract(text) {  // longest match first, as Vocabulary.requirements: "Spring Boot developer" is Spring Boot
+    const t = tokens(text), out = [];
+    for (let i = 0; i < t.length;) {
+      let hit = null;
+      for (let j = Math.min(i + 3, t.length); j > i && !hit; j--) {
+        const k = keyOf(t.slice(i, j)), id = D.keys[k];
+        if (id !== undefined && (k.length > 2 || !t.slice(i, j).every(isLower))) hit = [id, j];
+      }
+      if (hit) { if (!out.includes(hit[0])) out.push(hit[0]); i = hit[1]; } else i++;
+    }
+    return out;
+  }
+
+  const METHOD_HINT = {
+    graph: "the graph itself: 1 + P if the skills are connected by implication",
+    hyp: "Poincaré embedding trained on the graph, + cosine, + a depth term for “who has it”",
+    box: "box embedding trained on the graph, + cosine",
+    order: "order embedding trained on the graph, + cosine",
+    cos: "similarity of the skill names; no direction",
+    keyword: "the CVs that name the skill, nothing else",
+  };
+  const methods = [...D.methods, { key: "keyword", name: "keyword search", ...D.baseline }];
+  const state = { text: "", skills: [], active: null, mode: "down", method: "graph", open: new Set() };
+
+  document.getElementById("lede").textContent =
+    `Search ${fmt(D.indexed)} real, anonymized IT CVs by skill, including people who never wrote the skill down. ` +
+    `The keywords, the graph of which skill implies which, and the models all come from CVs alone. Nothing uses an LLM.`;
+  const EX = [["Looking for the C++ experts", "down"], ["Would be nice if has LLVM knowledge", "up"], ["Need a Spring Boot developer", "down"],
+              ["Experience with Jetpack Compose", "up"], ["Kubernetes engineer", "down"], ["Someone who knows Django", "down"]];
+  document.getElementById("examples").innerHTML = EX.map(([t, m], i) =>
+    `<button type="button" data-ex="${i}">${esc(t)}<span class="m">${m === "down" ? "who has it" : "implies"}</span></button>`).join("");
+  document.getElementById("methods").innerHTML = methods.map(m =>
+    `<label title="${esc(METHOD_HINT[m.key])}"><input type="radio" name="method" id="m-${m.key}" value="${m.key}" ${m.key === state.method ? "checked" : ""}> ${esc(m.name)}</label>`).join("");
+  const S = (m, k) => (m[k] ?? null) === null ? "–" : m[k].toFixed(3);
+  document.getElementById("scores").innerHTML = `<tr><th>method</th><th>who has it · seen</th><th>who has it · unseen</th><th>main stack · seen</th><th>main stack · unseen</th></tr>` +
+    methods.map(m => `<tr><td>${esc(m.name)}</td><td class="num">${S(m, "down seen MAP")}</td><td class="num">${S(m, "down unseen MAP")}</td><td class="num">${S(m, "up seen acc@1")}</td><td class="num">${S(m, "up unseen acc@1")}</td></tr>`).join("");
+
+  const $q = document.getElementById("q"), $skills = document.getElementById("skills"), $warn = document.getElementById("warn");
+  const $res = document.getElementById("results"), $panel = document.getElementById("panel"), $hint = document.getElementById("modehint");
+
+  function boundaryRe(name, flags) {
+    return new RegExp("(?<![\\p{L}\\p{N}_+#])(" + name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")(?![\\p{L}\\p{N}_+#])", flags);
+  }
+  function highlight(text, names) {
+    let out = esc(text);
+    for (const n of [...new Set(names)].sort((a, b) => b.length - a.length)) out = out.replace(boundaryRe(esc(n), "giu"), "<mark>$1</mark>");
+    return out;
+  }
+  function snippet(text, name) {
+    const m = boundaryRe(name, "iu").exec(text) || new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").exec(text);
+    const at = m ? m.index : 0, lo = Math.max(0, at - 110), hi = Math.min(text.length, at + 170);
+    return (lo > 0 ? "…" : "") + text.slice(lo, hi).trim() + (hi < text.length ? "…" : "");
+  }
+
+  function card(entry, rank, q, expected, key) {
+    const [i, because, p, close, pc] = entry, cv = D.cvs[i];
+    if (!cv) return "";
+    const [position, years, pk, text] = cv, why = KW(because), names = because === q;
+    const near = close >= 0 && close !== because && close !== q ? KW(close) : null;
+    const reason = names ? `<span class="why names">names ${esc(KW(q))}</span>`
+      : `<span class="why via">via ${esc(why)}${p >= 0 ? ` · graph P ${p.toFixed(2)}` : ""}</span>` +
+        (near ? `<span class="why names">close to ${esc(KW(q))} via ${esc(near)}${pc >= 0 ? ` · P ${pc.toFixed(2)}` : ""}</span>` : "");
+    const marks = [why, KW(q), ...(near ? [near] : [])];
+    const open = state.open.has(key);
+    const body = open ? highlight(text, marks) : highlight(snippet(text, names ? KW(q) : why), marks);
+    return `<article class="card"><div class="top"><span class="rk">${rank}</span><span class="title">${esc(position || "untitled CV")}</span>${reason}</div>
+      <div class="top"><span class="meta">${years ?? "?"} years</span><span class="pill ${expected && pk === expected ? "ok" : ""}">Primary Keyword: ${esc(pk)}${expected && pk === expected ? " ✓" : ""}</span></div>
+      <p class="snip">${body}</p><button type="button" class="more" data-open="${key}">${open ? "Show less" : "Show the CV"}</button></article>`;
+  }
+
+  function panel(q) {
+    const e = D.queries[q];
+    const list = (xs, empty) => xs.length ? `<ul>${xs.map(([k, p]) => `<li><span>${esc(KW(k))}</span><span>P ${p.toFixed(2)}</span></li>`).join("")}</ul>` : `<p class="empty">${empty}</p>`;
+    const expected = techByKey.get(keyOf(tokens(KW(q))));
+    let compare = "";
+    if (expected) {
+      const rows = D.methods.map(m => {
+        const fb = e[`${state.mode}:${m.key}`][1];
+        const hit = fb.filter(([i]) => D.cvs[i]?.[2] === expected).length;
+        return [m.name, hit, fb.length];
+      });
+      compare = `<div><div class="k">Fallback CVs with Primary Keyword ${esc(expected)}</div><div class="compare">${rows.map(([n, h, t]) =>
+        `<div class="r"><span>${esc(n)}</span><span class="pill">${h}/${t}</span><div class="barline"><i style="width:${t ? 100 * h / t : 0}%"></i></div></div>`).join("")}</div></div>`;
+    }
+    $panel.innerHTML = `<div><div class="k">What the graph knows</div><h2>${esc(KW(q))}</h2>
+      <p class="hint">named by ${fmt(e.n)} of ${fmt(D.indexed)} CVs</p></div>
+      <div><div class="k">Having it implies</div>${list(e.out, "nothing: no edge out of it")}</div>
+      <div><div class="k">Implied by (strongest)</div>${list(e.in, "nothing: no edge into it")}</div>${compare}`;
+  }
+
+  function render() {
+    for (const b of document.querySelectorAll("[data-mode]")) b.setAttribute("aria-pressed", b.dataset.mode === state.mode);
+    $hint.innerHTML = state.mode === "down"
+      ? "<b>Who has it:</b> CVs that name the skill first, then CVs whose skills imply it (Qt or STL for C++)."
+      : "<b>What it implies:</b> CVs that name the skill first, then, as a fallback, CVs with what the skill implies (C++ for LLVM), the ones closest to the skill first.";
+    $skills.innerHTML = state.skills.map(id => `<button type="button" data-skill="${id}" aria-pressed="${id === state.active}">${esc(KW(id))}</button>`).join("");
+    const q = state.active;
+    if (q === null) { $res.innerHTML = ""; $panel.innerHTML = `<p class="empty">Type a request or pick an example.</p>`; return; }
+    const e = D.queries[q], expected = techByKey.get(keyOf(tokens(KW(q))));
+    panel(q);
+    const [named, fallback] = state.method === "keyword" ? [e.keyword, []] : e[`${state.mode}:${state.method}`];
+    const shownNamed = named.map((x, k) => card(x, k + 1, q, expected, `n${k}`)).join("");
+    const fb = state.method === "keyword"
+      ? `<p class="empty">Keyword search stops here: it can't rank anyone who doesn't write “${esc(KW(q))}”.</p>`
+      : fallback.length ? fallback.map((x, k) => card(x, named.length + k + 1, q, expected, `f${k}`)).join("") : `<p class="empty">No fallback CVs.</p>`;
+    $res.innerHTML = `<section class="group"><h3>Name ${esc(KW(q))} <span class="n">top ${named.length} of ${fmt(e.n)}</span></h3>${shownNamed || '<p class="empty">No CV names it.</p>'}</section>
+      <section class="group"><h3>Don't name it: ${state.mode === "down" ? "skills that imply it" : "what it implies"} <span class="n">${esc(methods.find(m => m.key === state.method).name)}</span></h3>${fb}</section>`;
+  }
+
+  function parse() {
+    state.text = $q.value;
+    const found = extract(state.text);
+    state.skills = found;
+    if (!found.includes(state.active)) state.active = found[0] ?? null;
+    state.open.clear();
+    $warn.hidden = !(state.text.trim() && !found.length);
+    $warn.textContent = `No skill in this text is among the ${fmt(Object.keys(D.queries).length)} covered here (the skills most named in these CVs). Try a technology name, like Qt, Spring Boot or Kubernetes.`;
+    render();
+  }
+
+  $q.addEventListener("input", parse);
+  document.getElementById("methods").addEventListener("change", e => { state.method = e.target.value; state.open.clear(); render(); });
+  document.addEventListener("click", e => {
+    const ex = e.target.closest("[data-ex]");
+    if (ex) { const [t, m] = EX[+ex.dataset.ex]; $q.value = t; state.mode = m; parse(); return; }
+    const sk = e.target.closest("[data-skill]");
+    if (sk) { state.active = +sk.dataset.skill; state.open.clear(); render(); return; }
+    const md = e.target.closest("[data-mode]");
+    if (md) { state.mode = md.dataset.mode; state.open.clear(); render(); return; }
+    const op = e.target.closest("[data-open]");
+    if (op) { const k = op.dataset.open; state.open.has(k) ? state.open.delete(k) : state.open.add(k); render(); }
+  });
+  $q.value = EX[0][0]; parse();
+})();
+</script>
