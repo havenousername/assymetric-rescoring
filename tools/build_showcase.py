@@ -1,4 +1,4 @@
-"""Builds showcase.ipynb; prose numbers come from results/*.json. Usage: python3 src/build_nb.py showcase.ipynb, then execute it with nbconvert."""
+"""Builds showcase.ipynb; prose numbers come from results/*.json. Usage: python3 tools/build_showcase.py showcase.ipynb, then execute it with nbconvert."""
 import json, os, sys
 out = sys.argv[1]
 cells = []
@@ -41,12 +41,19 @@ The labels are provisional. An LLM wrote the skill graph's edges and nobody has 
 Run the next two cells first. The second one trains the models, which takes about a minute.
 """)
 code("""
-import sys, time; sys.path.insert(0, "src")
-from down import *  # data, models, metrics: spike → compare → probe → recall → down
+import time
+
+import torch
 from IPython.display import HTML, Markdown, display
 
-by_label = {n["label"]: ix[q] for q, n in g["nodes"].items()}
-def lab(i): return g["nodes"][ids[i]]["label"] if i < len(ids) else f"<new text {i}>"
+from experiments.zoo import folded, load, plus_hybrid, trained
+from skillmatch.data import DEVICE, SkillGraph
+from skillmatch.methods import cosine, cosine_generality
+from skillmatch.tasks import down, evaluate, expanded
+
+graph = SkillGraph()
+CATALOGUE = graph.catalogue
+def lab(i): return graph.label(i) if i < len(graph.ids) else f"<new text {i}>"
 def show(header, rows):
     display(Markdown("\\n".join(["| " + " | ".join(header) + " |", "|" + "---|" * len(header)]
                               + ["| " + " | ".join(map(str, r)) + " |" for r in rows])))
@@ -55,22 +62,23 @@ def table(groups, rows):  # groups: [(title, [column, ...]), ...] → a group he
     sub = "".join(f"<th>{c}</th>" for _, cs in groups for c in cs)
     body = "".join("<tr>" + "".join(f"<td>{x}</td>" for x in r) + "</tr>" for r in rows)
     display(HTML(f"<table><thead><tr>{head}</tr><tr>{sub}</tr></thead><tbody>{body}</tbody></table>"))
-def top(M, q, k=5, pool=tr_list):
+def top(M, q, k=5, pool=CATALOGUE):
     with torch.no_grad(): s = M(torch.tensor([q]), torch.tensor(pool))[0].cpu()
     return [pool[j] for j in s.argsort(descending=True)[:k].tolist()]
-def rank_of(m, a, b, pool=tr_list):  # where b lands in a's list of implied skills (1 = top)
+def rank_of(m, a, b, pool=CATALOGUE):  # where b lands in a's list of implied skills (1 = top)
     with torch.no_grad(): s = m(torch.tensor([a]), torch.tensor(pool))[0].cpu()
     return int((s > s[pool.index(b)]).sum()) + 1
-R, D, C, L, Q = (load(f"results/{f}.json") for f in ("recall", "down", "compare", "llm_judge", "qdrant"))
+R, D, C, L, Q = (load(f"{f}.json") for f in ("recall", "down", "compare", "llm_judge", "qdrant"))
 f = lambda d, k: f"{d[k]:.3f}" if k in d else "–"
-print(f"{len(ids)} skills, {len(tr_list)} training skills, {len(g['heldout_nodes']['test'])} held-out test skills, device {dev}")
+print(f"{len(graph.ids)} skills, {len(CATALOGUE)} training skills, {len(graph.heldout['test'])} held-out test skills, device {DEVICE}")
 """)
 code("""
-M, secs = {"cosine": cos_matrix, "cos+gen": cosgen_matrix(0.05)}, {}
+M, secs = {"cosine": cosine(graph.X), "cos+gen": cosine_generality(graph.X, graph.generality)}, {}
 for key in ("dual", "box", "order", "hyp", "transe", "pair_mlp", "folded"):
     t = time.time()
-    if key in ("dual", "pair_mlp"): M[key] = trained(key, 0)
-    else: M.update(folded(0) if key == "folded" else plus_hybrid(key, trained(key, 0)))
+    if key in ("dual", "pair_mlp"): M[key] = trained(graph, key, 0)[1]
+    elif key == "folded": M["distilled dual, folded"] = folded(graph)[1]
+    else: M.update(plus_hybrid(graph, key, trained(graph, key, 0)[1]))
     secs[key] = round(time.time() - t, 1)
 print("training seconds per model (seed 0):", secs)
 SHORT = ["cosine", "cos+gen", "box+gen+cos", "order+gen+cos", "transe+gen+cos", "pair_mlp"]  # the shortlist from section 6
@@ -88,9 +96,9 @@ PAIRS = [("Spring Boot", "Java"), ("Kotlin", "JVM language"), ("Scala", "functio
 m, rows = M["order+gen+cos"], []
 with torch.no_grad():
     for a, b in PAIRS:
-        A, B = by_label[a], by_label[b]
+        A, B = graph.by_label(a), graph.by_label(b)
         fwd, rev = float(m(torch.tensor([A]), torch.tensor([B]))[0, 0]), float(m(torch.tensor([B]), torch.tensor([A]))[0, 0])
-        rows.append([f"{a} → {b}", "yes" if B in anc_tr[A] else "no, hidden", f"{float(X[A] @ X[B]):.3f}", f"{float(X[B] @ X[A]):.3f}",
+        rows.append([f"{a} → {b}", "yes" if B in graph.ancestors_train[A] else "no, hidden", f"{float(graph.X[A] @ graph.X[B]):.3f}", f"{float(graph.X[B] @ graph.X[A]):.3f}",
                      f"{fwd:.2f}", f"{rev:.2f}", "✓" if fwd > rev else "✗", rank_of(m, A, B)])
 table([("", ["A → B", "edge seen in training?"]), ("cosine", ["s(A, B)", "s(B, A)"]),
        ("order + gen + cos", ["s(A, B)", "s(B, A)", "right direction?", "rank of B among A's 925 implied skills"])], rows)
@@ -308,7 +316,7 @@ The models trained at the top of the notebook use seed 0, with configs from the 
 """)
 code("""
 SHOW = ["cosine", "cos+gen", "dual", "distilled dual, folded", "box+gen+cos", "order+gen+cos", "hyp+gen+cos", "transe+gen+cos", "pair_mlp"]
-with torch.no_grad(): live = {n: (evaluate(M[n], "test"), down(M[n]), down(expanded(M[n]))) for n in SHOW}
+with torch.no_grad(): live = {n: (evaluate(graph, M[n], "test"), down(graph, M[n]), down(graph, expanded(graph, M[n]))) for n in SHOW}
 table([("", ["model"]), (UP_NEW, ["MAP live", "MAP 3 seeds"]), (UP_KNOWN, ["MAP live", "MAP 3 seeds"]),
        (DOWN, ["MAP direct, live", "MAP direct, 3 seeds", "MAP via expansion, live", "MAP via expansion, 3 seeds"])],
       [[n, f(e["A"], "MAP"), f(R[n], "A MAP"), f(e["B"], "MAP"), f(R[n], "B MAP"), f(d, "MAP"), f(D[n], "MAP"),
@@ -321,10 +329,10 @@ md("""
 These four are held-out test skills. Each shortlisted method ranks the 925 catalogue skills, and the table shows its top 5. A ✓ marks a skill the graph lists as a true requirement. The LLM row is Claude Sonnet 5 reranking the cos + gen top 50. Its answers are cached, so this cell makes no LLM call.
 """)
 code("""
-from llm_judge import judge_all, Judged
-llm = Judged(*judge_all("claude-sonnet-5")[:2])
+from skillmatch.methods.llm_judge import Judged, judge_all
+llm = Judged(graph, *judge_all(graph, "claude-sonnet-5")[:2])
 for name in ["Express.js", "Amazon DynamoDB", "Thymeleaf", "AUCTeX"]:
-    q = by_label[name]; truth = anc_full[q] & set(tr_list)
+    q = graph.by_label(name); truth = graph.ancestors[q] & set(CATALOGUE)
     display(Markdown(f"**{name}**. True requirements: {', '.join(sorted(lab(b) for b in truth))}"))
     show(["method", "top 5 implied skills"], [[n, ", ".join(lab(b) + (" ✓" if b in truth else "") for b in top(m, q))]
                                              for n, m in {**{n: M[n] for n in SHORT}, "LLM Claude (cached)": llm}.items()])
@@ -353,10 +361,10 @@ CVS = {  # name: (CV overview text, programs in FP? my label)
     "Recruiter (trap)": ("Technical recruiter hiring functional programming engineers for Scala, Haskell and Clojure roles.", False),
 }
 QUERY = "Programming in the functional programming paradigm"
-cv = dict(zip(CVS, add_texts([t for t, _ in CVS.values()])))
-qrow, = add_texts([QUERY])
-link = top(cos_matrix, qrow, k=5)
-show(["rank", "catalogue skill closest to the query (cosine)", "cos"], [[k + 1, lab(b), f"{float(X[qrow] @ X[b]):.3f}"] for k, b in enumerate(link)])
+cv = dict(zip(CVS, graph.add_texts([t for t, _ in CVS.values()])))
+qrow, = graph.add_texts([QUERY])
+link = top(M["cosine"], qrow, k=5)
+show(["rank", "catalogue skill closest to the query (cosine)", "cos"], [[k + 1, lab(b), f"{float(graph.X[qrow] @ graph.X[b]):.3f}"] for k, b in enumerate(link)])
 fp = link[0]
 print("case 1 requirement:", lab(fp))
 """)
@@ -392,7 +400,7 @@ md("""
 The LLM needs no catalogue, so it covers both cases. The first run makes one live `claude -p` call (about 20 s), and later runs read the answer from `data/llm_cache/`. The question is the same p(A → B) the LLM judge answers, with A = the CV text and B = the query.
 """)
 code("""
-from llm_judge import ask, DEF
+from skillmatch.methods.llm_judge import DEF, ask
 prompt = "\\n".join([DEF, "", 'Score p(A→B) for every numbered pair. Answer with one JSON object only: {"1": p, "2": p, ...}, '
                      "p in [0, 1], two decimals.", ""] + [f"{j}. A = {t} | B = {QUERY}" for j, (t, _) in enumerate(CVS.values(), 1)])
 p = ask("claude-sonnet-5", prompt) or {}
@@ -405,7 +413,7 @@ md("""
 md("""
 ## 10. Served from Qdrant
 
-The code is in `src/qdrant_serve.py`. It needs a Qdrant server on localhost:6333: `podman run -d -p 6333:6333 docker.io/qdrant/qdrant`.
+The code is in `skillmatch/qdrant.py` (run by `experiments/qdrant_serve.py`). It needs a Qdrant server on localhost:6333: `podman run -d -p 6333:6333 docker.io/qdrant/qdrant`.
 
 At ingest, Qdrant inference (`models.Document`) turns each text into a dense `text` vector. Here FastEmbed runs it inside the Python client; on Qdrant Cloud the same call runs on the server. A trained method then expands each profile into its top K implied catalogue skills and stores them as a sparse vector named `<method>@<K>`, with index = skill id and value = 926 − rank, so the top skill has value 925. There are two collections: `skills` holds the 925 catalogue skills, and `profiles` holds the 1035 profiles from the down test plus the 6 CVs.
 
@@ -414,22 +422,23 @@ At query time, the requirement text goes to a dense search in `skills`, which re
 The methods are the live seed-0 models from the top of the notebook. Ingest runs FastEmbed on about 2000 texts on the CPU, so it takes a bit over a minute.
 """)
 code("""
-import qdrant_serve as qs
-from qdrant_client import models
-heads = {"order+gen+cos": M["order+gen+cos"], "cos+gen": M["cos+gen"]}
+from qdrant_client import QdrantClient, models
+from skillmatch import qdrant
+client, KS = QdrantClient("localhost", port=6333, timeout=300), (10, 50, 100, 925)
+scorers = {"order+gen+cos": M["order+gen+cos"], "cos+gen": M["cos+gen"]}
 t0 = time.time()
 with torch.no_grad():
-    qs.build(heads)
-    qs.ingest(heads, list(cv.values()), [txt for txt, _ in CVS.values()], [{"label": c, "kind": "cv"} for c in CVS])
-print(f"{qs.qc.count('skills').count} skills, {qs.qc.count('profiles').count} profiles (1035 skill profiles + 6 CVs), {time.time() - t0:.0f}s")
+    qdrant.build(client, graph, scorers, KS, graph.catalogue + graph.heldout["test"])
+    qdrant.ingest_profiles(client, graph, scorers, KS, list(cv.values()), [txt for txt, _ in CVS.values()], [{"label": c, "kind": "cv"} for c in CVS])
+print(f"{client.count('skills').count} skills, {client.count('profiles').count} profiles (1035 skill profiles + 6 CVs), {time.time() - t0:.0f}s")
 """)
 md("### 10a. The FP query, end to end in Qdrant")
 code("""
-hit = qs.link(QUERY, 3)
+hit = qdrant.link(client, QUERY, 3)
 print("query → skills (dense search):", ", ".join(lab(b) for b in hit))
 only_cvs = models.Filter(must=[models.FieldCondition(key="kind", match=models.MatchValue(value="cv"))])
 for using in ("order+gen+cos@100", "cos+gen@100"):
-    pts = qs.who_has(hit[:1], using, 6, query_filter=only_cvs)
+    pts = qdrant.who_has(client, hit[:1], using, 6, query_filter=only_cvs)
     missing = [c for c in CVS if c not in {p.payload["label"] for p in pts}]
     display(Markdown(f"**{using}**, CVs only. FP's rank is its place in the CV's stored expansion (1 = top); CVs past K = 100 aren't returned."))
     show(["result", "CV", "programs in FP (my label)", "FP's rank"], [[k + 1, p.payload["label"], "✓" if CVS[p.payload["label"]][1] else "",
@@ -438,8 +447,8 @@ for using in ("order+gen+cos@100", "cos+gen@100"):
 """)
 md("### 10b. Two requirements in one query: FP and JVM language")
 code("""
-both = [fp, by_label["JVM language"]]
-pts = qs.who_has(both, "order+gen+cos@100", 8)
+both = [fp, graph.by_label("JVM language")]
+pts = qdrant.who_has(client, both, "order+gen+cos@100", 8)
 show(["result", "profile", "kind", "score (sum of 926 − rank)"], [[k + 1, p.payload["label"], p.payload["kind"], int(p.score)] for k, p in enumerate(pts)])
 """)
 md("""
